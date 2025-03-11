@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&display=swap');
+
+:root {
+  --color-bg-primary: #111827;
+  --color-bg-secondary: #1F2937;
+  --color-bg-card: #1F2937;
+  --color-border: #374151;
+  --color-text-primary: #D1D5DB;
+  --color-text-secondary: #9CA3AF;
+  --color-text-accent: #22D3EE;
+  --color-accent: #0891B2;
+  --color-green: #4ADE80;
+  --color-red: #F87171;
+  --color-yellow: #FBBF24;
+  --color-purple: #A78BFA;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: 'Share Tech Mono', monospace;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/* Effet de scan CRT */
+.crt-screen {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.scanline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: rgba(0, 255, 255, 0.1);
+  opacity: 0.75;
+  z-index: 9999;
+  animation: scanlines 6s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes scanlines {
+  0% { top: -5%; }
+  100% { top: 105%; }
+}
+
+/* Effet de bruit CRT */
+.crt-screen::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  opacity: 0.02;
+  z-index: 9998;
+}
+
+/* Effet de flicker */
+@keyframes flicker {
+  0% { opacity: 1.0; }
+  3% { opacity: 0.9; }
+  6% { opacity: 0.8; }
+  7% { opacity: 0.9; }
+  9% { opacity: 0.7; }
+  11% { opacity: 0.8; }
+  20% { opacity: 0.9; }
+  50% { opacity: 1.0; }
+  70% { opacity: 0.9; }
+  72% { opacity: 1.0; }
+  100% { opacity: 0.9; }
+}
+
+/* Effet de glitch */
+.glitch-text {
+  position: relative;
+  display: inline-block;
+  text-shadow: 0.05em 0 0 rgba(255,0,0,0.75), -0.025em -0.05em 0 rgba(0,255,0,0.75), 0.025em 0.05em 0 rgba(0,0,255,0.75);
+}
+
+/* Header */
+.retro-header {
+  background-color: var(--color-bg-secondary);
+  border-bottom: 1px solid var(--color-border);
+  padding: 1rem;
+}
+
+.retro-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.retro-title {
+  color: var(--color-text-accent);
+  font-family: 'VT323', 'Share Tech Mono', monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(34, 211, 238, 0.7);
+  margin: 0;
+}
+
+/* Badges */
+.retro-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  border-radius: 2px;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--color-border);
+}
+
+.retro-badge-blue {
+  color: #22D3EE;
+  border-color: #22D3EE;
+  text-shadow: 0 0 5px rgba(34, 211, 238, 0.5);
+}
+
+.retro-badge-green {
+  color: #4ADE80;
+  border-color: #4ADE80;
+  text-shadow: 0 0 5px rgba(74, 222, 128, 0.5);
+}
+
+.retro-badge-red {
+  color: #F87171;
+  border-color: #F87171;
+  text-shadow: 0 0 5px rgba(248, 113, 113, 0.5);
+}
+
+.retro-badge-yellow {
+  color: #FBBF24;
+  border-color: #FBBF24;
+  text-shadow: 0 0 5px rgba(251, 191, 36, 0.5);
+}
+
+.retro-badge-purple {
+  color: #A78BFA;
+  border-color: #A78BFA;
+  text-shadow: 0 0 5px rgba(167, 139, 250, 0.5);
+}
+
+/* Cards */
+.retro-card {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.retro-card-header {
+  border-bottom: 1px solid var(--color-border);
+  padding: 0.75rem 1rem;
+}
+
+.retro-card-title {
+  color: var(--color-text-accent);
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.retro-card-body {
+  padding: 1rem;
+}
+
+/* Navigation */
+.retro-nav-item {
+  background-color: transparent;
+  color: var(--color-text-primary);
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.25rem;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.retro-nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.retro-nav-item.active {
+  background-color: rgba(34, 211, 238, 0.1);
+  color: var(--color-text-accent);
+  border-left-color: var(--color-text-accent);
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.2);
+}
+
+.retro-nav-item svg,
+.retro-nav-item i {
+  margin-right: 0.75rem;
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+/* Tableau */
+.retro-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.retro-table th {
+  text-align: left;
+  padding: 0.75rem;
+  font-weight: bold;
+  color: var(--color-text-secondary);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.retro-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid rgba(55, 65, 81, 0.5);
+}
+
+.retro-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Terminal de logs */
+.retro-log-container {
+  background-color: #0F172A;
+  color: var(--color-text-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.75rem;
+  height: 250px;
+  overflow-y: auto;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+}
+
+.log-timestamp {
+  color: var(--color-text-secondary);
+  margin-right: 0.5rem;
+}
+
+.log-info {
+  color: #22D3EE;
+}
+
+.log-warning {
+  color: #FBBF24;
+}
+
+.log-error {
+  color: #F87171;
+}
+
+.log-success {
+  color: #4ADE80;
+}
+
+/* Boutons */
+.retro-button {
+  background-color: rgba(34, 211, 238, 0.1);
+  color: var(--color-text-accent);
+  border: 1px solid var(--color-text-accent);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.retro-button:hover {
+  background-color: rgba(34, 211, 238, 0.2);
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.3);
+}
+
+.retro-button.secondary {
+  background-color: rgba(156, 163, 175, 0.1);
+  color: var(--color-text-secondary);
+  border-color: var(--color-text-secondary);
+}
+
+.retro-button.secondary:hover {
+  background-color: rgba(156, 163, 175, 0.2);
+  box-shadow: 0 0 10px rgba(156, 163, 175, 0.3);
+}
+
+.retro-button.danger {
+  background-color: rgba(248, 113, 113, 0.1);
+  color: #F87171;
+  border-color: #F87171;
+}
+
+.retro-button.danger:hover {
+  background-color: rgba(248, 113, 113, 0.2);
+  box-shadow: 0 0 10px rgba(248, 113, 113, 0.3);
+}
+
+/* Footer */
+.retro-footer {
+  background-color: var(--color-bg-secondary);
+  border-top: 1px solid var(--color-border);
+  padding: 1rem;
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  margin-top: 2rem;
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+}
+
+.retro-clock {
+  font-family: 'Share Tech Mono', monospace;
+  color: var(--color-text-accent);
+}
+
+.footer-status-icon {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.footer-status-icon.active {
+  background-color: #4ADE80;
+  box-shadow: 0 0 8px #4ADE80;
+  animation: blink 1s infinite;
+}
+
+.footer-stats {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+/* Tâches actives dans le footer */
+#active-tasks {
+  min-height: 20px;
+}
+
+#active-tasks .badge {
+  animation: pulse 2s infinite;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.5rem;
+  margin-right: 0.5rem;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0.8; }
+}
+
+/* Plotly customization */
+.js-plotly-plot .plotly .main-svg {
+  position: relative;
+  background-color: var(--color-bg-card) !important;
+}
+
+.js-plotly-plot .plotly .modebar {
+  background-color: transparent !important;
+}
+
+.js-plotly-plot .plotly .modebar-btn path {
+  fill: var(--color-text-secondary) !important;
+}
+
+.js-plotly-plot .plotly .modebar-btn:hover path {
+  fill: var(--color-text-accent) !important;
+}
+
+/* Modal */
+.retro-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.retro-modal-content {
+  background-color: var(--color-bg-secondary);
+  border: 2px solid var(--color-text-accent);
+  border-radius: 6px;
+  padding: 1.5rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
+}
+
+.retro-modal-header {
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.retro-modal-footer {
+  border-top: 1px solid var(--color-border);
+  padding-top: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@keyframes highlight {
+  0% { background-color: rgba(34, 211, 238, 0.2); }
+  100% { background-color: transparent; }
+}
+
+.log-entry {
+  margin-bottom: 2px;
+  padding: 2px 4px;
+  border-radius: 2px;
+  transition: background-color 0.2s;
+}
+
+/* Animation pour le bouton d'actualisation */
+@keyframes pulse-animation {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); box-shadow: 0 0 15px rgba(34, 211, 238, 0.7); }
+  100% { transform: scale(1); }
+}
+
+.pulse-animation {
+  animation: pulse-animation 0.5s ease-in-out;
+}

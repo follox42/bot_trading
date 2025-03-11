@@ -1,0 +1,213 @@
+2025-03-09 22:05:14,216 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:05:14,218 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:05:14,678 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:05:15,548 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:05:15,551 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:05:15,946 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:05:45,561 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:05:59,225 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 22:06:00,562 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 22:06:14,226 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:06:15,563 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 22:06:29,228 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 22:06:30,567 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:06:45,569 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:06:59,238 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:07:00,574 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 22:07:15,577 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:07:29,247 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:07:30,581 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:07:45,584 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:07:59,254 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 22:08:00,586 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-09 22:08:15,591 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:08:29,263 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 22:08:30,594 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:12:48,071 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:12:48,093 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:14:07,267 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:14:07,286 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 22:14:07,286 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:15:05,525 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:15:05,530 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 22:15:05,530 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:15:07,022 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:15:09,889 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:15:09,899 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:15:09,899 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:15:11,081 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:15:20,532 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 22:15:29,189 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:15:29,193 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 22:15:29,193 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:15:30,098 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:15:31,365 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:15:31,371 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:15:31,828 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:15:44,195 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 22:15:46,372 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:15:59,198 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:16:01,374 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 22:16:28,629 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:16:28,635 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:16:28,635 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:16:29,235 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:16:30,786 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:16:30,789 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:16:30,789 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:16:31,716 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:16:45,790 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:16:58,644 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:17:13,646 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 22:18:56,636 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:18:56,642 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 22:18:56,643 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:18:57,497 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:18:59,320 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:18:59,329 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 22:18:59,329 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:19:00,217 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:19:11,644 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 22:19:14,331 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 22:19:44,335 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 22:19:59,336 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 22:20:11,661 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 22:20:26,666 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 22:20:44,344 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 22:20:56,671 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 22:20:59,349 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-09 22:21:11,676 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 22:21:14,353 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:21:29,355 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 22:21:41,692 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 22:22:29,364 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 22:22:41,712 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:22:44,366 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 22:22:55,780 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:22:55,783 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 22:22:55,783 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:22:59,561 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:22:59,567 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:22:59,567 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:23:47,378 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:23:47,383 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 22:23:47,383 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:25:17,582 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:25:17,589 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:25:17,822 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:25:19,279 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 22:25:19,287 - INFO - system.main - Thread de simulation démarré
+2025-03-09 22:25:19,586 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 22:25:34,292 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 22:26:19,300 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:26:47,604 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 22:26:49,304 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 22:27:04,308 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 22:27:17,611 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-09 22:27:32,613 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:27:34,311 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 22:27:47,615 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 22:27:49,315 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 22:28:02,617 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 22:28:04,317 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 22:28:17,620 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 22:28:19,320 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 23:03:21,514 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 23:03:21,516 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 23:03:36,521 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 23:03:51,525 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 23:04:06,525 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-09 23:04:06,527 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 23:04:21,527 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 23:04:21,529 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 23:04:36,530 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-09 23:04:36,532 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-09 23:04:51,532 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 23:05:21,538 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 23:05:21,541 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 23:05:36,543 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 23:06:03,330 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 23:06:03,337 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 23:06:03,337 - INFO - system.main - Thread de simulation démarré
+2025-03-09 23:06:04,005 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 23:06:05,176 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 23:06:05,181 - INFO - system.main - Thread de simulation démarré
+2025-03-09 23:06:05,673 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 23:06:20,184 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 23:06:33,342 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 23:06:36,797 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 23:06:36,806 - INFO - system.main - Thread de simulation démarré
+2025-03-09 23:06:37,052 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 23:07:06,813 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 23:07:18,349 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 23:07:33,351 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 23:07:36,820 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 23:07:51,824 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 23:07:57,948 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 23:07:57,966 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 23:07:57,966 - INFO - system.main - Thread de simulation démarré
+2025-03-09 23:07:58,261 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 23:08:03,356 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 23:08:12,969 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 23:08:18,359 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 23:08:27,973 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-09 23:08:33,361 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-09 23:08:57,979 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 23:09:12,981 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 23:09:27,985 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 23:09:33,368 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-09 23:09:42,988 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 23:09:48,371 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 23:18:40,931 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 23:18:40,937 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 23:18:40,937 - INFO - system.main - Thread de simulation démarré
+2025-03-09 23:18:41,090 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 23:18:42,376 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 23:18:42,383 - INFO - system.main - Thread de simulation démarré
+2025-03-09 23:18:42,535 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 23:18:55,938 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 23:18:57,389 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 23:19:10,940 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 23:19:27,395 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 23:19:43,308 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 23:19:43,318 - INFO - system.main - Thread de simulation démarré
+2025-03-09 23:19:43,563 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 23:19:45,251 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 23:19:45,259 - INFO - system.main - Thread de simulation démarré
+2025-03-09 23:19:45,496 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 23:20:00,261 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 23:20:13,325 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 23:20:16,408 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 23:20:16,414 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 23:20:16,414 - INFO - system.main - Thread de simulation démarré
+2025-03-09 23:20:17,131 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 23:20:21,122 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-09 23:20:21,136 - INFO - system.main - Thread de simulation démarré
+2025-03-09 23:20:22,088 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-09 23:20:28,327 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 23:20:36,141 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 23:20:43,329 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 23:20:51,143 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 23:20:58,331 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 23:21:06,146 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 23:21:13,333 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 23:21:51,156 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 23:21:58,339 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 23:22:36,162 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-09 23:48:06,432 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 23:48:21,482 - WARNING - system.main - Latence élevée détectée avec l'API Binance
+2025-03-09 23:48:36,482 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 23:48:36,483 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 23:49:06,486 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 23:49:06,486 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 23:49:21,490 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 23:49:36,493 - WARNING - system.main - Mémoire système faible: 85% utilisée
+2025-03-09 23:49:51,494 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-09 23:50:21,499 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 23:50:21,500 - WARNING - system.main - Mise à jour du système disponible
+2025-03-09 23:50:36,501 - INFO - system.main - Opération d'optimisation démarrée
+2025-03-09 23:50:36,502 - INFO - system.main - Mise à jour des prix en direct
+2025-03-09 23:51:06,506 - INFO - system.main - Nouvelle stratégie créée: MACD Cross
+2025-03-09 23:51:21,510 - ERROR - system.main - Échec de connexion à l'API Bitget
+2025-03-09 23:51:36,513 - INFO - system.main - Position fermée: profit +2.3%
+2025-03-10 06:39:07,529 - INFO - system.main - Mise à jour des prix en direct

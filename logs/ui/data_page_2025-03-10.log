@@ -1,0 +1,67 @@
+2025-03-10 11:23:54,230 - INFO - ui.data_page - Création de la page de données
+2025-03-10 11:24:15,094 - INFO - ui.data_page - Début du téléchargement de BTC/USDT 1m depuis bitget
+2025-03-10 11:24:26,062 - INFO - ui.data_page - Création de la page de données
+2025-03-10 11:24:29,570 - INFO - ui.data_page - Création de la page de données
+2025-03-10 11:50:38,206 - INFO - ui.data_page - Création de la page de données
+2025-03-10 11:52:04,687 - INFO - ui.data_page - Création de la page de données
+2025-03-10 11:52:04,794 - INFO - ui.data_page - Début du téléchargement de BTC/USDT 15m depuis bitget
+2025-03-10 11:52:14,797 - INFO - ui.data_page - Téléchargement terminé
+2025-03-10 11:52:19,027 - INFO - ui.data_page - Début du téléchargement de BTC/USDT 1m depuis bitget
+2025-03-10 11:52:20,245 - INFO - ui.data_page - Création de la page de données
+2025-03-10 11:52:20,339 - INFO - ui.data_page - Début du téléchargement de BTC/USDT 15m depuis bitget
+2025-03-10 11:53:37,587 - INFO - ui.data_page - Création de la page de données
+2025-03-10 11:53:37,777 - INFO - ui.data_page - Début du téléchargement de BTC/USDT 15m depuis bitget
+2025-03-10 11:53:45,797 - INFO - ui.data_page - Téléchargement terminé
+2025-03-10 11:56:25,307 - INFO - ui.data_page - Création de la page de données
+2025-03-10 11:57:06,690 - INFO - ui.data_page - Création de la page de données
+2025-03-10 11:57:08,256 - INFO - ui.data_page - Début du téléchargement de BTC/USDT 15m depuis bitget
+2025-03-10 11:58:20,458 - INFO - ui.data_page - Création de la page de données
+2025-03-10 11:58:24,822 - INFO - ui.data_page - Actualisation manuelle des données
+2025-03-10 11:58:26,005 - INFO - ui.data_page - Actualisation manuelle des données
+2025-03-10 12:09:37,094 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:09:41,767 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:09:48,256 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:09:50,514 - INFO - ui.data_page - Début du téléchargement de BTC/USDT 15m depuis bitget
+2025-03-10 12:09:50,517 - INFO - ui.data_page - Thread de téléchargement download_thread_BTC_USDT_15m_bitget_120950 démarré
+2025-03-10 12:09:54,757 - INFO - ui.data_page - Thread de téléchargement download_thread_BTC_USDT_15m_bitget_120950 terminé avec succès
+2025-03-10 12:09:58,413 - INFO - ui.data_page - Téléchargement download_thread_BTC_USDT_15m_bitget_120950 terminé (vérification périodique)
+2025-03-10 12:09:58,415 - INFO - ui.data_page - Tâche download_BTC_USDT_15m_bitget supprimée des tâches actives (vérification périodique)
+2025-03-10 12:10:18,466 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:10:26,450 - INFO - ui.data_page - Actualisation manuelle des données
+2025-03-10 12:10:33,543 - INFO - ui.data_page - Actualisation manuelle des données
+2025-03-10 12:10:33,693 - INFO - ui.data_page - Actualisation manuelle des données
+2025-03-10 12:10:33,912 - INFO - ui.data_page - Actualisation manuelle des données
+2025-03-10 12:14:03,142 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:14:16,979 - INFO - ui.data_page - Actualisation manuelle des données
+2025-03-10 12:14:17,195 - INFO - ui.data_page - Actualisation manuelle des données
+2025-03-10 12:20:55,499 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:21:27,325 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:23:57,136 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:24:03,478 - INFO - ui.data_page - Début du téléchargement de BTC/USDT 15m depuis bitget
+2025-03-10 12:24:03,479 - INFO - ui.data_page - Thread de téléchargement download_thread_BTC_USDT_15m_bitget_122403 démarré
+2025-03-10 12:24:06,768 - INFO - ui.data_page - Thread de téléchargement download_thread_BTC_USDT_15m_bitget_122403 terminé avec succès
+2025-03-10 12:24:07,235 - INFO - ui.data_page - Téléchargement download_thread_BTC_USDT_15m_bitget_122403 terminé (thread non trouvé)
+2025-03-10 12:24:07,331 - INFO - ui.data_page - Tâche download_BTC_USDT_15m_bitget supprimée des tâches actives
+2025-03-10 12:25:17,781 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:26:21,297 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:26:43,992 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:27:57,965 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:29:23,447 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:41:44,051 - INFO - ui.data_page - Création de la page de données
+2025-03-10 12:41:50,747 - INFO - ui.data_page - Création de la page de données
+2025-03-10 17:00:08,069 - INFO - ui.data_page - Création de la page de données
+2025-03-10 17:05:35,315 - INFO - ui.data_page - Création de la page de données
+2025-03-10 17:24:06,309 - INFO - ui.data_page - Création de la page de données
+2025-03-10 17:25:06,104 - INFO - ui.data_page - Création de la page de données
+2025-03-10 17:32:58,982 - INFO - ui.data_page - Création de la page de données
+2025-03-10 17:33:00,332 - INFO - ui.data_page - Début du téléchargement de BTC/USDT 15m depuis bitget
+2025-03-10 17:33:00,334 - INFO - ui.data_page - Thread de téléchargement download_thread_BTC_USDT_15m_bitget_173300 démarré
+2025-03-10 17:33:03,770 - INFO - ui.data_page - Thread de téléchargement download_thread_BTC_USDT_15m_bitget_173300 terminé avec succès
+2025-03-10 17:33:07,271 - INFO - ui.data_page - Téléchargement download_thread_BTC_USDT_15m_bitget_173300 terminé (vérification périodique)
+2025-03-10 17:33:07,273 - INFO - ui.data_page - Tâche download_BTC_USDT_15m_bitget supprimée des tâches actives (vérification périodique)
+2025-03-10 17:45:55,172 - INFO - ui.data_page - Création de la page de données
+2025-03-10 17:47:36,446 - INFO - ui.data_page - Création de la page de données
+2025-03-10 17:47:43,461 - INFO - ui.data_page - Création de la page de données
+2025-03-10 17:47:56,862 - INFO - ui.data_page - Création de la page de données
+2025-03-10 18:30:26,006 - INFO - ui.data_page - Création de la page de données
+2025-03-10 18:42:30,320 - INFO - ui.data_page - Création de la page de données

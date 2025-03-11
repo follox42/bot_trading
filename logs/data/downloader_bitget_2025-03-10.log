@@ -1,0 +1,163 @@
+2025-03-10 11:24:15,108 - INFO - data.downloader_bitget - Exchange Bitget initialisé
+2025-03-10 11:24:15,110 - INFO - data.downloader_bitget - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1m_bitget_20250208.csv
+2025-03-10 11:24:15,113 - INFO - data.downloader_bitget - Téléchargement des données pour BTC/USDT en 1m sur bitget
+2025-03-10 11:24:20,435 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 2% (1/44 lots)
+2025-03-10 11:24:20,994 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 4% (2/44 lots)
+2025-03-10 11:24:21,399 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 6% (3/44 lots)
+2025-03-10 11:24:22,125 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 9% (4/44 lots)
+2025-03-10 11:24:22,595 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 11% (5/44 lots)
+2025-03-10 11:24:23,469 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 13% (6/44 lots)
+2025-03-10 11:24:24,153 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 15% (7/44 lots)
+2025-03-10 11:24:24,575 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 18% (8/44 lots)
+2025-03-10 11:24:25,343 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 20% (9/44 lots)
+2025-03-10 11:24:26,333 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 22% (10/44 lots)
+2025-03-10 11:24:27,432 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 25% (11/44 lots)
+2025-03-10 11:24:28,517 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 27% (12/44 lots)
+2025-03-10 11:24:28,986 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 29% (13/44 lots)
+2025-03-10 11:24:29,354 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 31% (14/44 lots)
+2025-03-10 11:24:29,791 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 34% (15/44 lots)
+2025-03-10 11:24:30,481 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 36% (16/44 lots)
+2025-03-10 11:24:31,098 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 38% (17/44 lots)
+2025-03-10 11:24:32,200 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 40% (18/44 lots)
+2025-03-10 11:24:33,317 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 43% (19/44 lots)
+2025-03-10 11:24:33,748 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 45% (20/44 lots)
+2025-03-10 11:24:34,581 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 47% (21/44 lots)
+2025-03-10 11:24:35,514 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 50% (22/44 lots)
+2025-03-10 11:24:36,172 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 52% (23/44 lots)
+2025-03-10 11:24:36,551 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 54% (24/44 lots)
+2025-03-10 11:24:37,360 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 56% (25/44 lots)
+2025-03-10 11:24:38,377 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 59% (26/44 lots)
+2025-03-10 11:24:39,662 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 61% (27/44 lots)
+2025-03-10 11:24:40,568 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 63% (28/44 lots)
+2025-03-10 11:24:41,093 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 65% (29/44 lots)
+2025-03-10 11:24:41,964 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 68% (30/44 lots)
+2025-03-10 11:24:42,958 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 70% (31/44 lots)
+2025-03-10 11:24:43,561 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 72% (32/44 lots)
+2025-03-10 11:24:44,309 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 75% (33/44 lots)
+2025-03-10 11:24:45,207 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 77% (34/44 lots)
+2025-03-10 11:24:45,699 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 79% (35/44 lots)
+2025-03-10 11:24:46,510 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 81% (36/44 lots)
+2025-03-10 11:24:47,465 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 84% (37/44 lots)
+2025-03-10 11:24:48,122 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 86% (38/44 lots)
+2025-03-10 11:24:48,954 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 88% (39/44 lots)
+2025-03-10 11:24:49,771 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 90% (40/44 lots)
+2025-03-10 11:24:50,714 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 93% (41/44 lots)
+2025-03-10 11:24:52,193 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 95% (42/44 lots)
+2025-03-10 11:24:52,739 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 97% (43/44 lots)
+2025-03-10 11:24:53,481 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 100% (44/44 lots)
+2025-03-10 11:24:53,737 - INFO - data.downloader_bitget - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1m_bitget_20250208.csv
+2025-03-10 11:24:53,739 - INFO - data.downloader_bitget - Total de lignes: 41487
+2025-03-10 11:24:53,742 - INFO - data.downloader_bitget - {"timestamp": "2025-03-10T11:24:53.742551", "source": "data.downloader_bitget", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1m", "start_date": "2025-02-08 12:20:00", "end_date": "2025-03-10 10:24:00", "rows": 41487, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1m_bitget_20250208.csv"}}
+2025-03-10 11:52:04,825 - INFO - data.downloader_bitget - Exchange Bitget initialisé
+2025-03-10 11:52:04,827 - INFO - data.downloader_bitget - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 11:52:04,830 - INFO - data.downloader_bitget - Téléchargement des données pour BTC/USDT en 15m sur bitget
+2025-03-10 11:52:08,099 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 33% (1/3 lots)
+2025-03-10 11:52:08,703 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 66% (2/3 lots)
+2025-03-10 11:52:09,278 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 100% (3/3 lots)
+2025-03-10 11:52:09,359 - INFO - data.downloader_bitget - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 11:52:09,361 - INFO - data.downloader_bitget - Total de lignes: 2927
+2025-03-10 11:52:09,364 - INFO - data.downloader_bitget - {"timestamp": "2025-03-10T11:52:09.363934", "source": "data.downloader_bitget", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "15m", "start_date": "2025-02-07 23:15:00", "end_date": "2025-03-10 10:45:00", "rows": 2927, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_15m_bitget_20250208.csv"}}
+2025-03-10 11:52:19,042 - INFO - data.downloader_bitget - Exchange Bitget initialisé
+2025-03-10 11:52:19,044 - INFO - data.downloader_bitget - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1m_bitget_20250208.csv
+2025-03-10 11:52:19,047 - INFO - data.downloader_bitget - Téléchargement des données pour BTC/USDT en 1m sur bitget
+2025-03-10 11:52:20,351 - INFO - data.downloader_bitget - Exchange Bitget initialisé
+2025-03-10 11:52:20,352 - INFO - data.downloader_bitget - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 11:52:20,353 - INFO - data.downloader_bitget - Téléchargement des données pour BTC/USDT en 15m sur bitget
+2025-03-10 11:52:22,083 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 2% (1/44 lots)
+2025-03-10 11:52:22,779 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 4% (2/44 lots)
+2025-03-10 11:52:23,276 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 6% (3/44 lots)
+2025-03-10 11:52:23,309 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 33% (1/3 lots)
+2025-03-10 11:52:24,175 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 9% (4/44 lots)
+2025-03-10 11:52:24,241 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 66% (2/3 lots)
+2025-03-10 11:52:24,745 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 11% (5/44 lots)
+2025-03-10 11:52:24,859 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 100% (3/3 lots)
+2025-03-10 11:52:24,940 - INFO - data.downloader_bitget - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 11:52:24,942 - INFO - data.downloader_bitget - Total de lignes: 2927
+2025-03-10 11:52:24,944 - INFO - data.downloader_bitget - {"timestamp": "2025-03-10T11:52:24.943538", "source": "data.downloader_bitget", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "15m", "start_date": "2025-02-07 23:15:00", "end_date": "2025-03-10 10:45:00", "rows": 2927, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_15m_bitget_20250208.csv"}}
+2025-03-10 11:52:25,269 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 13% (6/44 lots)
+2025-03-10 11:52:25,988 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 15% (7/44 lots)
+2025-03-10 11:52:26,488 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 18% (8/44 lots)
+2025-03-10 11:52:27,227 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 20% (9/44 lots)
+2025-03-10 11:52:27,669 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 22% (10/44 lots)
+2025-03-10 11:52:28,452 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 25% (11/44 lots)
+2025-03-10 11:52:28,855 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 27% (12/44 lots)
+2025-03-10 11:52:29,231 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 29% (13/44 lots)
+2025-03-10 11:52:29,812 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 31% (14/44 lots)
+2025-03-10 11:52:30,357 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 34% (15/44 lots)
+2025-03-10 11:52:30,905 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 36% (16/44 lots)
+2025-03-10 11:52:31,287 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 38% (17/44 lots)
+2025-03-10 11:52:31,656 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 40% (18/44 lots)
+2025-03-10 11:52:32,450 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 43% (19/44 lots)
+2025-03-10 11:52:32,879 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 45% (20/44 lots)
+2025-03-10 11:52:33,996 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 47% (21/44 lots)
+2025-03-10 11:52:34,474 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 50% (22/44 lots)
+2025-03-10 11:52:34,870 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 52% (23/44 lots)
+2025-03-10 11:52:35,351 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 54% (24/44 lots)
+2025-03-10 11:52:35,720 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 56% (25/44 lots)
+2025-03-10 11:52:36,098 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 59% (26/44 lots)
+2025-03-10 11:52:36,570 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 61% (27/44 lots)
+2025-03-10 11:52:37,052 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 63% (28/44 lots)
+2025-03-10 11:52:37,553 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 65% (29/44 lots)
+2025-03-10 11:52:37,952 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 68% (30/44 lots)
+2025-03-10 11:52:38,640 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 70% (31/44 lots)
+2025-03-10 11:52:39,153 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 72% (32/44 lots)
+2025-03-10 11:52:39,629 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 75% (33/44 lots)
+2025-03-10 11:52:40,011 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 77% (34/44 lots)
+2025-03-10 11:52:40,417 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 79% (35/44 lots)
+2025-03-10 11:52:41,060 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 81% (36/44 lots)
+2025-03-10 11:52:41,507 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 84% (37/44 lots)
+2025-03-10 11:52:41,979 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 86% (38/44 lots)
+2025-03-10 11:52:42,472 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 88% (39/44 lots)
+2025-03-10 11:52:43,029 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 90% (40/44 lots)
+2025-03-10 11:52:43,391 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 93% (41/44 lots)
+2025-03-10 11:52:43,808 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 95% (42/44 lots)
+2025-03-10 11:52:44,648 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 97% (43/44 lots)
+2025-03-10 11:52:45,103 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 1m: 100% (44/44 lots)
+2025-03-10 11:52:45,405 - INFO - data.downloader_bitget - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1m_bitget_20250208.csv
+2025-03-10 11:52:45,409 - INFO - data.downloader_bitget - Total de lignes: 41515
+2025-03-10 11:52:45,412 - INFO - data.downloader_bitget - {"timestamp": "2025-03-10T11:52:45.411848", "source": "data.downloader_bitget", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1m", "start_date": "2025-02-08 12:20:00", "end_date": "2025-03-10 10:52:00", "rows": 41515, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1m_bitget_20250208.csv"}}
+2025-03-10 11:53:37,798 - INFO - data.downloader_bitget - Exchange Bitget initialisé
+2025-03-10 11:53:37,800 - INFO - data.downloader_bitget - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 11:53:37,802 - INFO - data.downloader_bitget - Téléchargement des données pour BTC/USDT en 15m sur bitget
+2025-03-10 11:53:40,387 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 33% (1/3 lots)
+2025-03-10 11:53:40,767 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 66% (2/3 lots)
+2025-03-10 11:53:41,166 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 100% (3/3 lots)
+2025-03-10 11:53:41,238 - INFO - data.downloader_bitget - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 11:53:41,239 - INFO - data.downloader_bitget - Total de lignes: 2927
+2025-03-10 11:53:41,242 - INFO - data.downloader_bitget - {"timestamp": "2025-03-10T11:53:41.241554", "source": "data.downloader_bitget", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "15m", "start_date": "2025-02-07 23:15:00", "end_date": "2025-03-10 10:45:00", "rows": 2927, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_15m_bitget_20250208.csv"}}
+2025-03-10 11:57:08,276 - INFO - data.downloader_bitget - Exchange Bitget initialisé
+2025-03-10 11:57:08,278 - INFO - data.downloader_bitget - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 11:57:08,281 - INFO - data.downloader_bitget - Téléchargement des données pour BTC/USDT en 15m sur bitget
+2025-03-10 11:57:11,928 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 33% (1/3 lots)
+2025-03-10 11:57:12,315 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 66% (2/3 lots)
+2025-03-10 11:57:12,687 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 100% (3/3 lots)
+2025-03-10 11:57:12,777 - INFO - data.downloader_bitget - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 11:57:12,780 - INFO - data.downloader_bitget - Total de lignes: 2927
+2025-03-10 11:57:12,786 - INFO - data.downloader_bitget - {"timestamp": "2025-03-10T11:57:12.784356", "source": "data.downloader_bitget", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "15m", "start_date": "2025-02-07 23:15:00", "end_date": "2025-03-10 10:45:00", "rows": 2927, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_15m_bitget_20250208.csv"}}
+2025-03-10 12:09:50,528 - INFO - data.downloader_bitget - Exchange Bitget initialisé
+2025-03-10 12:09:50,530 - INFO - data.downloader_bitget - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 12:09:50,531 - INFO - data.downloader_bitget - Téléchargement des données pour BTC/USDT en 15m sur bitget
+2025-03-10 12:09:53,703 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 33% (1/3 lots)
+2025-03-10 12:09:54,176 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 66% (2/3 lots)
+2025-03-10 12:09:54,663 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 100% (3/3 lots)
+2025-03-10 12:09:54,743 - INFO - data.downloader_bitget - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 12:09:54,745 - INFO - data.downloader_bitget - Total de lignes: 2928
+2025-03-10 12:09:54,748 - INFO - data.downloader_bitget - {"timestamp": "2025-03-10T12:09:54.747243", "source": "data.downloader_bitget", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "15m", "start_date": "2025-02-07 23:15:00", "end_date": "2025-03-10 11:00:00", "rows": 2928, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_15m_bitget_20250208.csv"}}
+2025-03-10 12:24:03,490 - INFO - data.downloader_bitget - Exchange Bitget initialisé
+2025-03-10 12:24:03,492 - INFO - data.downloader_bitget - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 12:24:03,495 - INFO - data.downloader_bitget - Téléchargement des données pour BTC/USDT en 15m sur bitget
+2025-03-10 12:24:05,885 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 33% (1/3 lots)
+2025-03-10 12:24:06,309 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 66% (2/3 lots)
+2025-03-10 12:24:06,679 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 100% (3/3 lots)
+2025-03-10 12:24:06,756 - INFO - data.downloader_bitget - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 12:24:06,758 - INFO - data.downloader_bitget - Total de lignes: 2929
+2025-03-10 12:24:06,762 - INFO - data.downloader_bitget - {"timestamp": "2025-03-10T12:24:06.760963", "source": "data.downloader_bitget", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "15m", "start_date": "2025-02-07 23:15:00", "end_date": "2025-03-10 11:15:00", "rows": 2929, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_15m_bitget_20250208.csv"}}
+2025-03-10 17:33:00,349 - INFO - data.downloader_bitget - Exchange Bitget initialisé
+2025-03-10 17:33:00,351 - INFO - data.downloader_bitget - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 17:33:00,352 - INFO - data.downloader_bitget - Téléchargement des données pour BTC/USDT en 15m sur bitget
+2025-03-10 17:33:02,805 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 33% (1/3 lots)
+2025-03-10 17:33:03,323 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 66% (2/3 lots)
+2025-03-10 17:33:03,680 - INFO - data.downloader_bitget - Téléchargement BTC/USDT 15m: 100% (3/3 lots)
+2025-03-10 17:33:03,756 - INFO - data.downloader_bitget - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_15m_bitget_20250208.csv
+2025-03-10 17:33:03,756 - INFO - data.downloader_bitget - Total de lignes: 2950
+2025-03-10 17:33:03,758 - INFO - data.downloader_bitget - {"timestamp": "2025-03-10T17:33:03.758861", "source": "data.downloader_bitget", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "15m", "start_date": "2025-02-07 23:15:00", "end_date": "2025-03-10 16:30:00", "rows": 2950, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_15m_bitget_20250208.csv"}}

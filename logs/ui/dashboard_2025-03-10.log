@@ -1,0 +1,307 @@
+2025-03-10 10:59:24,274 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 10:59:25,892 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:03:56,049 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:03:58,720 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:04:13,248 - INFO - ui.dashboard - Navigation: nav-data - Page en construction
+2025-03-10 11:04:14,897 - INFO - ui.dashboard - Retour au tableau de bord depuis la fenêtre modale
+2025-03-10 11:04:44,104 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:06:12,980 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:06:32,749 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:07:00,264 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:21:55,228 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:21:57,857 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:22:18,848 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:22:24,630 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:22:28,254 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:23:25,681 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:23:28,110 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:23:54,228 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 11:24:23,265 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 11:24:26,060 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 11:24:27,221 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 11:24:28,504 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 11:24:29,568 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 11:50:24,156 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:50:27,222 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:50:38,204 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 11:51:23,259 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:51:55,512 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:52:04,686 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 11:52:20,245 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 11:52:22,716 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 11:53:25,361 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 11:53:25,500 - INFO - ui.dashboard - Création d'une nouvelle stratégie
+2025-03-10 11:53:37,585 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 11:55:48,269 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:56:04,123 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:56:07,985 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:56:16,103 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:56:25,305 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 11:56:28,137 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 11:56:29,303 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 11:56:30,286 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 11:56:31,099 - INFO - ui.dashboard - Navigation: Paramètres
+2025-03-10 11:56:32,343 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 11:56:33,440 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 11:56:33,669 - INFO - ui.dashboard - Création d'une nouvelle stratégie
+2025-03-10 11:57:06,689 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 11:57:09,387 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 11:57:38,780 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 11:57:38,921 - INFO - ui.dashboard - Création d'une nouvelle stratégie
+2025-03-10 11:58:20,456 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 11:59:07,923 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 11:59:22,053 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:00:27,090 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:00:40,966 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:00:58,886 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:01:01,560 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:03:38,680 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:03:42,083 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:05:48,237 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:06:00,088 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:06:35,217 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:08:55,370 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:08:58,346 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:09:25,034 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:09:31,844 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:09:37,092 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:09:40,849 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 12:09:41,765 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:09:43,399 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:09:43,639 - INFO - ui.dashboard - Création d'une nouvelle stratégie
+2025-03-10 12:09:48,255 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:09:51,695 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:09:51,815 - INFO - ui.dashboard - Création d'une nouvelle stratégie
+2025-03-10 12:10:18,464 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:11:22,195 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:13:53,001 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:13:57,892 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:14:03,140 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:16:20,624 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:17:34,120 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:17:37,046 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:17:42,779 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 12:17:49,667 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:18:00,054 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 12:18:31,666 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:20:05,946 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:20:38,332 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:20:50,331 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:20:55,497 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:21:22,160 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:21:27,322 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:22:47,806 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:23:52,449 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:23:57,134 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:24:53,903 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:25:10,380 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:25:17,779 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:25:58,356 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:26:21,295 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:26:39,406 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:26:43,990 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:26:57,909 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:27:38,858 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:27:46,678 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:27:52,699 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:27:57,961 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:29:16,959 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:29:21,818 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 12:29:22,681 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 12:29:23,444 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:29:24,401 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 12:29:47,495 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:30:04,343 - INFO - ui.dashboard - Navigation vers la page des logs via le bouton du dashboard
+2025-03-10 12:30:04,429 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:30:06,372 - INFO - ui.dashboard - Navigation vers la page des logs via le bouton du dashboard
+2025-03-10 12:30:06,446 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:30:07,311 - INFO - ui.dashboard - Navigation vers la page des logs via le bouton du dashboard
+2025-03-10 12:30:07,423 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:30:08,145 - INFO - ui.dashboard - Navigation vers la page des logs via le bouton du dashboard
+2025-03-10 12:30:08,234 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:30:09,725 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 12:32:09,497 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:32:18,066 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:32:21,192 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:34:27,021 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:34:36,146 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:35:49,847 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:35:52,293 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:36:01,654 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 12:36:05,604 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:36:36,529 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:39:04,627 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:39:07,509 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:39:36,569 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:40:30,520 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:41:30,626 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:41:40,865 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 12:41:41,402 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 12:41:43,166 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 12:41:44,049 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:41:45,165 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 12:41:46,147 - INFO - ui.dashboard - Navigation: Paramètres
+2025-03-10 12:41:47,314 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 12:41:48,434 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 12:41:49,399 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:41:50,745 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 12:41:53,019 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 12:41:53,849 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 12:41:56,572 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:42:18,954 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 12:45:46,203 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:46:50,650 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:46:55,240 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 12:47:26,213 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:48:14,032 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:48:16,305 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:49:00,658 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:49:45,202 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 12:49:46,662 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:49:51,546 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 12:50:01,046 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:32:21,330 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:32:26,172 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:33:41,927 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 16:34:08,744 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 16:49:55,639 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:49:59,357 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:50:32,357 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:51:16,989 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:51:20,780 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:51:35,393 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:51:43,419 - INFO - ui.dashboard - Navigation vers la page des logs via le bouton du dashboard
+2025-03-10 16:51:43,578 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 16:51:46,074 - INFO - ui.dashboard - Navigation vers la page des logs via le bouton du dashboard
+2025-03-10 16:51:46,209 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 16:52:13,101 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 16:52:49,092 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 16:53:02,637 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:53:06,435 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:53:12,281 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 16:56:17,370 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:56:29,019 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 16:58:23,047 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 16:58:38,399 - INFO - ui.dashboard - Navigation vers la page des logs via le bouton du dashboard
+2025-03-10 16:58:38,540 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 16:59:48,549 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:00:02,967 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 17:00:03,908 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 17:00:04,938 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:00:06,626 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:00:08,062 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 17:00:09,293 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:00:50,091 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:01:18,779 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 17:01:19,614 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:01:20,310 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:01:21,781 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 17:01:24,244 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 17:01:50,860 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:01:52,363 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:03:59,571 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:04:19,606 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:05:26,580 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:05:33,314 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 17:05:34,043 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:05:34,691 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:05:35,313 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 17:05:36,010 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 17:05:36,776 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 17:05:37,640 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:07:01,675 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:07:21,673 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:08:52,624 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:09:44,517 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:23:12,752 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:23:42,955 - INFO - ui.dashboard - Navigation vers la page des logs via le bouton du dashboard
+2025-03-10 17:23:43,106 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:24:00,736 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 17:24:01,917 - INFO - ui.dashboard - Navigation: Paramètres
+2025-03-10 17:24:04,782 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:24:05,533 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 17:24:06,308 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 17:24:14,140 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 17:24:14,990 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:24:15,728 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:24:16,213 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:24:32,596 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:24:36,857 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:25:05,189 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 17:25:06,102 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 17:25:07,369 - INFO - ui.dashboard - Navigation: Paramètres
+2025-03-10 17:25:08,219 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 17:26:52,024 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:27:08,839 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:27:17,607 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:27:33,309 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:27:35,802 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:30:22,147 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:30:56,288 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:31:10,777 - INFO - ui.dashboard - Navigation vers la page des logs via le bouton du dashboard
+2025-03-10 17:31:10,855 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:32:58,982 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 17:33:01,618 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 17:33:02,393 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 17:33:52,827 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:34:57,986 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 17:35:55,606 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:36:07,729 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:36:43,165 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:38:46,609 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:39:50,096 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:40:12,261 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:40:51,846 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 17:42:18,131 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:42:56,709 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:42:59,058 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:43:04,808 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 17:43:35,412 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:43:37,322 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:45:48,026 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 17:45:55,172 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 17:45:55,982 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:46:58,108 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 17:47:29,300 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 17:47:30,197 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:47:31,130 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 17:47:36,445 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 17:47:37,311 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 17:47:39,879 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:47:43,460 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 17:47:44,492 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 17:47:49,659 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:47:56,860 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 17:48:14,339 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 17:48:15,299 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 17:48:16,202 - INFO - ui.dashboard - Navigation: Paramètres
+2025-03-10 17:48:17,545 - INFO - ui.dashboard - Navigation: Stratégies
+2025-03-10 17:48:18,267 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:48:19,066 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 17:48:21,916 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 18:10:52,951 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 18:11:05,232 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 18:16:23,076 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 18:16:25,711 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 18:18:01,573 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 18:18:06,677 - INFO - ui.dashboard - Navigation: Études
+2025-03-10 18:27:13,359 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 18:27:18,463 - INFO - ui.dashboard - Navigation: Études
+2025-03-10 18:30:26,006 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 18:30:30,854 - INFO - ui.dashboard - Navigation: Études
+2025-03-10 18:42:19,456 - INFO - ui.dashboard - Navigation: Dashboard
+2025-03-10 18:42:23,158 - INFO - ui.dashboard - Navigation: Études
+2025-03-10 18:42:23,834 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 18:42:27,371 - INFO - ui.dashboard - Navigation: Études
+2025-03-10 18:42:28,123 - INFO - ui.dashboard - Navigation: Backtest
+2025-03-10 18:42:29,139 - INFO - ui.dashboard - Navigation: Études
+2025-03-10 18:42:30,318 - INFO - ui.dashboard - Navigation: Données
+2025-03-10 18:42:31,304 - INFO - ui.dashboard - Navigation: Études
+2025-03-10 19:02:34,822 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 19:02:38,018 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 19:05:28,559 - INFO - ui.dashboard - Navigation: Logs
+2025-03-10 19:05:29,201 - INFO - ui.dashboard - Navigation: Études
+2025-03-10 19:06:06,516 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 19:06:13,182 - INFO - ui.dashboard - Navigation: Études
+2025-03-10 19:09:43,494 - INFO - ui.dashboard - Création du tableau de bord principal
+2025-03-10 19:09:54,471 - INFO - ui.dashboard - Navigation: Études
