@@ -1,0 +1,99 @@
+{
+    "rank": 3,
+    "creation_date": "2025-03-13 01:07:03",
+    "buy_blocks": [
+        {
+            "conditions": [
+                {
+                    "indicator1": "BOLL_20",
+                    "operator": ">=",
+                    "indicator2": null,
+                    "value": 0.8525392352917824
+                }
+            ],
+            "logic_operators": []
+        },
+        {
+            "conditions": [
+                {
+                    "indicator1": "ATR_10",
+                    "operator": "CROSS_BELOW",
+                    "indicator2": "EMA_190",
+                    "value": null
+                }
+            ],
+            "logic_operators": []
+        }
+    ],
+    "sell_blocks": [
+        {
+            "conditions": [
+                {
+                    "indicator1": "STOCH_7",
+                    "operator": ">=",
+                    "indicator2": "SMA_160",
+                    "value": null
+                }
+            ],
+            "logic_operators": []
+        },
+        {
+            "conditions": [
+                {
+                    "indicator1": "ATR_18",
+                    "operator": ">=",
+                    "indicator2": "EMA_100",
+                    "value": null
+                }
+            ],
+            "logic_operators": []
+        },
+        {
+            "conditions": [
+                {
+                    "indicator1": "EMA_200",
+                    "operator": "==",
+                    "indicator2": null,
+                    "value": -0.09148801421996558
+                },
+                {
+                    "indicator1": "RSI_12",
+                    "operator": ">",
+                    "indicator2": null,
+                    "value": 45.18068589196395
+                }
+            ],
+            "logic_operators": [
+                "or"
+            ]
+        }
+    ],
+    "risk_config": {
+        "risk_mode": "fixed",
+        "base_position": 0.010016907694046574,
+        "base_sl": 0.03690667718008696,
+        "tp_multiplier": 0.2803811508939263
+    },
+    "indicator_list": [],
+    "performance": {
+        "name": "Optimized Strategy 3",
+        "source": "Optimization",
+        "trial_id": 34,
+        "score": 2.0078152159987477,
+        "optimization_method": "tpe",
+        "scoring_formula": "standard",
+        "avg_profit": -21.86895526666651,
+        "liquidation_rate": 0.0,
+        "max_drawdown": 0.09636065319999926,
+        "max_loss": -17.976120500000004,
+        "max_profit": 0.0,
+        "profit_factor": 0.0,
+        "roi": -0.09841029869999929,
+        "total_trades": 45.0,
+        "trades_per_day": 96.2852897473997,
+        "win_rate": 0.0,
+        "roi_pct": -9.841029869999929,
+        "win_rate_pct": 0.0,
+        "max_drawdown_pct": 9.636065319999926
+    }
+}

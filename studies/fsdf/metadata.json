@@ -1,0 +1,29 @@
+{
+    "name": "fsdf",
+    "asset": "BTC/USDT",
+    "timeframe": "1h",
+    "exchange": "binance",
+    "description": "Étude avancée",
+    "creation_date": "2025-03-12 15:26:46",
+    "status": "created",
+    "data_file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_525600.csv",
+    "data_metadata": {
+        "filename": "BTC_USDT_1h_binance_525600.csv",
+        "symbol": "BTC/USDT",
+        "timeframe": "1h",
+        "exchange": "binance",
+        "start_date": "2019-09-08",
+        "end_date": "2025-03-12",
+        "rows": 48286,
+        "last_modified": "2025-03-12 15:07:48",
+        "size_mb": 2.9
+    },
+    "score_weights": {
+        "roi": 2.5,
+        "win_rate": 0.5,
+        "max_drawdown": 2.0,
+        "profit_factor": 2.0,
+        "total_trades": 1.0,
+        "avg_profit": 1.0
+    }
+}

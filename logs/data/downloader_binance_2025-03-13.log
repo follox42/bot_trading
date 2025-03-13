@@ -1,0 +1,77 @@
+2025-03-13 00:24:52,092 - INFO - data.downloader_binance - Exchange Binance initialisé
+2025-03-13 00:24:52,093 - INFO - data.downloader_binance - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:24:52,094 - INFO - data.downloader_binance - Téléchargement des données pour BTC/USDT en 1h sur binance
+2025-03-13 00:24:54,792 - INFO - data.downloader_binance - Exchange Binance initialisé
+2025-03-13 00:24:54,793 - INFO - data.downloader_binance - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:24:54,799 - INFO - data.downloader_binance - Téléchargement des données pour BTC/USDT en 1h sur binance
+2025-03-13 00:24:55,040 - INFO - data.downloader_binance - Téléchargement BTC/USDT 1h: 100% (1/1 lots)
+2025-03-13 00:24:55,106 - INFO - data.downloader_binance - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:24:55,108 - INFO - data.downloader_binance - Total de lignes: 673
+2025-03-13 00:24:55,111 - INFO - data.downloader_binance - {"timestamp": "2025-03-13T00:24:55.110441", "source": "data.downloader_binance", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1h", "start_date": "2025-02-12 23:00:00", "end_date": "2025-03-12 23:00:00", "rows": 673, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_20250213.csv"}}
+2025-03-13 00:24:57,430 - INFO - data.downloader_binance - Téléchargement BTC/USDT 1h: 100% (1/1 lots)
+2025-03-13 00:24:57,494 - INFO - data.downloader_binance - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:24:57,497 - INFO - data.downloader_binance - Total de lignes: 673
+2025-03-13 00:24:57,499 - INFO - data.downloader_binance - {"timestamp": "2025-03-13T00:24:57.498660", "source": "data.downloader_binance", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1h", "start_date": "2025-02-12 23:00:00", "end_date": "2025-03-12 23:00:00", "rows": 673, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_20250213.csv"}}
+2025-03-13 00:28:55,962 - INFO - data.downloader_binance - Exchange Binance initialisé
+2025-03-13 00:28:55,964 - INFO - data.downloader_binance - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:28:55,968 - INFO - data.downloader_binance - Téléchargement des données pour BTC/USDT en 1h sur binance
+2025-03-13 00:28:59,480 - INFO - data.downloader_binance - Exchange Binance initialisé
+2025-03-13 00:28:59,481 - INFO - data.downloader_binance - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:28:59,482 - INFO - data.downloader_binance - Téléchargement des données pour BTC/USDT en 1h sur binance
+2025-03-13 00:28:59,540 - INFO - data.downloader_binance - Téléchargement BTC/USDT 1h: 100% (1/1 lots)
+2025-03-13 00:28:59,605 - INFO - data.downloader_binance - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:28:59,608 - INFO - data.downloader_binance - Total de lignes: 673
+2025-03-13 00:28:59,615 - INFO - data.downloader_binance - {"timestamp": "2025-03-13T00:28:59.613756", "source": "data.downloader_binance", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1h", "start_date": "2025-02-12 23:00:00", "end_date": "2025-03-12 23:00:00", "rows": 673, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_20250213.csv"}}
+2025-03-13 00:29:02,303 - INFO - data.downloader_binance - Téléchargement BTC/USDT 1h: 100% (1/1 lots)
+2025-03-13 00:29:02,367 - INFO - data.downloader_binance - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:29:02,370 - INFO - data.downloader_binance - Total de lignes: 673
+2025-03-13 00:29:02,373 - INFO - data.downloader_binance - {"timestamp": "2025-03-13T00:29:02.372738", "source": "data.downloader_binance", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1h", "start_date": "2025-02-12 23:00:00", "end_date": "2025-03-12 23:00:00", "rows": 673, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_20250213.csv"}}
+2025-03-13 00:31:50,883 - INFO - data.downloader_binance - Exchange Binance initialisé
+2025-03-13 00:31:50,884 - INFO - data.downloader_binance - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:31:50,886 - INFO - data.downloader_binance - Téléchargement des données pour BTC/USDT en 1h sur binance
+2025-03-13 00:31:53,745 - INFO - data.downloader_binance - Téléchargement BTC/USDT 1h: 100% (1/1 lots)
+2025-03-13 00:31:53,809 - INFO - data.downloader_binance - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:31:53,810 - INFO - data.downloader_binance - Total de lignes: 673
+2025-03-13 00:31:53,811 - INFO - data.downloader_binance - {"timestamp": "2025-03-13T00:31:53.811941", "source": "data.downloader_binance", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1h", "start_date": "2025-02-12 23:00:00", "end_date": "2025-03-12 23:00:00", "rows": 673, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_20250213.csv"}}
+2025-03-13 00:34:49,590 - INFO - data.downloader_binance - Exchange Binance initialisé
+2025-03-13 00:34:49,592 - INFO - data.downloader_binance - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:34:49,593 - INFO - data.downloader_binance - Téléchargement des données pour BTC/USDT en 1h sur binance
+2025-03-13 00:34:52,970 - INFO - data.downloader_binance - Téléchargement BTC/USDT 1h: 100% (1/1 lots)
+2025-03-13 00:34:53,031 - INFO - data.downloader_binance - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:34:53,033 - INFO - data.downloader_binance - Total de lignes: 673
+2025-03-13 00:34:53,036 - INFO - data.downloader_binance - {"timestamp": "2025-03-13T00:34:53.035443", "source": "data.downloader_binance", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1h", "start_date": "2025-02-12 23:00:00", "end_date": "2025-03-12 23:00:00", "rows": 673, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_20250213.csv"}}
+2025-03-13 00:35:04,100 - INFO - data.downloader_binance - Exchange Binance initialisé
+2025-03-13 00:35:04,104 - INFO - data.downloader_binance - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:35:04,106 - INFO - data.downloader_binance - Téléchargement des données pour BTC/USDT en 1h sur binance
+2025-03-13 00:35:08,122 - INFO - data.downloader_binance - Téléchargement BTC/USDT 1h: 100% (1/1 lots)
+2025-03-13 00:35:08,179 - INFO - data.downloader_binance - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:35:08,181 - INFO - data.downloader_binance - Total de lignes: 673
+2025-03-13 00:35:08,185 - INFO - data.downloader_binance - {"timestamp": "2025-03-13T00:35:08.184745", "source": "data.downloader_binance", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1h", "start_date": "2025-02-12 23:00:00", "end_date": "2025-03-12 23:00:00", "rows": 673, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_20250213.csv"}}
+2025-03-13 00:40:26,589 - INFO - data.downloader_binance - Exchange Binance initialisé
+2025-03-13 00:40:26,592 - INFO - data.downloader_binance - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:40:26,594 - INFO - data.downloader_binance - Téléchargement des données pour BTC/USDT en 1h sur binance
+2025-03-13 00:40:29,941 - INFO - data.downloader_binance - Téléchargement BTC/USDT 1h: 100% (1/1 lots)
+2025-03-13 00:40:30,005 - INFO - data.downloader_binance - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:40:30,008 - INFO - data.downloader_binance - Total de lignes: 673
+2025-03-13 00:40:30,009 - INFO - data.downloader_binance - {"timestamp": "2025-03-13T00:40:30.009177", "source": "data.downloader_binance", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1h", "start_date": "2025-02-12 23:00:00", "end_date": "2025-03-12 23:00:00", "rows": 673, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_20250213.csv"}}
+2025-03-13 00:42:32,216 - INFO - data.downloader_binance - Exchange Binance initialisé
+2025-03-13 00:42:32,216 - INFO - data.downloader_binance - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:42:32,217 - INFO - data.downloader_binance - Téléchargement des données pour BTC/USDT en 1h sur binance
+2025-03-13 00:42:35,255 - INFO - data.downloader_binance - Téléchargement BTC/USDT 1h: 100% (1/1 lots)
+2025-03-13 00:42:35,316 - INFO - data.downloader_binance - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:42:35,317 - INFO - data.downloader_binance - Total de lignes: 673
+2025-03-13 00:42:35,320 - INFO - data.downloader_binance - {"timestamp": "2025-03-13T00:42:35.318674", "source": "data.downloader_binance", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1h", "start_date": "2025-02-12 23:00:00", "end_date": "2025-03-12 23:00:00", "rows": 673, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_20250213.csv"}}
+2025-03-13 00:43:57,163 - INFO - data.downloader_binance - Exchange Binance initialisé
+2025-03-13 00:43:57,164 - INFO - data.downloader_binance - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:43:57,166 - INFO - data.downloader_binance - Téléchargement des données pour BTC/USDT en 1h sur binance
+2025-03-13 00:44:00,427 - INFO - data.downloader_binance - Téléchargement BTC/USDT 1h: 100% (1/1 lots)
+2025-03-13 00:44:00,491 - INFO - data.downloader_binance - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:44:00,492 - INFO - data.downloader_binance - Total de lignes: 673
+2025-03-13 00:44:00,495 - INFO - data.downloader_binance - {"timestamp": "2025-03-13T00:44:00.493652", "source": "data.downloader_binance", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1h", "start_date": "2025-02-12 23:00:00", "end_date": "2025-03-12 23:00:00", "rows": 673, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_20250213.csv"}}
+2025-03-13 00:45:47,943 - INFO - data.downloader_binance - Exchange Binance initialisé
+2025-03-13 00:45:47,945 - INFO - data.downloader_binance - Fichier de sortie: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:45:47,947 - INFO - data.downloader_binance - Téléchargement des données pour BTC/USDT en 1h sur binance
+2025-03-13 00:45:51,070 - INFO - data.downloader_binance - Téléchargement BTC/USDT 1h: 100% (1/1 lots)
+2025-03-13 00:45:51,142 - INFO - data.downloader_binance - Données enregistrées: C:\Users\nolan\Desktop\bot_trading\data\historical\BTC_USDT_1h_binance_20250213.csv
+2025-03-13 00:45:51,147 - INFO - data.downloader_binance - Total de lignes: 673
+2025-03-13 00:45:51,152 - INFO - data.downloader_binance - {"timestamp": "2025-03-13T00:45:51.151801", "source": "data.downloader_binance", "event_type": "data_downloaded", "data": {"symbol": "BTC/USDT", "timeframe": "1h", "start_date": "2025-02-12 23:00:00", "end_date": "2025-03-12 23:00:00", "rows": 673, "file_path": "C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1h_binance_20250213.csv"}}

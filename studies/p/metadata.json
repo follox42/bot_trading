@@ -1,0 +1,59 @@
+{
+    "name": "p",
+    "description": "Étude de trading",
+    "asset": "BTC/USDT",
+    "timeframe": "1h",
+    "exchange": "binance",
+    "creation_date": "2025-03-13 14:30:12",
+    "last_modified": "2025-03-13 14:30:12",
+    "status": "created",
+    "data": {
+        "source": "study",
+        "file_path": "data\\BTC_USDT_1h_binance_20250213.csv",
+        "exchange": "binance",
+        "symbol": "BTC/USDT",
+        "timeframe": "1h",
+        "start_date": "2025-02-12",
+        "end_date": "2025-03-12",
+        "rows_count": 673,
+        "columns": [
+            "timestamp",
+            "open",
+            "high",
+            "low",
+            "close",
+            "volume"
+        ],
+        "checksum": "bbaafc3c77f7db36ef87f578baa24f565e1ba1f1b7bc389c4b7f7398288dcaf5"
+    },
+    "optimization": {
+        "last_optimization": null,
+        "trials_count": 0,
+        "best_trial_id": null,
+        "best_score": null,
+        "optimization_config": null,
+        "optimization_duration": null
+    },
+    "strategies": {
+        "strategies_count": 0,
+        "best_strategy_id": null,
+        "strategies": []
+    },
+    "backtests": {
+        "last_backtest": null,
+        "backtests_count": 0,
+        "best_backtest_id": null,
+        "backtests": []
+    },
+    "performance": {
+        "roi": 0.0,
+        "win_rate": 0.0,
+        "total_trades": 0,
+        "max_drawdown": 0.0,
+        "profit_factor": 0.0,
+        "avg_profit": 0.0
+    },
+    "tags": [],
+    "categories": [],
+    "custom_params": {}
+}

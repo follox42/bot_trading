@@ -1,0 +1,104 @@
+2025-03-13 00:55:32,828 - INFO - ui.study_creator_callbacks - Ouverture du modal de création d'étude avancée
+2025-03-13 00:55:37,516 - INFO - ui.study_creator_callbacks - Création de l'étude avancée : vcxvxcvcx
+2025-03-13 00:55:37,531 - ERROR - ui.study_creator_callbacks - Échec de création 'vcxvxcvcx'.
+2025-03-13 01:01:32,552 - INFO - ui.study_creator_callbacks - Ouverture du modal de création d'étude avancée
+2025-03-13 01:01:37,989 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: test
+2025-03-13 01:01:37,991 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur EMA à la configuration
+2025-03-13 01:01:37,995 - ERROR - ui.study_creator_callbacks - Exception lors de la création: IndicatorConfig.__init__() missing 1 required positional argument: 'type'
+2025-03-13 01:01:38,001 - ERROR - ui.study_creator_callbacks - Traceback (most recent call last):
+  File "C:\Users\nolan\Desktop\bot_trading\ui\components\studies\study_creator.py", line 395, in handle_study_creation
+    ind_config = IndicatorConfig(
+                 ^^^^^^^^^^^^^^^^
+TypeError: IndicatorConfig.__init__() missing 1 required positional argument: 'type'
+
+2025-03-13 01:04:29,910 - INFO - ui.study_creator_callbacks - Ouverture du modal de création d'étude avancée
+2025-03-13 01:04:33,677 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: test
+2025-03-13 01:04:33,680 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur EMA à la configuration
+2025-03-13 01:04:33,682 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur SMA à la configuration
+2025-03-13 01:04:33,682 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MACD à la configuration
+2025-03-13 01:04:33,683 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur RSI à la configuration
+2025-03-13 01:04:33,684 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur STOCH à la configuration
+2025-03-13 01:04:33,684 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur ATR à la configuration
+2025-03-13 01:04:33,689 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur BOLL à la configuration
+2025-03-13 01:04:33,690 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur VWAP à la configuration
+2025-03-13 01:04:33,691 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MFIMACD à la configuration
+2025-03-13 01:04:33,691 - INFO - ui.study_creator_callbacks - Configuration créée avec 9 indicateurs
+2025-03-13 01:04:33,698 - INFO - ui.study_creator_callbacks - Étude 'test' créée avec succès avec 9 indicateurs
+2025-03-13 01:04:33,740 - INFO - ui.study_creator_callbacks - Fermeture du modal de création d'étude (création réussie)
+2025-03-13 09:25:48,886 - INFO - ui.study_creator_callbacks - Ouverture du modal de création d'étude
+2025-03-13 09:26:11,836 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: test
+2025-03-13 09:26:11,839 - ERROR - ui.study_creator_callbacks - Exception lors de la création: No module named 'simulator.metadata'
+2025-03-13 09:26:11,855 - ERROR - ui.study_creator_callbacks - Traceback (most recent call last):
+  File "C:\Users\nolan\Desktop\bot_trading\ui\components\studies\study_creator.py", line 316, in handle_study_creation
+    study_manager = IntegratedStudyManager("studies")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nolan\Desktop\bot_trading\simulator\study_manager.py", line 57, in __init__
+    self.reload_studies_list()
+  File "C:\Users\nolan\Desktop\bot_trading\simulator\study_manager.py", line 63, in reload_studies_list
+    from simulator.metadata import load_study_list, update_study_list
+ModuleNotFoundError: No module named 'simulator.metadata'
+
+2025-03-13 09:27:31,223 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: test
+2025-03-13 09:27:37,842 - INFO - ui.study_creator_callbacks - Ouverture du modal de création d'étude
+2025-03-13 09:27:41,246 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: test
+2025-03-13 09:27:46,248 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: test1
+2025-03-13 09:27:46,252 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur EMA à la configuration
+2025-03-13 09:27:46,257 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur SMA à la configuration
+2025-03-13 09:27:46,260 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MACD à la configuration
+2025-03-13 09:27:46,263 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur RSI à la configuration
+2025-03-13 09:27:46,266 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur STOCH à la configuration
+2025-03-13 09:27:46,268 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur ATR à la configuration
+2025-03-13 09:27:46,270 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur BOLL à la configuration
+2025-03-13 09:27:46,273 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur VWAP à la configuration
+2025-03-13 09:27:46,275 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MFIMACD à la configuration
+2025-03-13 09:27:46,277 - INFO - ui.study_creator_callbacks - Configuration créée avec 9 indicateurs
+2025-03-13 09:27:46,281 - ERROR - ui.study_creator_callbacks - Exception lors de la création: cannot import name 'create_flexible_default_config' from 'simulator.config' (C:\Users\nolan\Desktop\bot_trading\simulator\config.py)
+2025-03-13 09:27:46,284 - ERROR - ui.study_creator_callbacks - Traceback (most recent call last):
+  File "C:\Users\nolan\Desktop\bot_trading\ui\components\studies\study_creator.py", line 439, in handle_study_creation
+    success = study_manager.create_study(study_name, metadata, config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nolan\Desktop\bot_trading\simulator\study_manager.py", line 129, in create_study
+    from simulator.config import (
+ImportError: cannot import name 'create_flexible_default_config' from 'simulator.config' (C:\Users\nolan\Desktop\bot_trading\simulator\config.py)
+
+2025-03-13 09:28:29,845 - INFO - ui.study_creator_callbacks - Ouverture du modal de création d'étude
+2025-03-13 09:28:33,001 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: ez
+2025-03-13 09:28:33,005 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur EMA à la configuration
+2025-03-13 09:28:33,010 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur SMA à la configuration
+2025-03-13 09:28:33,014 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MACD à la configuration
+2025-03-13 09:28:33,014 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur RSI à la configuration
+2025-03-13 09:28:33,015 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur STOCH à la configuration
+2025-03-13 09:28:33,017 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur ATR à la configuration
+2025-03-13 09:28:33,020 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur BOLL à la configuration
+2025-03-13 09:28:33,022 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur VWAP à la configuration
+2025-03-13 09:28:33,024 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MFIMACD à la configuration
+2025-03-13 09:28:33,027 - INFO - ui.study_creator_callbacks - Configuration créée avec 9 indicateurs
+2025-03-13 09:28:33,077 - INFO - ui.study_creator_callbacks - Étude 'ez' créée avec succès avec 9 indicateurs
+2025-03-13 09:28:33,123 - INFO - ui.study_creator_callbacks - Fermeture du modal de création d'étude (création réussie)
+2025-03-13 09:41:53,592 - INFO - ui.study_creator_callbacks - Ouverture du modal de création d'étude
+2025-03-13 09:42:19,702 - INFO - ui.study_creator_callbacks - Ouverture du modal de création d'étude
+2025-03-13 09:42:22,298 - INFO - ui.study_creator_callbacks - Ouverture du modal de création d'étude
+2025-03-13 10:07:38,502 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: k
+2025-03-13 10:07:38,507 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur EMA à la configuration
+2025-03-13 10:07:38,509 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur SMA à la configuration
+2025-03-13 10:07:38,511 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MACD à la configuration
+2025-03-13 10:07:38,513 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur RSI à la configuration
+2025-03-13 10:07:38,514 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur STOCH à la configuration
+2025-03-13 10:07:38,517 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur ATR à la configuration
+2025-03-13 10:07:38,519 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur BOLL à la configuration
+2025-03-13 10:07:38,521 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur VWAP à la configuration
+2025-03-13 10:07:38,522 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MFIMACD à la configuration
+2025-03-13 10:07:38,523 - INFO - ui.study_creator_callbacks - Configuration créée avec 9 indicateurs
+2025-03-13 10:07:38,574 - INFO - ui.study_creator_callbacks - Étude 'k' créée avec succès avec 9 indicateurs
+2025-03-13 14:30:12,458 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: p
+2025-03-13 14:30:12,462 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur EMA à la configuration
+2025-03-13 14:30:12,464 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur SMA à la configuration
+2025-03-13 14:30:12,466 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MACD à la configuration
+2025-03-13 14:30:12,466 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur RSI à la configuration
+2025-03-13 14:30:12,468 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur STOCH à la configuration
+2025-03-13 14:30:12,470 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur ATR à la configuration
+2025-03-13 14:30:12,473 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur BOLL à la configuration
+2025-03-13 14:30:12,474 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur VWAP à la configuration
+2025-03-13 14:30:12,477 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MFIMACD à la configuration
+2025-03-13 14:30:12,479 - INFO - ui.study_creator_callbacks - Configuration créée avec 9 indicateurs
+2025-03-13 14:30:12,537 - INFO - ui.study_creator_callbacks - Étude 'p' créée avec succès avec 9 indicateurs

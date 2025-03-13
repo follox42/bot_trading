@@ -1,0 +1,98 @@
+2025-03-11 18:08:52,579 - INFO - ui.studies_page - Registering studies page callbacks
+2025-03-11 18:08:58,358 - INFO - ui.studies_page - Registering studies page callbacks
+2025-03-11 18:09:17,106 - INFO - ui.studies_page - Creating studies page
+2025-03-11 18:09:20,692 - INFO - ui.studies_page - Manual refresh of active studies
+2025-03-11 18:09:24,577 - INFO - ui.studies_page - Comparing studies: BTC_Study, ETH_Study
+2025-03-11 18:09:33,211 - INFO - ui.studies_page - Opening new study modal
+2025-03-11 18:09:36,222 - INFO - ui.studies_page - Opening new study modal
+2025-03-11 18:09:46,407 - INFO - ui.studies_page - Closing new study modal
+2025-03-11 18:09:56,464 - INFO - ui.studies_page - Opening new study modal
+2025-03-11 18:46:01,197 - INFO - ui.studies_page - Registering studies page callbacks
+2025-03-11 18:46:11,792 - INFO - ui.studies_page - Registering studies page callbacks
+2025-03-11 18:46:18,584 - INFO - ui.studies_page - Creating studies page
+2025-03-11 18:46:20,231 - INFO - ui.studies_page - Opening new study modal
+2025-03-11 18:46:38,016 - INFO - ui.studies_page - Registering studies page callbacks
+2025-03-11 18:46:52,101 - INFO - ui.studies_page - Creating studies page
+2025-03-11 18:46:53,625 - INFO - ui.studies_page - Opening new study modal
+2025-03-11 18:47:00,949 - INFO - ui.studies_page - Comparing studies: BTC_Study, ETH_Study
+2025-03-11 19:02:34,804 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 19:09:48,181 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 19:21:55,612 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 19:23:21,743 - INFO - ui.studies_page - Création d'une nouvelle étude: None
+2025-03-11 19:23:30,743 - INFO - ui.studies_page - Création d'une nouvelle étude: j
+2025-03-11 19:23:30,759 - INFO - ui.studies_page - Étude 'j' créée avec succès
+2025-03-11 19:23:35,523 - INFO - ui.studies_page - Affichage des détails de l'étude 'j'
+2025-03-11 19:23:35,529 - INFO - ui.studies_page - Affichage des détails de l'étude 'j'
+2025-03-11 19:24:04,345 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:22:30,410 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:22:31,519 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:22:32,325 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:23:28,801 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:26:55,503 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:47:32,876 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:47:33,944 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:50:12,352 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:50:52,210 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:52:35,819 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:55:13,930 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:55:17,746 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:56:57,870 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 20:57:21,464 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:03:35,936 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:14:23,988 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:18:03,233 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:18:36,763 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:21:57,264 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:23:18,905 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:23:47,401 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:27:09,007 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:29:07,944 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:31:04,104 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:34:57,965 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:36:19,951 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:42:38,390 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:43:51,495 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:47:04,500 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:49:20,487 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:50:30,558 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:51:45,742 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:53:19,275 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:55:55,775 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 21:59:34,939 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:00:14,737 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:01:21,629 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:03:24,874 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:04:07,903 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:07:09,429 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:09:44,707 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:13:21,390 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:13:45,435 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:14:00,421 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:14:50,735 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:16:50,210 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:25:11,931 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:25:52,458 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:30:18,757 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:31:11,673 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:34:16,269 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:39:02,866 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:39:17,448 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:50:58,404 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 22:52:45,750 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 23:02:51,011 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 23:03:16,318 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 23:03:52,322 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 23:07:34,223 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 23:11:53,894 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 23:13:16,357 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 23:16:52,544 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 23:41:09,545 - INFO - ui.studies_page - Création de la page des études
+2025-03-11 23:42:31,270 - INFO - ui.studies_page - Création de la page des études
+2025-03-12 00:00:02,280 - INFO - ui.studies_page - Création de la page des études
+2025-03-12 00:00:03,359 - INFO - ui.studies_page - Création de la page des études
+2025-03-12 00:00:05,028 - INFO - ui.studies_page - Création de la page des études
+2025-03-12 00:00:05,723 - INFO - ui.studies_page - Création de la page des études
+2025-03-12 01:10:33,925 - INFO - ui.studies_page - Création de la page des études
+2025-03-12 01:11:14,061 - INFO - ui.studies_page - Création de la page des études
+2025-03-12 01:11:14,462 - INFO - ui.studies_page - Création de la page des études
+2025-03-12 01:11:17,013 - INFO - ui.studies_page - Création de la page des études

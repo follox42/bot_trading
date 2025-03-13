@@ -1,0 +1,973 @@
+2025-03-13 00:01:53,240 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:02:02,403 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:02:11,134 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:02:21,134 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:02:31,234 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:02:43,241 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:02:55,221 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:03:02,233 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:03:14,225 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:03:24,222 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:04:21,252 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:04:31,243 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:04:41,239 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:04:51,271 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:05:01,262 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:05:11,246 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:05:21,263 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:05:31,244 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:05:41,240 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:05:51,270 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:06:01,241 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:06:11,271 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:06:21,256 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:06:31,246 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:06:44,175 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:16:21,686 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:16:30,354 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:16:40,354 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:16:51,236 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:17:01,265 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:17:11,264 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:17:21,270 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:17:31,260 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:17:41,259 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:18:21,284 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:18:31,260 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:18:41,257 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:18:51,241 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:19:01,255 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:19:11,293 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:19:21,259 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:19:31,330 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:19:41,292 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:19:51,301 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:20:03,249 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:20:17,217 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:20:27,469 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:20:34,219 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:20:44,217 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:20:53,222 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:21:03,227 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:21:13,222 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:21:25,885 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:21:33,040 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:21:41,009 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:21:51,009 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:22:01,002 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:22:11,003 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:22:21,011 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:22:31,005 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:22:41,012 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:22:51,008 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:23:01,008 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:23:11,004 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:23:21,002 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:23:31,015 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:23:41,002 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:23:51,001 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:24:02,225 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:24:13,225 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:24:47,326 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:24:56,045 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:25:06,233 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:25:16,241 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:25:26,242 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:25:40,383 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:25:51,142 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:26:00,236 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:26:12,223 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:26:21,718 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:26:32,229 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:26:41,226 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:26:53,226 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:27:21,289 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:27:31,215 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:27:41,216 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:27:51,223 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:28:01,231 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:28:51,865 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:29:00,501 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:29:10,496 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:29:21,256 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:29:31,259 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:29:42,234 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:29:56,226 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:30:04,218 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:30:21,229 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:30:33,239 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:30:44,221 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:30:58,999 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:31:08,245 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:31:20,225 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:31:32,226 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:31:41,227 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:31:47,891 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:31:59,227 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:32:10,224 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:32:20,223 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:32:27,883 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:32:39,229 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:32:51,225 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:33:01,221 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:33:10,225 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:33:21,621 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:33:32,220 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:34:21,274 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:34:28,243 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:34:41,049 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:34:46,208 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:34:55,248 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:35:05,068 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:35:15,243 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:35:25,245 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:35:35,253 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:35:45,253 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:35:55,238 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:36:05,261 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:36:22,235 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:36:26,232 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:36:36,231 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:36:46,234 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:36:56,230 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:37:06,234 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:37:16,227 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:37:27,225 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:37:38,234 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:37:48,230 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:37:58,234 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:38:08,275 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:38:18,222 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:38:28,225 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:38:36,226 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:38:46,233 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:38:57,232 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:39:06,219 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:39:17,237 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:39:28,229 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:39:37,216 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:39:47,239 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:39:58,221 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:40:06,238 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:40:18,734 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:40:27,709 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:40:38,271 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:42:28,458 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:42:37,244 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:42:47,246 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:42:56,806 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:43:06,804 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:43:18,234 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:43:26,812 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:43:38,223 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:43:53,037 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:44:00,657 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:44:02,048 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:44:05,150 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:44:14,231 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:44:24,245 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:44:34,245 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:44:44,278 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:44:54,274 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:45:06,222 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:45:14,125 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:45:24,269 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:45:43,964 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:45:53,289 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:46:03,258 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:46:15,240 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 00:46:30,834 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:04:25,883 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:04:35,605 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:04:44,113 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:04:54,107 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:05:04,260 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:05:14,256 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:05:24,453 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:05:34,308 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:05:44,323 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:06:21,244 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:06:25,235 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:17:14,223 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:17:23,227 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:17:33,241 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:17:43,295 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:18:13,886 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:18:21,804 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:18:32,238 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:18:42,234 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:18:52,240 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:19:02,252 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:19:12,241 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:19:22,244 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:19:32,288 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:20:21,320 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:21:15,055 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:21:23,607 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:21:33,611 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:21:44,266 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:21:54,295 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:22:04,301 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:22:14,320 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:22:27,852 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:22:34,218 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:22:41,985 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:22:51,972 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:23:01,983 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:23:12,107 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:23:21,974 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:23:32,372 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:23:41,975 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:23:52,110 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:24:01,981 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:24:12,163 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:24:22,015 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:28:40,859 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:28:48,525 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:28:59,238 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:29:09,264 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:29:19,256 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:29:28,531 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:29:40,232 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:29:50,232 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:30:00,231 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:30:10,478 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:30:19,277 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:30:29,316 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:30:38,537 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:30:48,745 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:30:58,531 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:31:08,532 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:31:18,538 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:31:28,540 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:31:38,543 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:31:49,274 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:31:59,266 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:32:09,280 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:32:19,256 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:32:34,465 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:33:25,893 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 01:33:25,988 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:57:10,551 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:57:10,554 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:57:10,567 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:57:10,569 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:57:21,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:57:21,720 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:57:31,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:57:31,716 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:57:41,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:57:41,714 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:57:51,696 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:57:51,705 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:58:01,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:58:01,707 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:58:12,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:58:12,720 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:58:26,692 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:58:26,695 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:58:33,690 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:58:33,694 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:58:44,703 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:58:44,706 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:58:54,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:58:54,701 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:59:04,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:59:04,710 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:59:12,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:59:12,707 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:59:23,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:59:23,707 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:59:33,710 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:59:33,715 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:59:43,697 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:59:43,707 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:59:53,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 10:59:53,709 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:00:05,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:00:05,715 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:00:17,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:00:17,710 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:00:27,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:00:27,724 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:00:37,048 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:00:37,057 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:00:45,697 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:00:45,699 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:00:54,697 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:00:54,702 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:01:06,877 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:01:06,891 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:01:16,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:01:16,706 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:01:24,691 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:01:24,692 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:01:34,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:01:34,712 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:01:42,707 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:01:42,716 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:01:57,389 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:01:57,392 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:02:04,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:02:04,703 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:02:17,693 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:02:17,697 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:02:24,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:02:24,712 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:02:35,703 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:02:35,706 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:02:44,704 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:02:44,710 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:02:56,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:02:56,711 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:03:04,830 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:03:04,837 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:03:14,693 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:03:14,705 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:03:24,704 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:03:24,711 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:03:33,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:03:33,716 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:03:45,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:03:45,711 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:03:56,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:03:56,707 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:04:05,792 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:04:05,795 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:04:16,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:04:16,700 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:04:24,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:04:24,706 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:04:34,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:04:34,706 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:04:45,807 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:04:45,812 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:04:56,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:04:56,711 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:05:02,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:05:02,723 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:05:14,711 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:05:14,713 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:05:26,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:05:26,710 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:05:32,713 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:05:32,716 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:05:42,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:05:42,711 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:05:52,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:05:52,709 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:06:03,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:06:03,702 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:06:13,696 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:06:13,698 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:06:23,811 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:06:23,815 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:06:32,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:06:32,707 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:06:42,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:06:42,718 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:06:51,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:06:51,711 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:07:03,710 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:07:03,717 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:07:13,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:07:13,710 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:07:22,695 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:07:22,703 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:07:30,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:07:30,709 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:07:43,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:07:43,709 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:07:55,792 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:07:55,804 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:08:03,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:08:03,709 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:08:15,704 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:08:15,709 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:08:25,693 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:08:25,700 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:08:34,692 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:08:34,702 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:08:44,709 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:08:44,715 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:08:53,769 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:08:53,781 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:09:03,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:09:03,710 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:09:13,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:09:13,722 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:09:25,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:09:25,701 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:09:33,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:09:33,703 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:09:43,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:09:43,709 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:09:53,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:09:53,714 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:10:02,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:10:02,711 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:10:12,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:10:12,706 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:10:23,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:10:23,703 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:10:32,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:10:32,718 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:10:43,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:10:43,709 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:10:52,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:10:52,708 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:11:03,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:11:03,700 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:11:12,696 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:11:12,701 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:11:22,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:11:22,704 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:11:32,697 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:11:32,705 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:11:42,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:11:42,705 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:11:51,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:11:51,705 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:12:01,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:12:01,703 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:12:13,696 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:12:13,698 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:12:23,690 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:12:23,700 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:12:35,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:12:35,709 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:12:44,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:12:44,707 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:12:54,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:12:54,709 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:13:05,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:13:05,702 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:13:13,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:13:13,703 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:13:22,727 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:13:22,731 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:13:32,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:13:32,726 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:13:42,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:13:42,709 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:13:52,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:13:52,713 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:14:02,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:14:02,710 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:14:13,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:14:13,707 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:34:13,530 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:34:13,537 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:45:06,660 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:45:06,670 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:45:07,128 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:45:07,156 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:45:11,709 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:45:11,715 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:45:21,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:45:21,714 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:45:31,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:45:31,715 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:52:24,053 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:52:24,059 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:52:30,714 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:52:30,718 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:52:40,720 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:52:40,727 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:52:50,729 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:52:50,739 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:53:00,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:53:00,724 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:53:10,716 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:53:10,726 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:53:20,727 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:53:20,733 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:53:30,731 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:53:30,741 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:53:40,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:53:40,721 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:53:50,709 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:53:50,717 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:54:00,723 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:54:00,729 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:54:10,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:54:10,723 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:54:20,723 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:54:20,727 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:54:30,731 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:54:30,733 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:54:40,725 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:54:40,730 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:54:50,713 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:54:50,720 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:55:00,723 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:55:00,729 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:55:10,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:55:10,725 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:55:20,726 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:55:20,732 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:55:30,726 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:55:30,733 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:55:40,722 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:55:40,728 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:55:50,716 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:55:50,724 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:56:00,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:56:00,721 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:56:10,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:56:10,722 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:56:20,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:56:20,722 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:56:30,722 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:56:30,728 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:56:40,739 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:56:40,745 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:56:50,711 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:56:50,723 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:57:00,741 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:57:00,750 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:57:10,733 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:57:10,739 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:57:20,720 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:57:20,722 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:57:30,728 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:57:30,733 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:57:40,712 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:57:40,720 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:57:50,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:57:50,721 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:58:00,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:58:00,721 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:58:10,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:58:10,727 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:58:20,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:58:20,723 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:58:30,725 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:58:30,735 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:58:40,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:58:40,723 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:58:50,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:58:50,726 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:59:00,724 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:59:00,730 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:59:10,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:59:10,722 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:59:20,727 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:59:20,734 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:59:30,714 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:59:30,720 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:59:40,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:59:40,727 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 11:59:50,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 11:59:50,727 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:00:00,728 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:00:00,735 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:00:10,713 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:00:10,720 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:00:20,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:00:20,727 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:00:30,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:00:30,724 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:00:40,731 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:00:40,737 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:00:50,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:00:50,721 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:01:00,718 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:01:00,724 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:01:10,713 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:01:10,720 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:01:20,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:01:20,727 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:01:30,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:01:30,721 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:01:40,718 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:01:40,722 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:01:50,720 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:01:50,724 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:02:00,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:02:00,727 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:02:10,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:02:10,732 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:02:20,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:02:20,719 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:02:30,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:02:30,723 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:02:40,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:02:40,723 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:02:50,712 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:02:50,718 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:03:00,716 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:03:00,721 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:03:10,712 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:03:10,721 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:03:20,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:03:20,722 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:03:30,722 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:03:30,726 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:03:40,707 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:03:40,714 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:03:50,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:03:50,719 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:04:00,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:04:00,729 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:04:10,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:04:10,725 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:04:20,716 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:04:20,720 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:04:30,734 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:04:30,738 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:04:40,714 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:04:40,721 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:04:50,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:04:50,714 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:05:00,754 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:05:00,763 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:05:10,724 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:05:10,731 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:05:20,723 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:05:20,727 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:05:30,720 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:05:30,726 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:05:40,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:05:40,720 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:05:51,987 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:05:51,994 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:18:01,588 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:18:01,595 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:18:11,319 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:18:11,324 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:18:20,736 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:18:20,743 - ERROR - ui.optimization_panel - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:42:00,997 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:42:09,976 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:42:19,971 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:42:29,971 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:42:39,971 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:42:49,970 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:42:59,974 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:43:09,978 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:43:19,978 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:43:29,971 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:43:41,693 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:43:51,692 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:44:01,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:44:11,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:44:21,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:44:31,693 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:45:19,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:45:21,695 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:45:31,695 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:45:41,704 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:45:51,694 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:46:01,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:46:11,696 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:46:21,694 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:46:31,693 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:46:41,697 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:46:51,695 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:47:01,691 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:47:11,704 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:47:28,961 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:47:37,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:47:47,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:47:58,727 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:48:08,754 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:48:18,774 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:48:28,756 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:48:38,709 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:48:48,751 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:49:18,786 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:52:37,132 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:52:44,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:52:55,692 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:53:05,697 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:53:15,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:53:25,692 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:53:35,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:53:45,695 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:53:55,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:54:05,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:54:15,694 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:54:24,273 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:54:34,272 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:54:45,687 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:54:55,697 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:55:05,694 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:55:15,695 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:55:24,271 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:55:34,709 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:55:44,720 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:55:54,726 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:56:04,716 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:56:14,711 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:56:35,457 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:56:43,842 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:56:54,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:58:32,844 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:58:42,712 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:58:52,704 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 12:59:02,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:00:36,317 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:00:45,260 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:00:55,258 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:01:05,713 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:01:18,538 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:01:47,993 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:01:55,858 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:02:34,532 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:02:43,724 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:02:53,712 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:03:03,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:04:19,572 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:04:28,711 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:04:41,737 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:04:51,133 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:05:33,553 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:05:42,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:05:52,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:06:02,709 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:06:12,764 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:06:22,743 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:06:32,743 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:06:51,424 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:06:57,547 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:07:06,709 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:07:16,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:10:00,834 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:10:09,734 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:10:19,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:10:29,566 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:10:39,567 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:10:49,731 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:10:59,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:11:09,711 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:11:19,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:11:29,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:11:39,718 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:11:55,357 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:12:02,709 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:12:12,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:12:22,713 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:12:32,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:12:43,730 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:12:53,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:13:03,729 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:13:13,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:13:23,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:13:33,741 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:13:43,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:13:53,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:14:03,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:14:13,720 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:14:23,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:14:33,724 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:14:43,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:14:53,695 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:15:03,735 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:15:13,731 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:15:23,718 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:15:33,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:15:43,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:15:53,710 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:16:03,711 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:16:13,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:16:23,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:16:33,736 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:16:43,726 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:16:53,713 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:17:59,732 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:18:08,684 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:18:18,743 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:18:33,273 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:18:41,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:18:50,964 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:19:00,966 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:19:12,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:19:22,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:19:32,695 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:19:42,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:19:52,690 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:20:02,703 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:20:12,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:20:22,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:20:32,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:20:42,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:21:19,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:21:21,724 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:21:34,889 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:22:47,327 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:22:55,172 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:23:05,169 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:23:15,170 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:23:25,168 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:23:35,730 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:23:45,734 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:23:55,752 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:24:05,742 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:24:15,722 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:24:25,733 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:25:18,757 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:25:26,703 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:25:36,697 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:25:46,710 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:25:56,704 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:26:06,704 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:26:16,691 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:26:26,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:26:36,688 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:26:46,691 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:26:56,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:27:08,696 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:27:21,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:27:31,744 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:27:39,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:27:48,702 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:27:59,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:28:08,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:28:16,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:28:30,694 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:28:40,694 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:28:47,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:28:59,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:29:09,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:29:18,000 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:29:27,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:29:37,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:29:47,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:33:32,962 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:33:41,179 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:33:51,178 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:34:01,173 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:34:11,733 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:34:21,720 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:34:31,712 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:34:41,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:34:51,727 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:39:07,933 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:39:11,180 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:39:21,177 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:39:31,711 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:39:41,722 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:39:51,710 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:40:01,725 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:40:11,722 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:40:21,737 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:40:31,778 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:49:19,794 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:49:27,773 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:49:38,706 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:49:48,725 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:49:58,720 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:50:08,719 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:50:18,722 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:50:28,718 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:51:18,726 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:51:28,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:51:38,729 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:51:48,726 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:51:58,712 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:52:08,720 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:52:18,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:52:28,733 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:52:38,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:52:50,516 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:54:02,920 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:54:11,585 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:54:21,582 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:54:31,724 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:56:38,265 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:56:47,128 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:56:57,126 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:57:02,325 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:57:07,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:57:20,291 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:57:27,121 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:57:36,185 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:57:46,716 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:57:56,718 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:58:06,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:58:16,720 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:58:26,725 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:58:36,720 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:59:19,152 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:59:30,749 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:59:39,134 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:59:49,704 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 13:59:59,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:00:09,708 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:00:19,712 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:00:29,715 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:00:39,966 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:00:49,724 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:00:59,725 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:01:09,727 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:10:20,239 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:10:27,937 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:10:37,937 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:10:48,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:10:58,721 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:11:08,724 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:11:18,740 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:11:29,701 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:12:29,360 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:12:38,717 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:16:21,516 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:16:30,202 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:16:40,197 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:16:53,194 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:17:03,675 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:17:12,005 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:17:22,017 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:17:32,713 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:23:32,259 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:23:41,181 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:23:51,187 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:24:01,185 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:24:11,185 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:24:21,180 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:24:31,179 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:24:41,193 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:24:51,189 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:25:01,188 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:25:11,185 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:25:21,181 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:25:32,696 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:25:42,705 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:25:52,700 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:26:02,697 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:26:12,696 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:26:22,698 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:26:52,032 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:27:01,192 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:29:45,929 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:30:15,272 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:30:34,766 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 14:43:25,725 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:03:29,138 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:04:58,968 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:06:22,362 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:17:01,425 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:21:52,935 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:22:45,233 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:24:18,809 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:26:17,699 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:32:14,724 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:40:08,902 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:41:02,322 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:43:28,785 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:45:19,524 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:45:59,762 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:47:24,775 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:49:13,828 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:53:35,714 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 15:58:16,081 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 17:51:30,113 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 18:16:57,584 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 18:59:38,175 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 19:01:52,891 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 19:06:08,543 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 19:06:54,266 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 19:17:51,047 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 19:40:42,468 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 19:56:02,670 - INFO - ui.optimization_panel - Création du panneau d'optimisation
+2025-03-13 20:04:36,507 - INFO - ui.optimization_panel - Création du panneau d'optimisation

@@ -1,0 +1,526 @@
+2025-03-13 00:01:52,470 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:01:53,173 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:06:43,319 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:06:44,097 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:07:18,482 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:07:19,459 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:16:14,840 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:16:15,542 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:21:24,950 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:21:25,810 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:24:23,396 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:24:24,045 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:25:39,682 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:25:40,317 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:28:05,729 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:28:06,546 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:28:41,948 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:28:42,550 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:28:44,763 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:28:45,333 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:30:49,019 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:30:49,852 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:34:40,054 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:34:40,943 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:40:12,931 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:40:13,635 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:40:41,947 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:40:42,669 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:41:21,181 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:41:21,889 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:42:10,757 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:42:11,695 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:42:15,811 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:42:16,429 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:42:22,510 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:42:23,217 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:43:45,058 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:43:45,743 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:45:36,887 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:45:37,573 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:46:27,470 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:46:28,097 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:46:30,196 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:46:30,768 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:47:20,623 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:47:21,411 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:50:34,471 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:50:35,273 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:52:22,841 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:52:23,521 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:52:36,755 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:52:37,374 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:52:50,778 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:52:51,437 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:54:28,972 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:54:29,612 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:54:56,978 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:54:57,637 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 00:55:16,765 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 00:55:17,423 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:00:23,516 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:00:24,224 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:00:44,532 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:00:45,142 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:01:12,514 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:01:13,187 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:04:02,866 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:04:03,519 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:04:19,677 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:04:20,339 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:07:10,412 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:07:10,997 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:07:14,263 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:07:14,901 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:07:17,160 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:07:17,721 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:12:56,228 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:12:56,995 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:13:32,633 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:13:33,304 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:14:08,703 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:14:09,299 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:14:16,515 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:14:17,143 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:14:47,979 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:14:48,758 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:14:53,178 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:14:53,864 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:15:01,153 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:15:01,846 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:16:28,952 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:16:29,676 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:17:42,298 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:17:43,178 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:17:50,894 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:17:51,655 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:18:07,068 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:18:07,753 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:20:18,439 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:20:19,097 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:20:49,670 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:20:50,322 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:21:04,604 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:21:05,287 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:22:26,974 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:22:27,742 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:24:36,550 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:24:37,213 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:24:39,428 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:24:40,002 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:28:29,658 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:28:30,266 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:33:21,783 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:33:22,307 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 01:33:25,075 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 01:33:25,808 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:13:39,009 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:13:40,102 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:13:42,820 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:13:43,623 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:14:28,643 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:14:29,579 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:14:38,178 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:14:39,016 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:18:01,690 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:18:02,614 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:19:51,190 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:19:52,276 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:20:46,592 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:20:47,456 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:21:21,699 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:21:22,719 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:22:07,127 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:22:08,011 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:23:28,523 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:23:29,458 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:23:36,698 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:23:37,431 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:24:33,830 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:24:34,753 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:24:37,939 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:24:38,854 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:25:39,564 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:25:40,666 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:27:29,777 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:27:31,119 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:28:12,593 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:28:13,646 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:29:42,001 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:29:43,115 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:31:21,916 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:31:22,633 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:31:25,665 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:31:26,744 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:35:22,551 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:35:23,154 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:35:26,053 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:35:27,006 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:37:05,874 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:37:07,001 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:37:51,511 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:37:52,564 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:39:31,234 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:39:32,028 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:40:13,550 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:40:14,365 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:41:41,012 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:41:41,744 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:42:10,665 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:42:11,640 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:43:12,659 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:43:13,650 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:43:19,388 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:43:20,371 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 09:43:48,658 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 09:43:49,809 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:09:10,345 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:09:11,379 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:09:16,820 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:09:17,817 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:10:53,128 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:10:54,039 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:11:59,106 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:12:00,176 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:16:19,391 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:16:20,345 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:18:24,663 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:18:25,757 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:19:52,258 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:19:53,316 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:24:26,897 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:24:27,912 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:30:30,972 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:30:31,881 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:31:49,134 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:31:50,143 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:32:57,532 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:32:58,428 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:47:53,285 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:47:54,198 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:47:57,846 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:47:58,742 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 10:54:47,051 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 10:54:47,667 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:05:51,174 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:05:51,867 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:14:18,450 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:14:19,003 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:14:21,058 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:14:21,573 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:14:43,700 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:14:44,345 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:14:50,052 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:14:50,560 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:16:15,422 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:16:16,181 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:16:18,834 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:16:19,509 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:37:56,492 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:37:57,061 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:37:59,384 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:38:00,042 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:41:29,003 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:41:29,705 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:41:54,974 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:41:55,512 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:47:17,071 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:47:17,769 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:49:25,837 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:49:26,592 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:49:36,352 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:49:36,995 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:49:42,688 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:49:43,334 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:49:48,973 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:49:49,607 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:49:55,272 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:49:55,973 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:56:18,852 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:56:19,447 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:56:59,665 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:57:00,197 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:58:03,636 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:58:04,165 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:58:26,368 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:58:26,994 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 12:59:27,614 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 12:59:28,174 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:00:24,592 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:00:25,220 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:00:30,936 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:00:31,530 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:01:17,924 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:01:18,481 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:01:30,437 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:01:31,038 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:01:41,155 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:01:41,809 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:02:05,145 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:02:05,690 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:02:25,752 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:02:26,310 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:03:08,549 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:03:09,163 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:03:18,343 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:03:18,942 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:04:11,959 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:04:12,661 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:04:34,932 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:04:35,654 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:04:50,532 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:04:51,066 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:05:03,033 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:05:03,624 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:05:27,763 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:05:28,337 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:06:50,678 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:06:51,318 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:07:21,699 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:07:22,341 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:09:55,314 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:09:55,935 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:11:48,491 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:11:49,001 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:16:59,911 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:17:00,453 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:17:26,494 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:17:27,039 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:17:39,996 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:17:40,604 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:18:25,230 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:18:26,059 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:21:34,115 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:21:34,824 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:22:36,589 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:22:37,217 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:29:57,178 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:29:58,117 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:33:26,615 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:33:27,227 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:49:07,556 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:49:08,255 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:52:49,843 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:52:50,458 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:53:40,721 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:53:41,250 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:54:34,810 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:54:35,491 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:56:31,467 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:56:32,040 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:57:19,642 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:57:20,209 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:59:18,428 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:59:19,037 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 13:59:24,899 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 13:59:25,502 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:01:18,979 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:01:19,811 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:01:28,570 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:01:29,354 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:02:17,220 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:02:17,850 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:02:42,369 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:02:43,135 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:03:31,688 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:03:32,445 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:04:21,404 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:04:22,164 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:05:10,770 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:05:11,513 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:05:23,727 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:05:24,588 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:06:01,496 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:06:02,354 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:06:07,942 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:06:08,659 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:06:37,359 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:06:38,274 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:09:56,774 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:09:57,558 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:11:37,525 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:11:38,307 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:12:45,435 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:12:46,108 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:13:41,212 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:13:42,255 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:13:47,361 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:13:48,265 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:14:27,311 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:14:28,018 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:15:12,332 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:15:13,194 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:15:34,630 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:15:35,276 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:16:08,360 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:16:09,198 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:16:15,212 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:16:16,017 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:16:52,430 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:16:53,113 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:18:32,190 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:18:33,170 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:22:43,335 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:22:44,218 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:22:51,382 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:22:52,357 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:23:21,990 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:23:22,779 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:28:49,264 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:28:50,212 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:29:30,111 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:29:30,899 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:29:39,311 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:29:40,015 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:43:15,377 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:43:16,166 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:43:18,596 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:43:19,199 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:48:04,712 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:48:05,450 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:48:07,720 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:48:08,277 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 14:49:30,887 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 14:49:31,854 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:03:09,821 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:03:10,562 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:04:51,865 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:04:52,815 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:06:15,410 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:06:16,336 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:16:49,453 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:16:50,331 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:20:49,688 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:20:50,772 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:21:36,125 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:21:37,018 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:22:37,238 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:22:38,083 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:24:07,751 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:24:08,638 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:26:11,767 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:26:12,893 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:30:03,154 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:30:03,882 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:30:46,476 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:30:47,274 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:31:23,330 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:31:24,112 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:31:58,769 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:31:59,718 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:32:08,280 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:32:09,257 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:39:13,583 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:39:14,537 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:39:34,716 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:39:35,740 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:40:43,716 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:40:44,406 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:40:48,878 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:40:49,644 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:40:53,999 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:40:54,770 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:41:19,789 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:41:20,612 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:43:12,841 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:43:13,675 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:44:57,581 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:44:58,395 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:45:00,878 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:45:01,431 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:45:49,522 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:45:50,323 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:45:53,520 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:45:54,397 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:46:18,779 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:46:19,868 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:47:12,565 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:47:13,410 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:47:57,709 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:47:58,631 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:48:17,898 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:48:18,604 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:48:31,621 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:48:32,571 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:49:06,795 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:49:07,729 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:53:20,399 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:53:21,210 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:57:52,480 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:57:53,457 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:58:08,747 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:58:09,760 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 15:58:35,908 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 15:58:36,920 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 17:40:15,260 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 17:40:52,875 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 17:42:55,263 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 17:42:56,906 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 17:43:41,816 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 17:43:43,179 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 17:51:17,329 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 17:51:18,344 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 17:51:22,189 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 17:51:23,259 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 18:02:24,778 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 18:02:25,799 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 18:02:29,430 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 18:02:30,381 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 18:25:55,073 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 18:25:56,059 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 18:26:58,796 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 18:26:59,820 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 18:27:12,678 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 18:27:13,664 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 18:53:01,345 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 18:53:02,138 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 18:53:32,277 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 18:53:32,793 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 18:54:10,142 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 18:54:10,764 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 18:59:32,063 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 18:59:32,736 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:01:45,895 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:01:46,601 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:04:15,831 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:04:16,439 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:05:55,779 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:05:56,406 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:05:58,969 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:05:59,652 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:06:42,324 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:06:42,914 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:06:47,034 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:06:47,732 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:07:46,451 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:07:47,116 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:07:49,463 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:07:50,009 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:08:26,094 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:08:26,678 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:08:28,699 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:08:29,256 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:24:26,732 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:24:27,286 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:26:31,206 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:26:31,884 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:26:42,453 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:26:42,970 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:32:24,666 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:32:25,235 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:40:10,119 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:40:10,741 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 19:40:35,903 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 19:40:36,449 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:01:56,564 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:01:57,153 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:02:55,656 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:02:56,213 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:03:42,832 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:03:43,518 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:04:03,645 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:04:04,327 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:04:20,057 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:04:20,707 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:04:22,677 - INFO - system.main - === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:04:23,181 - INFO - system.main - Serveur Dash démarré sur http://127.0.0.1:8050/

@@ -1,0 +1,181 @@
+2025-03-13 00:02:01,090 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:16:20,307 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:21:30,948 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:24:45,985 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:25:49,731 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:28:50,437 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:30:57,824 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:34:45,013 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:40:17,665 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:42:26,763 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:43:51,959 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:44:04,083 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:45:42,763 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 00:55:21,298 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 01:01:20,125 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 01:04:24,056 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 01:17:12,942 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 01:18:11,758 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 01:21:13,542 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 01:22:31,921 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 01:28:38,481 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:24:43,817 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:24:43,824 - ERROR - ui.studies_page - Erreur lors de la récupération des études: No module named 'simulator.metadata'
+2025-03-13 09:25:44,895 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:25:44,899 - ERROR - ui.studies_page - Erreur lors de la récupération des études: No module named 'simulator.metadata'
+2025-03-13 09:27:36,049 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:27:36,070 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 09:28:27,953 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:28:27,959 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 09:31:32,705 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:31:32,708 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 09:35:31,550 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:35:31,553 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 09:37:56,477 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:37:56,480 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 09:39:36,318 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:39:36,322 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 09:40:18,274 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:40:18,277 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 09:41:50,937 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:41:50,944 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 09:42:15,747 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:42:15,753 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 09:43:57,010 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 09:43:57,018 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:16:29,453 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 10:16:29,458 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:18:32,111 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 10:18:32,116 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:19:57,463 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 10:19:57,473 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:30:35,864 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 10:30:35,870 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:33:14,443 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 10:33:14,448 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:48:45,536 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 10:48:45,559 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 10:56:40,508 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 10:56:40,510 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:17:59,662 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 12:17:59,663 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:41:59,914 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 12:41:59,916 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:47:27,662 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 12:47:27,663 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:52:04,213 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 12:52:04,216 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:56:33,792 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 12:56:33,793 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 12:58:31,645 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 12:58:31,646 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:00:35,213 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:00:35,215 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:01:45,811 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:01:45,813 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:02:33,265 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:02:33,267 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:03:23,538 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:03:23,540 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:04:18,240 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:04:18,241 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:04:39,487 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:04:39,491 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:05:31,971 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:05:31,973 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:06:55,700 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:06:55,702 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:09:59,520 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:09:59,523 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:11:52,673 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:11:52,674 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:17:58,616 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:17:58,619 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:18:30,899 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:18:30,907 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:22:45,116 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:22:45,117 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:33:31,132 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:33:31,134 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:49:17,727 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:49:17,729 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:54:01,521 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:54:01,522 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:56:37,068 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:56:37,070 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:57:26,125 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:57:26,131 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 13:59:29,088 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 13:59:29,090 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 14:10:17,879 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 14:10:17,884 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 14:12:28,113 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 14:12:28,116 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 14:16:20,138 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 14:16:20,142 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 14:17:01,962 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 14:17:01,966 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 14:23:31,127 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 14:23:31,130 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 14:29:01,178 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 14:29:01,182 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 14:29:44,049 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 14:29:44,052 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 14:43:23,345 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 14:43:23,349 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:03:27,756 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:03:27,759 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:04:57,268 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:04:57,271 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:06:21,115 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:06:21,117 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:16:59,604 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:16:59,607 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:21:51,484 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:21:51,489 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:22:44,000 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:22:44,005 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:24:17,444 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:24:17,449 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:26:16,517 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:26:16,521 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:32:13,372 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:32:13,376 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:40:05,723 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:40:05,726 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:41:00,706 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:41:00,731 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:43:27,655 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:43:27,659 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:45:18,325 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:45:18,329 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:45:58,518 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:45:58,522 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:47:23,625 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:47:23,629 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:49:12,169 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:49:12,176 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:53:34,668 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:53:34,672 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 15:58:14,692 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 15:58:14,700 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 17:51:28,451 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 17:51:28,468 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 18:16:53,963 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 18:16:53,968 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 18:59:36,678 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 18:59:36,686 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 19:01:51,100 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 19:01:51,102 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 19:06:07,208 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 19:06:07,209 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 19:06:52,167 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 19:06:52,169 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 19:08:00,787 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 19:08:00,790 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 19:16:49,250 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 19:16:49,250 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 19:40:41,253 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 19:40:41,255 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 20:04:34,926 - INFO - ui.studies_page - Création de la page des études
+2025-03-13 20:04:34,928 - ERROR - ui.studies_page - Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'

@@ -1,0 +1,8 @@
+2025-03-13 00:55:26,106 - INFO - ui.parameter_editor - Initialisation de l'éditeur de paramètres pour l'étude 'fsdf'
+2025-03-13 01:01:23,373 - INFO - ui.parameter_editor - Initialisation de l'éditeur de paramètres pour l'étude 'vcxvxcvcx'
+2025-03-13 01:01:23,378 - ERROR - ui.parameter_editor - Erreur lors de la récupération de la configuration: IndicatorConfig.__init__() got an unexpected keyword argument 'description'
+2025-03-13 10:48:47,702 - INFO - ui.parameter_editor - Initialisation de l'éditeur de paramètres pour l'étude 'test'
+2025-03-13 10:56:41,930 - INFO - ui.parameter_editor - Initialisation de l'éditeur de paramètres pour l'étude 'fsdf'
+2025-03-13 10:56:52,093 - INFO - ui.parameter_editor - Initialisation de l'éditeur de paramètres pour l'étude 'fsdf'
+2025-03-13 10:57:03,750 - INFO - ui.parameter_editor - Initialisation de l'éditeur de paramètres pour l'étude 'test'
+2025-03-13 12:18:03,553 - INFO - ui.parameter_editor - Initialisation de l'éditeur de paramètres pour l'étude 'test'

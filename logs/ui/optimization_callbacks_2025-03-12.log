@@ -1,0 +1,2 @@
+2025-03-12 23:02:37,936 - INFO - ui.optimization_callbacks - Démarrage de l'optimisation pour l'étude 'fsdf' avec 500 essais
+2025-03-12 23:02:38,207 - ERROR - ui.optimization_callbacks - Échec de l'optimisation pour l'étude 'fsdf'

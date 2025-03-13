@@ -1,0 +1,8 @@
+2025-03-12 13:18:50,753 - INFO - ui.data_page - Création de la page de données
+2025-03-12 13:18:55,074 - INFO - ui.data_page - Début du téléchargement de BTC/USDT 15m depuis bitget
+2025-03-12 13:18:55,077 - INFO - ui.data_page - Thread de téléchargement download_thread_BTC_USDT_15m_bitget_131855 démarré
+2025-03-12 13:18:58,972 - INFO - ui.data_page - Thread de téléchargement download_thread_BTC_USDT_15m_bitget_131855 terminé avec succès
+2025-03-12 13:19:01,650 - INFO - ui.data_page - Téléchargement download_thread_BTC_USDT_15m_bitget_131855 terminé (vérification périodique)
+2025-03-12 13:19:01,665 - INFO - ui.data_page - Tâche download_BTC_USDT_15m_bitget supprimée des tâches actives (vérification périodique)
+2025-03-12 13:19:03,751 - INFO - ui.data_page - Création de la page de données
+2025-03-12 13:19:06,833 - INFO - ui.data_page - Actualisation manuelle des données
