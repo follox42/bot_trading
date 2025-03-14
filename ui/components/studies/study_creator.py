@@ -10,6 +10,7 @@ import os
 import traceback
 from datetime import datetime
 import pandas as pd
+import time
 
 from logger.logger import CentralizedLogger, LogLevel, LoggerType
 from simulator.risk import RiskMode

@@ -5,7 +5,7 @@
     "timeframe": "1h",
     "exchange": "binance",
     "creation_date": "2025-03-13 09:28:33",
-    "last_modified": "2025-03-13 20:04:50",
+    "last_modified": "2025-03-13 20:09:53",
     "status": "optimized",
     "data": {
         "source": "study",
@@ -27,8 +27,8 @@
         "checksum": "bbaafc3c77f7db36ef87f578baa24f565e1ba1f1b7bc389c4b7f7398288dcaf5"
     },
     "optimization": {
-        "last_optimization": "2025-03-13 20:04:49",
-        "trials_count": 1351,
+        "last_optimization": "2025-03-13 20:09:52",
+        "trials_count": 1371,
         "best_trial_id": 55,
         "best_score": 2.0329672307828672,
         "optimization_config": {
@@ -64,7 +64,7 @@
                 "id": "strategy_001",
                 "rank": 1,
                 "name": "Optimized Strategy 1",
-                "creation_date": "2025-03-13 20:04:50",
+                "creation_date": "2025-03-13 20:09:53",
                 "source": "Optimization",
                 "trial_id": 55,
                 "performance": {
@@ -78,7 +78,7 @@
                 "id": "strategy_002",
                 "rank": 2,
                 "name": "Optimized Strategy 2",
-                "creation_date": "2025-03-13 20:04:50",
+                "creation_date": "2025-03-13 20:09:53",
                 "source": "Optimization",
                 "trial_id": 1076,
                 "performance": {
@@ -92,7 +92,7 @@
                 "id": "strategy_003",
                 "rank": 3,
                 "name": "Optimized Strategy 3",
-                "creation_date": "2025-03-13 20:04:50",
+                "creation_date": "2025-03-13 20:09:53",
                 "source": "Optimization",
                 "trial_id": 306,
                 "performance": {

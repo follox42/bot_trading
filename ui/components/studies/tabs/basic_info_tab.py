@@ -1,7 +1,7 @@
 """
 Onglet Informations de Base du créateur d'étude amélioré avec sélection de données.
 """
-from dash import html, dcc, Input, Output, State, callback
+from dash import html, dcc, Input, Output, State, callback, callback_context
 import dash_bootstrap_components as dbc
 import dash
 import os
@@ -9,6 +9,8 @@ import pandas as pd
 import threading
 import time
 from datetime import datetime
+import json
+from queue import Queue
 
 from simulator.study_config_definitions import (
     DATA_SOURCES, DATA_PERIODS, STUDY_TYPES
@@ -69,6 +71,26 @@ TRADING_PAIRS = [
         ]
     }
 ]
+
+# File partagée pour la communication entre threads
+progress_queue = Queue()
+
+# Structure partagée avec lock pour le suivi de la progression
+class DownloadState:
+    def __init__(self):
+        self.data = {}
+        self.lock = threading.Lock()
+        
+    def update(self, new_data):
+        with self.lock:
+            self.data.update(new_data)
+            
+    def get(self):
+        with self.lock:
+            return self.data.copy()
+
+# Instance globale de l'état du téléchargement
+download_state = DownloadState()
 
 def create_basic_info_tab():
     """
@@ -359,13 +381,19 @@ def create_basic_info_tab():
                 
                 # Store pour garder trace du téléchargement en cours
                 dcc.Store(id="current-download-info", data=None),
+                
+                # Store pour le drapeau d'annulation
+                dcc.Store(id="download-cancel-flag", data={"cancel": False}),
+                
+                # Debug output (invisible)
+                html.Div(id="progress-debug", style={"display": "none"}),
             ]),
         ], className="mb-4 retro-subcard"),
         
         # Interval pour vérifier le statut du téléchargement et rafraîchir la liste
         dcc.Interval(
             id="download-check-interval",
-            interval=1000,  # 1 seconde
+            interval=500,  # 500ms pour une mise à jour plus fréquente
             n_intervals=0,
             disabled=True
         ),
@@ -409,6 +437,145 @@ def get_available_data_files(symbol=None, timeframe=None, exchange=None):
             
     return filtered_files
 
+# Fonction pour le thread de téléchargement
+def download_data_thread(params):
+    """
+    Fonction exécutée dans un thread pour télécharger les données avec support d'annulation
+    """
+    try:
+        # Importation ici pour éviter les problèmes de dépendances circulaires
+        from data.downloader import download_data
+        
+        # Marquer comme en cours de téléchargement
+        params['status'] = 'downloading'
+        params['progress'] = 0
+        
+        # Initialiser les variables selon la période
+        start_date = None
+        end_date = None
+        limit = None
+        
+        if params['period'] == 'custom':
+            # Utiliser les dates personnalisées
+            start_date = params['start_date']
+            end_date = params['end_date']
+        else:
+            # Convertir la période en limite
+            if params['period'] == "1m":
+                limit = 30 * 24 * 60  # ~30 jours en minutes
+            elif params['period'] == "3m":
+                limit = 90 * 24 * 60  # ~90 jours en minutes
+            elif params['period'] == "6m":
+                limit = 180 * 24 * 60  # ~180 jours en minutes
+            elif params['period'] == "1y":
+                limit = 365 * 24 * 60  # ~365 jours en minutes
+            elif params['period'] == "2y":
+                limit = 2 * 365 * 24 * 60  # ~2 ans en minutes
+            elif params['period'] == "5y":
+                limit = 5 * 365 * 24 * 60  # ~5 ans en minutes
+            else:
+                # Pour "all" ou autres valeurs non reconnues, utiliser 1 an par défaut
+                limit = 365 * 24 * 60
+        
+        # Check if file already exists before starting download
+        # Generate the filename to check
+        import os
+        data_dir = os.path.join(os.getcwd(), 'data', 'historical')
+        filename_parts = [
+            params['symbol'].replace('/', '_'),
+            params['timeframe'],
+            params['exchange']
+        ]
+        if limit:
+            filename_parts.append(str(limit))
+        file_path = os.path.join(data_dir, f"{'_'.join(filename_parts)}.csv")
+        
+        if os.path.exists(file_path) and not (start_date and end_date):
+            # File already exists, skip download
+            params['status'] = 'completed'
+            params['progress'] = 100
+            params['result'] = file_path
+            params['message'] = "Fichier déjà existant, pas besoin de télécharger"
+            
+            # Mettre à jour l'état partagé
+            download_state.update(params)
+            # Mettre à jour la file
+            progress_queue.put(params.copy())
+            return
+        
+        # Fonction de callback pour suivre la progression réelle
+        def progress_callback(progress, batch_count, max_batches, elapsed_time, remaining_time):
+            # Calculate the percentage more explicitly
+            percentage = min(100, int((batch_count / max_batches) * 100)) if max_batches > 0 else 0
+            
+            # Mise à jour des informations de progression
+            params['progress'] = percentage  # Use our calculated percentage
+            params['batch_count'] = batch_count
+            params['max_batches'] = max_batches
+            params['elapsed_time'] = elapsed_time
+            params['remaining_time'] = remaining_time
+            
+            # Mettre à jour l'état partagé
+            download_state.update(params)
+            
+            # Mettre à jour la file pour synchronisation avec l'UI
+            progress_queue.put(params.copy())
+            
+            # Debug info
+            print(f"Progress updated: {percentage}% ({batch_count}/{max_batches})")
+        
+        # Fonction pour vérifier si l'annulation a été demandée
+        def should_cancel():
+            return params.get('cancel', False)
+        
+        # Téléchargement des données avec le callback et support d'annulation
+        result = download_data(
+            exchange=params['exchange'],
+            symbol=params['symbol'],
+            timeframe=params['timeframe'],
+            limit=limit,
+            start_date=start_date,
+            end_date=end_date,
+            progress_callback=progress_callback,
+            should_cancel=should_cancel
+        )
+        
+        # Vérifier si le téléchargement a été annulé
+        if params.get('cancel', False):
+            params['status'] = 'cancelled'
+            params['progress'] = 0
+            
+            # Mettre à jour l'état partagé
+            download_state.update(params)
+            # Mettre à jour la file
+            progress_queue.put(params.copy())
+            return
+        
+        if result:
+            # Téléchargement réussi
+            params['status'] = 'completed'
+            params['progress'] = 100
+            params['result'] = result
+        else:
+            # Échec du téléchargement
+            params['status'] = 'error'
+            params['error'] = 'Échec du téléchargement des données'
+            
+        # Mettre à jour l'état partagé
+        download_state.update(params)
+        # Mettre à jour la file
+        progress_queue.put(params.copy())
+            
+    except Exception as e:
+        # Erreur lors du téléchargement
+        params['status'] = 'error'
+        params['error'] = str(e)
+        
+        # Mettre à jour l'état partagé
+        download_state.update(params)
+        # Mettre à jour la file
+        progress_queue.put(params.copy())
+
 def register_basic_info_callbacks(app):
     """
     Enregistre les callbacks spécifiques à l'onglet Informations de Base
@@ -416,6 +583,16 @@ def register_basic_info_callbacks(app):
     Args:
         app: L'instance de l'application Dash
     """
+    # Debug progress
+    @app.callback(
+        Output("progress-debug", "children"),
+        [Input("current-download-info", "data")]
+    )
+    def debug_progress(download_info):
+        if download_info:
+            print(f"Debug - Progress value: {download_info.get('progress', 0)}")
+        return ""
+    
     # Callback pour gérer l'affichage du champ personnalisé et mettre à jour la valeur finale
     @app.callback(
         [
@@ -583,7 +760,7 @@ def register_basic_info_callbacks(app):
         # Si le téléchargement est terminé avec succès, fermer le modal
         if trigger_id == "download-state" and download_state:
             download_status = download_state.get('status')
-            if download_status == 'completed':
+            if download_status in ['completed', 'cancelled', 'error']:
                 return False
         
         return is_open
@@ -597,7 +774,36 @@ def register_basic_info_callbacks(app):
         """Affiche ou masque les dates personnalisées"""
         return period == "custom"
         
-    # Callback pour gérer le processus de téléchargement de données
+    # Callback pour gérer le drapeau d'annulation - MODIFIÉ pour éviter le cycle de dépendance
+    @app.callback(
+        Output("download-cancel-flag", "data"),
+        [
+            Input("btn-cancel-download", "n_clicks"),
+            Input("btn-start-download", "n_clicks")
+        ],
+        [State("download-cancel-flag", "data")]
+    )
+    def handle_cancel_button(n_cancel, n_start, current_flag):
+        """Gère le drapeau d'annulation du téléchargement"""
+        ctx = dash.callback_context
+        trigger_id = ctx.triggered[0]["prop_id"].split(".")[0] if ctx.triggered else None
+        
+        # Initialisation
+        flag = current_flag or {"cancel": False}
+        
+        # Si c'est le bouton d'annulation
+        if trigger_id == "btn-cancel-download" and n_cancel:
+            flag["cancel"] = True
+            return flag
+        
+        # Si c'est le bouton de démarrage du téléchargement, réinitialiser le drapeau
+        if trigger_id == "btn-start-download" and n_start:
+            flag["cancel"] = False
+            return flag
+        
+        return current_flag
+    
+    # Callback pour gérer le processus de téléchargement de données - CORRIGÉ
     @app.callback(
         [
             Output("download-progress-collapse", "is_open"),
@@ -606,11 +812,14 @@ def register_basic_info_callbacks(app):
             Output("download-data-alert", "children"),
             Output("download-state", "data"),
             Output("current-download-info", "data"),
-            Output("download-check-interval", "disabled")
+            Output("download-check-interval", "disabled"),
+            Output("download-cancel-flag", "data", allow_duplicate=True)
         ],
         [
             Input("btn-start-download", "n_clicks"),
-            Input("download-check-interval", "n_intervals")
+            Input("btn-cancel-download", "n_clicks"),
+            Input("download-check-interval", "n_intervals"),
+            Input("download-cancel-flag", "data")
         ],
         [
             State("download-exchange", "value"),
@@ -620,10 +829,12 @@ def register_basic_info_callbacks(app):
             State("download-start-date", "value"),
             State("download-end-date", "value"),
             State("current-download-info", "data")
-        ]
+        ],
+        prevent_initial_call=True
     )
     def handle_download_process(
-        n_clicks, n_intervals, exchange, symbol, timeframe, period, 
+        n_clicks, n_cancel, n_intervals, cancel_flag,
+        exchange, symbol, timeframe, period, 
         start_date, end_date, current_download
     ):
         """Gère le processus de téléchargement des données"""
@@ -635,7 +846,7 @@ def register_basic_info_callbacks(app):
         start_btn_disabled = False
         cancel_btn_disabled = False
         alert = None
-        download_state = None
+        download_state_data = None
         download_info = current_download
         interval_disabled = True
         
@@ -648,7 +859,7 @@ def register_basic_info_callbacks(app):
                     color="danger",
                     dismissable=True
                 )
-                return False, False, False, alert, None, None, True
+                return False, False, False, alert, None, None, True, dash.no_update
             
             # Si dates personnalisées, vérifier qu'elles sont bien renseignées
             if period == "custom" and (not start_date or not end_date):
@@ -657,7 +868,7 @@ def register_basic_info_callbacks(app):
                     color="danger",
                     dismissable=True
                 )
-                return False, False, False, alert, None, None, True
+                return False, False, False, alert, None, None, True, dash.no_update
             
             # Préparation des paramètres de téléchargement
             download_params = {
@@ -667,7 +878,8 @@ def register_basic_info_callbacks(app):
                 'period': period,
                 'status': 'starting',
                 'progress': 0,
-                'start_time': time.time()
+                'start_time': time.time(),
+                'cancel': False  # Initialiser le drapeau d'annulation
             }
             
             # Si dates personnalisées, les ajouter aux paramètres
@@ -681,6 +893,15 @@ def register_basic_info_callbacks(app):
             
             # Activer l'intervalle de vérification
             interval_disabled = False
+            
+            # Réinitialiser l'état partagé
+            global download_state
+            download_state = DownloadState()
+            download_state.update(download_params)
+            
+            # Vider la file de progression
+            while not progress_queue.empty():
+                progress_queue.get()
             
             # Lancer le téléchargement en arrière-plan
             thread = threading.Thread(
@@ -699,29 +920,92 @@ def register_basic_info_callbacks(app):
                 dismissable=True
             )
             
-            return progress_visible, start_btn_disabled, cancel_btn_disabled, alert, download_state, download_info, interval_disabled
+            return progress_visible, start_btn_disabled, cancel_btn_disabled, alert, download_state_data, download_info, interval_disabled, {"cancel": False}
+        
+        # Si c'est le bouton d'annulation
+        elif trigger_id == "btn-cancel-download" and n_cancel and current_download:
+            # Marquer le téléchargement comme devant être annulé
+            current_download['cancel'] = True
+            
+            # Mettre à jour l'état partagé
+            download_state.update({'cancel': True})
+            
+            # Mettre à jour l'interface
+            alert = dbc.Alert(
+                "Annulation du téléchargement en cours...",
+                color="warning",
+                dismissable=True
+            )
+            
+            # Désactiver le bouton de démarrage et d'annulation pour éviter les clics multiples
+            progress_visible = True
+            start_btn_disabled = True
+            cancel_btn_disabled = True
+            
+            # On laisse le download-check-interval activé pour surveiller l'annulation
+            return progress_visible, start_btn_disabled, cancel_btn_disabled, alert, None, current_download, interval_disabled, {"cancel": True}
+
+        # Si c'est la mise à jour du drapeau d'annulation
+        elif trigger_id == "download-cancel-flag" and cancel_flag and current_download:
+            # Mettre à jour le drapeau d'annulation dans les infos du téléchargement
+            current_download['cancel'] = cancel_flag.get('cancel', False)
+            
+            # Mettre à jour l'état partagé
+            download_state.update({'cancel': cancel_flag.get('cancel', False)})
+            
+            return dash.no_update, dash.no_update, dash.no_update, dash.no_update, dash.no_update, current_download, dash.no_update, dash.no_update
         
         # Si c'est l'intervalle de vérification
-        elif trigger_id == "download-check-interval" and current_download:
+        elif trigger_id == "download-check-interval":
+            # Récupérer les informations de progression depuis la structure partagée
+            shared_info = download_state.get()
+            
+            # Vérifier s'il y a de nouvelles informations dans la file
+            updated_info = None
+            while not progress_queue.empty():
+                updated_info = progress_queue.get()
+            
+            # Utiliser les informations les plus récentes
+            if updated_info:
+                download_info = updated_info
+            elif shared_info:
+                download_info = shared_info
+            
             # Vérifier si un téléchargement est en cours
-            if current_download['status'] == 'starting' or current_download['status'] == 'downloading':
-                # Vérifier le statut du téléchargement
-                download_status = check_download_status(current_download)
-                
+            if download_info and (download_info.get('status') == 'starting' or download_info.get('status') == 'downloading'):
                 # Mise à jour de l'état du téléchargement
                 progress_visible = True
                 start_btn_disabled = True
+                cancel_btn_disabled = False
                 
                 # Téléchargement toujours en cours
                 interval_disabled = False
                 
-                # Mise à jour des informations de téléchargement
-                download_info = download_status
+                # Pas de nouvelle mise à jour nécessaire
+                return progress_visible, start_btn_disabled, cancel_btn_disabled, dash.no_update, dash.no_update, download_info, interval_disabled, dash.no_update
+            
+            # Si le téléchargement a été annulé
+            elif download_info and download_info.get('status') == 'cancelled':
+                progress_visible = False
+                start_btn_disabled = False
+                cancel_btn_disabled = False
                 
-                return progress_visible, start_btn_disabled, cancel_btn_disabled, dash.no_update, dash.no_update, download_info, interval_disabled
+                # Désactiver l'intervalle
+                interval_disabled = True
+                
+                alert = dbc.Alert(
+                    "Téléchargement annulé par l'utilisateur.",
+                    color="warning",
+                    dismissable=True
+                )
+                
+                # Créer l'état pour fermer le modal
+                download_state_data = {'status': 'cancelled'}
+                
+                return progress_visible, start_btn_disabled, cancel_btn_disabled, alert, download_state_data, None, interval_disabled, {"cancel": False}
             
             # Si le téléchargement est terminé
-            elif current_download['status'] == 'completed':
+            elif download_info and download_info.get('status') == 'completed':
                 progress_visible = False
                 start_btn_disabled = False
                 cancel_btn_disabled = False
@@ -730,18 +1014,26 @@ def register_basic_info_callbacks(app):
                 interval_disabled = True
                 
                 # Créer l'état de téléchargement pour fermer le modal
-                download_state = {'status': 'completed'}
+                download_state_data = {'status': 'completed'}
                 
-                alert = dbc.Alert(
-                    "Téléchargement terminé avec succès !",
-                    color="success",
-                    dismissable=True
-                )
+                # Vérifier s'il y a un message personnalisé
+                if 'message' in download_info:
+                    alert = dbc.Alert(
+                        download_info['message'],
+                        color="success",
+                        dismissable=True
+                    )
+                else:
+                    alert = dbc.Alert(
+                        "Téléchargement terminé avec succès !",
+                        color="success",
+                        dismissable=True
+                    )
                 
-                return progress_visible, start_btn_disabled, cancel_btn_disabled, alert, download_state, None, interval_disabled
+                return progress_visible, start_btn_disabled, cancel_btn_disabled, alert, download_state_data, None, interval_disabled, {"cancel": False}
             
             # Si le téléchargement a échoué
-            elif current_download['status'] == 'error':
+            elif download_info and download_info.get('status') == 'error':
                 progress_visible = False
                 start_btn_disabled = False
                 cancel_btn_disabled = False
@@ -750,45 +1042,78 @@ def register_basic_info_callbacks(app):
                 interval_disabled = True
                 
                 alert = dbc.Alert(
-                    f"Erreur lors du téléchargement: {current_download.get('error', 'Erreur inconnue')}",
+                    f"Erreur lors du téléchargement: {download_info.get('error', 'Erreur inconnue')}",
                     color="danger",
                     dismissable=True
                 )
                 
-                return progress_visible, start_btn_disabled, cancel_btn_disabled, alert, None, None, interval_disabled
+                # Créer l'état pour fermer le modal
+                download_state_data = {'status': 'error'}
+                
+                return progress_visible, start_btn_disabled, cancel_btn_disabled, alert, download_state_data, None, interval_disabled, {"cancel": False}
         
         # Par défaut
-        return progress_visible, start_btn_disabled, cancel_btn_disabled, alert, download_state, download_info, interval_disabled
+        return progress_visible, start_btn_disabled, cancel_btn_disabled, alert, download_state_data, download_info, interval_disabled, dash.no_update
         
-    # Callback pour mettre à jour la barre de progression
+    # CALLBACK CORRIGÉ pour la mise à jour de la barre de progression
     @app.callback(
         [
             Output("download-progress-bar", "value"),
             Output("download-progress-text", "children")
         ],
-        [Input("current-download-info", "data")]
+        [Input("download-check-interval", "n_intervals")],
+        prevent_initial_call=True
     )
-    def update_progress_bar(download_info):
-        """Met à jour la barre de progression du téléchargement"""
+    def update_progress_bar(n_intervals):
+        """Met à jour la barre de progression du téléchargement avec estimation précise"""
+        # Obtenir les informations de téléchargement depuis la structure partagée
+        download_info = download_state.get()
+        
         if not download_info:
-            return 0, ""
+            return 0, "Initialisation..."
             
         progress = download_info.get('progress', 0)
+        print(f"UI updating progress bar: {progress}")
         
         # Texte de progression
-        if download_info['status'] == 'starting':
+        if download_info.get('status') == 'starting':
             progress_text = "Initialisation du téléchargement..."
-        elif download_info['status'] == 'downloading':
-            elapsed_time = int(time.time() - download_info['start_time'])
-            minutes = elapsed_time // 60
-            seconds = elapsed_time % 60
-            
-            progress_text = f"Téléchargement en cours... {progress}% ({minutes}m {seconds}s)"
-        elif download_info['status'] == 'completed':
-            progress_text = "Téléchargement terminé !"
+        elif download_info.get('status') == 'downloading':
+            # Si l'annulation a été demandée
+            if download_info.get('cancel', False):
+                progress_text = "Annulation du téléchargement en cours..."
+            else:
+                # Obtenir le temps écoulé
+                elapsed_time = download_info.get('elapsed_time')
+                if not elapsed_time:
+                    elapsed_time = time.time() - download_info.get('start_time', time.time())
+                
+                # Formatage du temps écoulé
+                elapsed_minutes = int(elapsed_time) // 60
+                elapsed_seconds = int(elapsed_time) % 60
+                
+                # Formatage du temps restant si disponible
+                remaining_time = download_info.get('remaining_time')
+                if remaining_time is not None and remaining_time > 0:
+                    remaining_minutes = int(remaining_time) // 60
+                    remaining_seconds = int(remaining_time) % 60
+                    
+                    # Texte complet avec estimation de temps restant
+                    progress_text = f"Téléchargement en cours... {progress}% - {elapsed_minutes}m {elapsed_seconds}s écoulées - environ {remaining_minutes}m {remaining_seconds}s restantes"
+                    
+                    # Ajouter des informations sur les lots si disponibles
+                    if 'batch_count' in download_info and 'max_batches' in download_info:
+                        progress_text += f" ({download_info['batch_count']}/{download_info['max_batches']} lots)"
+                else:
+                    # Sans estimation de temps restant
+                    progress_text = f"Téléchargement en cours... {progress}% ({elapsed_minutes}m {elapsed_seconds}s écoulées)"
+        elif download_info.get('status') == 'cancelled':
+            progress_text = "Téléchargement annulé par l'utilisateur."
+        elif download_info.get('status') == 'completed':
+            progress_text = "Téléchargement terminé avec succès !"
         else:
-            progress_text = f"Statut: {download_info['status']}"
-            
+            progress_text = f"Statut: {download_info.get('status', 'inconnu')}"
+                
         return progress, progress_text
 
     # Initialisation du téléchargement modal
@@ -811,104 +1136,3 @@ def register_basic_info_callbacks(app):
             return dash.no_update, dash.no_update, dash.no_update
             
         return exchange, asset, timeframe
-
-def download_data_thread(params):
-    """
-    Fonction exécutée dans un thread pour télécharger les données
-    
-    Args:
-        params: Paramètres du téléchargement
-    """
-    try:
-        # Importation ici pour éviter les problèmes de dépendances circulaires
-        from data.downloader import download_data
-        
-        # Marquer comme en cours de téléchargement
-        params['status'] = 'downloading'
-        params['progress'] = 10
-        
-        # Initialiser les variables selon la période
-        start_date = None
-        end_date = None
-        limit = None
-        
-        if params['period'] == 'custom':
-            # Utiliser les dates personnalisées
-            start_date = params['start_date']
-            end_date = params['end_date']
-        else:
-            # Convertir la période en limite
-            if params['period'] == "1m":
-                limit = 30 * 24 * 60  # ~30 jours en minutes
-            elif params['period'] == "3m":
-                limit = 90 * 24 * 60  # ~90 jours en minutes
-            elif params['period'] == "6m":
-                limit = 180 * 24 * 60  # ~180 jours en minutes
-            elif params['period'] == "1y":
-                limit = 365 * 24 * 60  # ~365 jours en minutes
-            elif params['period'] == "2y":
-                limit = 2 * 365 * 24 * 60  # ~2 ans en minutes
-            elif params['period'] == "5y":
-                limit = 5 * 365 * 24 * 60  # ~5 ans en minutes
-            else:
-                # Pour "all" ou autres valeurs non reconnues, utiliser 1 an par défaut
-                limit = 365 * 24 * 60
-                
-        # Mise à jour progression
-        params['progress'] = 20
-                
-        # Téléchargement des données
-        result = download_data(
-            exchange=params['exchange'],
-            symbol=params['symbol'],
-            timeframe=params['timeframe'],
-            limit=limit,
-            start_date=start_date,
-            end_date=end_date
-        )
-        
-        # Mise à jour progression
-        params['progress'] = 90
-        
-        if result:
-            # Téléchargement réussi
-            params['status'] = 'completed'
-            params['progress'] = 100
-            params['result'] = result
-        else:
-            # Échec du téléchargement
-            params['status'] = 'error'
-            params['error'] = 'Échec du téléchargement des données'
-            
-    except Exception as e:
-        # Erreur lors du téléchargement
-        params['status'] = 'error'
-        params['error'] = str(e)
-
-def check_download_status(download_info):
-    """
-    Vérifie l'état d'un téléchargement en cours
-    
-    Args:
-        download_info: Informations du téléchargement
-        
-    Returns:
-        dict: Informations mises à jour
-    """
-    # Si le téléchargement est toujours en cours, incrémenter la progression
-    if download_info['status'] == 'downloading':
-        # Simuler l'avancement du téléchargement
-        current_progress = download_info['progress']
-        
-        # Incrémenter progressivement jusqu'à 90%
-        if current_progress < 90:
-            # Progression plus lente entre 20% et 80%
-            if 20 <= current_progress < 80:
-                # Progression plus lente pour simuler le téléchargement
-                increment = 1
-            else:
-                increment = 2
-                
-            download_info['progress'] = min(90, current_progress + increment)
-    
-    return download_info

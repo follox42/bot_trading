@@ -999,3 +999,6 @@ OSError: [WinError 87] Paramètre incorrect
 2025-03-13 18:17:08,584 - INFO - ui.optimization_callbacks - Application des poids personnalisés pour la formule standard: {'roi': 2.5, 'win_rate': 0.5, 'max_drawdown': 2, 'profit_factor': 2, 'total_trades': 1, 'avg_profit': 1}
 2025-03-13 18:17:17,279 - INFO - ui.optimization_callbacks - Bouton de configuration des scores cliqué
 2025-03-13 18:17:17,327 - INFO - ui.optimization_callbacks - Ouverture du modal des poids personnalisés
+2025-03-13 20:10:00,512 - ERROR - ui.optimization_callbacks - Erreur lors de l'optimisation: 'ez'
+2025-03-13 23:35:17,038 - INFO - ui.optimization_callbacks - Bouton de configuration des scores cliqué
+2025-03-13 23:35:17,056 - INFO - ui.optimization_callbacks - Ouverture du modal des poids personnalisés

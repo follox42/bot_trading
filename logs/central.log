@@ -19700,3 +19700,1599 @@ OSError: [WinError 87] Paramètre incorrect
 2025-03-13 20:04:34,929 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
 2025-03-13 20:04:35,003 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
 2025-03-13 20:04:36,508 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 20:09:00,170 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:09:00.170246 ===
+2025-03-13 20:09:02,028 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:09:02,029 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 20:09:02,040 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 20:09:02,042 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 20:09:02,555 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:09:02,558 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:09:02,664 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:09:02.664813 ===
+2025-03-13 20:09:04,431 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:09:04,432 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 20:09:04,441 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 20:09:04,443 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 20:09:04,936 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:09:04,939 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:09:05,274 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 20:09:05,704 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 20:09:05,727 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 20:09:05,866 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 20:09:06,022 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 20:09:06,173 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 20:09:06,322 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:09:06,473 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 20:09:06,618 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 20:09:06,772 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 20:09:06,922 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 20:09:07,069 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 20:09:07,222 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 20:09:07,373 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 20:09:07,374 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 20:09:08,353 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 20:09:09,854 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 20:09:09,856 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 20:09:09,858 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 20:09:09,860 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 20:09:09,944 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 20:09:11,120 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 20:10:00,513 - ERROR - central - [ui.optimization_callbacks] Erreur lors de l'optimisation: 'ez'
+2025-03-13 20:45:24,816 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:45:24.816058 ===
+2025-03-13 20:45:43,252 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:45:43.252439 ===
+2025-03-13 20:45:45,595 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:45:45,596 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 20:45:45,608 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 20:45:45,611 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 20:45:46,215 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:45:46,220 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:45:46,339 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:45:46.339585 ===
+2025-03-13 20:45:48,457 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:45:48,458 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 20:45:48,471 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 20:45:48,473 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 20:45:49,048 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:45:49,055 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:45:50,135 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 20:45:50,777 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 20:45:51,769 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 20:45:52,803 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 20:45:53,784 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 20:45:55,765 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:45:55,797 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:45:57,765 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 20:45:57,798 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 20:45:59,781 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 20:45:59,819 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 20:46:00,790 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 20:46:02,767 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 20:46:02,829 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 20:46:02,833 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 20:52:43,950 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:52:43.950653 ===
+2025-03-13 20:52:46,053 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:52:46,056 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 20:52:46,069 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 20:52:46,072 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 20:52:46,622 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:52:46,625 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:52:46,893 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 20:52:47,785 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 20:52:48,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 20:52:49,774 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 20:52:50,773 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 20:52:52,768 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:52:52,795 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:52:54,764 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 20:52:54,788 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 20:52:56,765 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 20:52:56,800 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 20:52:57,780 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 20:52:59,780 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 20:52:59,821 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 20:52:59,824 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 20:53:08,513 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:53:08.513071 ===
+2025-03-13 20:53:10,701 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:53:10,702 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 20:53:10,711 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 20:53:10,714 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 20:53:11,273 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:53:11,277 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:53:11,498 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 20:53:11,783 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 20:53:12,775 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 20:53:13,777 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 20:53:14,773 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 20:53:16,766 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:53:16,801 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:53:18,777 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 20:53:18,806 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 20:53:20,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 20:53:20,819 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 20:53:21,785 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 20:53:23,771 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 20:53:23,807 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 20:53:23,810 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 20:53:37,151 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:53:37.150659 ===
+2025-03-13 20:53:39,435 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:53:39,437 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 20:53:39,447 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 20:53:39,449 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 20:53:40,001 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:53:40,005 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:53:40,312 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 20:53:40,784 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 20:53:41,777 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 20:53:42,769 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 20:53:43,784 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 20:53:45,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:53:45,803 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:53:47,777 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 20:53:47,821 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 20:53:49,777 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 20:53:49,804 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 20:53:50,790 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 20:53:52,770 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 20:53:52,802 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 20:53:52,805 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 20:54:21,146 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:54:21.146871 ===
+2025-03-13 20:54:23,322 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:54:23,323 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 20:54:23,337 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 20:54:23,338 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 20:54:23,939 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:54:23,944 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:54:24,229 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 20:54:24,781 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 20:54:25,775 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 20:54:26,776 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 20:54:27,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 20:54:29,771 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:54:29,801 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:54:31,772 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 20:54:31,815 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 20:54:33,775 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 20:54:33,802 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 20:54:34,785 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 20:54:36,767 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 20:54:36,801 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 20:54:36,803 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 20:54:42,855 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:54:42.855381 ===
+2025-03-13 20:54:45,073 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:54:45,076 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 20:54:45,089 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 20:54:45,090 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 20:54:45,619 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:54:45,623 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:54:46,222 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 20:54:46,783 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 20:54:47,793 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 20:54:48,786 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 20:54:49,780 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 20:54:51,773 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:54:51,801 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 20:54:53,778 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 20:54:53,810 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 20:54:55,770 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 20:54:55,814 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 20:54:56,782 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 20:54:58,772 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 20:54:58,810 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 20:54:58,813 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 20:55:41,115 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:55:41.115746 ===
+2025-03-13 20:55:56,979 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:55:56.979649 ===
+2025-03-13 20:55:59,501 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:55:59,503 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 20:55:59,522 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 20:55:59,525 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 20:56:00,168 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:56:00,178 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:56:00,334 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:56:00.334641 ===
+2025-03-13 20:56:03,442 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 20:56:03,444 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 20:56:03,462 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 20:56:03,464 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 20:56:04,219 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:56:04,232 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 20:56:19,120 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T20:56:19.120294 ===
+2025-03-13 21:07:36,366 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:07:36.366734 ===
+2025-03-13 21:07:38,439 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:07:38,441 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:07:38,452 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:07:38,454 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:07:39,034 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:08:33,254 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:08:33.254190 ===
+2025-03-13 21:08:35,336 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:08:35,338 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:08:35,351 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:08:35,354 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:08:35,858 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:08:35,863 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:08:35,960 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:08:35.960249 ===
+2025-03-13 21:08:37,807 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:08:37,808 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:08:37,817 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:08:37,819 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:08:38,289 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:08:38,293 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:08:43,000 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 21:08:43,124 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 21:08:43,272 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 21:08:43,420 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 21:08:43,569 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 21:08:43,721 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:08:43,869 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 21:08:44,021 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 21:08:44,169 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 21:08:44,319 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 21:08:44,470 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 21:08:44,617 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 21:08:44,769 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 21:08:44,772 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 21:08:44,932 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 21:08:48,517 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 21:09:48,104 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:09:48.104065 ===
+2025-03-13 21:09:50,250 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:09:50,251 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:09:50,264 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:09:50,266 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:09:50,842 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:09:50,847 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:09:51,972 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 21:09:52,785 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 21:09:53,776 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 21:09:54,774 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 21:09:55,774 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 21:09:57,770 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:09:57,799 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:09:59,768 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 21:09:59,806 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 21:10:01,767 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 21:10:01,796 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 21:10:02,786 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 21:10:04,785 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 21:10:04,836 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 21:10:04,837 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 21:10:10,708 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:10:10.708231 ===
+2025-03-13 21:10:12,816 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:10:12,817 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:10:12,829 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:10:12,831 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:10:13,400 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:10:13,404 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:10:13,683 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 21:10:13,819 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 21:10:14,779 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 21:10:15,781 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 21:10:16,780 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 21:10:18,773 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:10:18,796 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:10:20,771 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 21:10:20,802 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 21:10:22,770 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 21:10:22,810 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 21:10:23,793 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 21:10:25,772 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 21:10:25,829 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 21:10:25,831 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 21:10:38,276 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:10:38.276003 ===
+2025-03-13 21:10:40,600 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:10:40,601 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:10:40,611 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:10:40,613 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:10:41,246 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:10:41,251 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:10:41,487 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 21:10:41,616 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 21:10:41,757 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 21:10:41,906 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 21:10:42,058 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 21:10:42,205 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:10:42,357 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 21:10:42,507 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 21:10:42,656 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 21:10:42,806 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 21:10:42,955 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 21:10:43,107 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 21:10:43,255 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 21:10:43,256 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 21:10:43,470 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 21:10:44,940 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 21:10:44,943 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 21:10:44,944 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 21:10:44,945 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 21:10:45,036 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 21:10:46,402 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 21:11:42,976 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:11:42.976060 ===
+2025-03-13 21:11:45,221 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:11:45,223 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:11:45,233 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:11:45,236 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:11:45,791 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:11:45,795 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:11:46,104 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 21:11:46,789 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 21:11:47,776 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 21:11:48,780 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 21:11:49,784 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 21:11:51,781 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:11:51,805 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:11:53,779 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 21:11:53,830 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 21:11:55,775 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 21:11:55,841 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 21:11:56,791 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 21:11:58,773 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 21:11:58,833 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 21:11:58,835 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 21:12:55,627 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:12:55.627830 ===
+2025-03-13 21:12:57,876 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:12:57,876 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:12:57,887 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:12:57,889 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:12:58,561 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:12:58,570 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:12:59,411 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 21:13:00,088 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 21:13:00,785 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 21:13:01,771 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 21:13:02,776 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 21:13:04,560 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:13:04,591 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:13:04,662 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 21:13:04,803 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 21:13:04,946 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 21:13:05,103 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 21:13:05,254 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 21:13:05,403 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 21:13:05,554 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 21:13:05,556 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 21:13:10,398 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 21:13:10,503 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 21:13:12,083 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 21:13:12,085 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 21:13:12,087 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 21:13:12,088 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 21:13:12,168 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 21:13:13,451 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 21:13:56,640 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 21:13:58,658 - INFO - central - [ui.studies_callbacks] Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 21:13:58,678 - INFO - central - [ui.studies_callbacks] Ouverture du modal de création d'étude via déclencheur
+2025-03-13 21:16:06,610 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:16:06.610444 ===
+2025-03-13 21:16:08,716 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:16:08,720 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:16:08,730 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:16:08,732 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:16:09,263 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:16:09,270 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:16:14,013 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 21:16:14,785 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 21:16:15,777 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 21:16:16,777 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 21:16:17,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 21:16:19,768 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:16:19,788 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:16:21,778 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 21:16:21,820 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 21:16:23,774 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 21:16:23,825 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 21:16:24,781 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 21:16:26,776 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 21:16:26,817 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 21:16:26,819 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 21:17:04,680 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:17:04.680028 ===
+2025-03-13 21:17:06,863 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:17:06,864 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:17:06,877 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:17:06,879 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:17:07,427 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:17:07,431 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:17:07,639 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 21:17:07,753 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 21:17:07,907 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 21:17:08,056 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 21:17:08,209 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 21:17:08,353 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:17:08,509 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 21:17:08,659 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 21:17:08,803 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 21:17:08,960 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 21:17:09,109 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 21:17:09,257 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 21:17:09,409 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 21:17:09,411 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 21:17:10,295 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 21:17:10,307 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 21:17:11,859 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 21:17:11,860 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 21:17:11,861 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 21:17:11,862 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 21:17:11,946 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 21:17:13,241 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 21:17:13,940 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 21:17:15,025 - INFO - central - [ui.studies_callbacks] Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 21:17:15,043 - INFO - central - [ui.studies_callbacks] Ouverture du modal de création d'étude via déclencheur
+2025-03-13 21:32:13,702 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:32:13.702174 ===
+2025-03-13 21:32:18,616 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:32:18,619 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:32:18,629 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:32:18,631 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:32:19,111 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:32:19,115 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:32:20,106 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 21:32:20,780 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 21:32:21,768 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 21:32:22,777 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 21:32:23,780 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 21:32:24,786 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:32:25,784 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 21:32:27,775 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 21:32:27,821 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 21:32:29,772 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 21:32:29,815 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 21:32:30,776 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 21:32:32,778 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 21:32:32,781 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 21:35:49,330 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:35:49.330539 ===
+2025-03-13 21:35:51,810 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:35:51,812 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:35:51,827 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:35:51,830 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:35:52,379 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:35:52,383 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:35:52,690 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 21:35:52,846 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 21:35:53,032 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 21:35:53,190 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 21:35:53,342 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 21:35:53,493 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:35:53,640 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 21:35:53,793 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 21:35:53,941 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 21:35:54,091 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 21:35:54,241 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 21:35:54,395 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 21:35:54,541 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 21:35:54,543 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 21:35:55,904 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 21:35:57,457 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 21:35:57,459 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 21:35:57,461 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 21:35:57,463 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 21:35:57,547 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 21:35:59,173 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 21:36:10,335 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 21:36:15,389 - INFO - central - [ui.retro_study_list_callbacks] Ouverture de l'étude par clic sur carte: fsdf
+2025-03-13 21:36:15,423 - INFO - central - [ui.study_detail] Displaying enhanced details for study: fsdf
+2025-03-13 21:36:15,459 - INFO - central - [ui.parameter_editor] Initialisation de l'éditeur de paramètres pour l'étude 'fsdf'
+2025-03-13 21:36:26,048 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 21:36:56,971 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 21:36:58,149 - INFO - central - [ui.studies_callbacks] Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 21:36:58,199 - INFO - central - [ui.studies_callbacks] Ouverture du modal de création d'étude via déclencheur
+2025-03-13 21:47:08,206 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:47:08.206521 ===
+2025-03-13 21:47:10,333 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:47:10,337 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:47:10,347 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:47:10,349 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:47:10,882 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:47:10,886 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:50:47,173 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T21:50:47.173168 ===
+2025-03-13 21:50:49,372 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 21:50:49,373 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 21:50:49,383 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 21:50:49,386 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 21:50:49,931 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:50:49,936 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 21:51:01,216 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 21:51:01,339 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 21:51:01,478 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 21:51:01,616 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 21:51:01,791 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 21:51:01,929 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 21:51:02,074 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 21:51:02,229 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 21:51:02,378 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 21:51:02,525 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 21:51:02,679 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 21:51:02,829 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 21:51:02,974 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 21:51:02,976 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 21:51:03,710 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 21:51:05,627 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 21:51:05,630 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 21:51:05,630 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 21:51:05,631 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 21:51:05,706 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 21:51:09,015 - INFO - central - [ui.studies_callbacks] Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 21:51:09,037 - INFO - central - [ui.studies_callbacks] Ouverture du modal de création d'étude via déclencheur
+2025-03-13 21:52:26,061 - INFO - central - [ui.study_creator_callbacks] Tentative de création d'étude: kjkl
+2025-03-13 21:52:26,064 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur EMA à la configuration
+2025-03-13 21:52:26,064 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur SMA à la configuration
+2025-03-13 21:52:26,065 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur MACD à la configuration
+2025-03-13 21:52:26,067 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur RSI à la configuration
+2025-03-13 21:52:26,068 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur STOCH à la configuration
+2025-03-13 21:52:26,069 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur ATR à la configuration
+2025-03-13 21:52:26,069 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur BOLL à la configuration
+2025-03-13 21:52:26,070 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur VWAP à la configuration
+2025-03-13 21:52:26,071 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur MFIMACD à la configuration
+2025-03-13 21:52:26,072 - INFO - central - [ui.study_creator_callbacks] Configuration créée avec 9 indicateurs
+2025-03-13 21:52:26,116 - INFO - central - [ui.study_creator_callbacks] Étude 'kjkl' créée avec succès avec 9 indicateurs
+2025-03-13 21:52:26,169 - INFO - central - [ui.studies_callbacks] Étude créée avec succès: kjkl
+2025-03-13 21:52:26,171 - INFO - central - [ui.studies_callbacks] Fermeture du modal de création d'étude (création réussie)
+2025-03-13 21:52:26,172 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 21:52:29,394 - INFO - central - [ui.studies_callbacks] Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 21:52:29,423 - INFO - central - [ui.studies_callbacks] Ouverture du modal de création d'étude via déclencheur
+2025-03-13 21:54:32,795 - INFO - central - [ui.study_creator_callbacks] Tentative de création d'étude: 
+2025-03-13 21:54:32,837 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:04:51,663 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T22:04:51.663641 ===
+2025-03-13 22:04:55,693 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 22:04:55,696 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 22:04:55,723 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 22:04:55,729 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 22:04:56,726 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:04:56,736 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 22:09:07,873 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T22:09:07.873198 ===
+2025-03-13 22:09:11,519 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 22:09:11,523 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 22:09:11,542 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 22:09:11,547 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 22:09:12,438 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:09:12,445 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 22:09:17,128 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T22:09:17.128562 ===
+2025-03-13 22:09:20,193 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 22:09:20,197 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 22:09:20,216 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 22:09:20,218 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 22:09:21,129 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:09:21,136 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 22:09:39,930 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T22:09:39.930316 ===
+2025-03-13 22:09:42,257 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 22:09:42,263 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 22:09:42,278 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 22:09:42,283 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 22:09:42,948 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:09:42,954 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 22:09:43,256 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 22:09:43,790 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 22:09:44,775 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 22:09:45,782 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 22:09:46,783 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 22:09:48,779 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 22:09:48,836 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 22:09:50,770 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 22:09:50,823 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 22:09:52,771 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 22:09:52,834 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 22:09:53,794 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 22:09:55,775 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 22:09:55,832 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 22:09:55,835 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 22:12:08,352 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T22:12:08.352977 ===
+2025-03-13 22:12:11,396 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 22:12:11,398 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 22:12:11,418 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 22:12:11,422 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 22:12:12,346 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:12:12,352 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 22:12:12,434 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 22:12:12,443 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 22:12:12,599 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 22:12:12,736 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 22:12:12,864 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 22:12:13,012 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 22:12:13,174 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 22:12:13,314 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 22:12:13,460 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 22:12:13,613 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 22:12:13,763 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 22:12:13,912 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 22:12:14,063 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 22:12:14,212 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 22:12:14,365 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 22:12:14,369 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 22:12:14,728 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 22:12:16,782 - INFO - central - [ui.dashboard] Navigation: Backtest
+2025-03-13 22:12:17,615 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 22:12:17,618 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 22:12:17,622 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 22:12:17,627 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 22:12:17,714 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:12:19,654 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 22:12:23,549 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:12:26,178 - INFO - central - [ui.studies_callbacks] Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 22:12:26,199 - INFO - central - [ui.studies_callbacks] Ouverture du modal de création d'étude via déclencheur
+2025-03-13 22:13:27,373 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T22:13:27.373973 ===
+2025-03-13 22:13:31,303 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 22:13:31,308 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 22:13:31,330 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 22:13:31,335 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 22:13:32,364 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:13:32,373 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 22:13:35,304 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 22:13:36,573 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 22:13:36,801 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 22:13:37,777 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 22:13:38,779 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 22:13:40,779 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 22:13:40,821 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 22:13:42,774 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 22:13:42,830 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 22:13:44,781 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 22:13:44,860 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 22:13:45,245 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 22:13:45,318 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 22:13:45,457 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 22:13:45,460 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 22:13:46,243 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 22:13:48,027 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 22:13:48,030 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 22:13:48,036 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 22:13:48,040 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 22:13:48,131 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:13:50,855 - INFO - central - [ui.dashboard] Navigation: Données
+2025-03-13 22:13:50,857 - INFO - central - [ui.data_page] Création de la page de données
+2025-03-13 22:13:53,984 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_1h_binance_129600.csv
+2025-03-13 22:13:53,986 - INFO - central - [ui.data_actions] Fichier supprimé avec succès: BTC_USDT_1h_binance_129600.csv
+2025-03-13 22:13:55,200 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:13:55,204 - INFO - central - [ui.data_actions] Fichier supprimé avec succès: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:13:55,847 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:13:55,856 - WARNING - central - [ui.data_actions] Fichier introuvable: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:13:56,317 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_1m_binance_525600.csv
+2025-03-13 22:13:56,321 - ERROR - central - [ui.data_actions] Erreur lors de la suppression: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1m_binance_525600.csv'
+2025-03-13 22:13:56,842 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_1m_binance_525600.csv
+2025-03-13 22:13:56,844 - ERROR - central - [ui.data_actions] Erreur lors de la suppression: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1m_binance_525600.csv'
+2025-03-13 22:14:01,073 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_1h_binance_2628000.csv
+2025-03-13 22:14:01,076 - INFO - central - [ui.data_actions] Fichier supprimé avec succès: BTC_USDT_1h_binance_2628000.csv
+2025-03-13 22:14:02,415 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_1h_binance_20250213.csv
+2025-03-13 22:14:02,418 - INFO - central - [ui.data_actions] Fichier supprimé avec succès: BTC_USDT_1h_binance_20250213.csv
+2025-03-13 22:14:03,716 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_1h_binance_525600.csv
+2025-03-13 22:14:03,718 - INFO - central - [ui.data_actions] Fichier supprimé avec succès: BTC_USDT_1h_binance_525600.csv
+2025-03-13 22:14:05,237 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_15m_bitget_20250210.csv
+2025-03-13 22:14:05,240 - INFO - central - [ui.data_actions] Fichier supprimé avec succès: BTC_USDT_15m_bitget_20250210.csv
+2025-03-13 22:14:10,497 - INFO - central - [ui.dashboard] Navigation: Backtest
+2025-03-13 22:14:11,472 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 22:14:11,475 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 22:14:11,480 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 22:14:11,485 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 22:14:11,603 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:14:20,917 - INFO - central - [ui.studies_callbacks] Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 22:14:20,944 - INFO - central - [ui.studies_callbacks] Ouverture du modal de création d'étude via déclencheur
+2025-03-13 22:16:11,739 - INFO - central - [ui.retro_study_list_callbacks] Ouverture de l'étude par clic sur carte: fsdf
+2025-03-13 22:16:11,764 - INFO - central - [ui.study_detail] Displaying enhanced details for study: fsdf
+2025-03-13 22:16:11,789 - INFO - central - [ui.parameter_editor] Initialisation de l'éditeur de paramètres pour l'étude 'fsdf'
+2025-03-13 22:16:27,779 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 22:16:36,679 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:17:04,756 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 22:17:16,769 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:17:22,656 - INFO - central - [ui.retro_study_list_callbacks] Ouverture de l'étude par clic sur carte: test
+2025-03-13 22:17:22,689 - INFO - central - [ui.study_detail] Displaying enhanced details for study: test
+2025-03-13 22:17:22,720 - INFO - central - [ui.parameter_editor] Initialisation de l'éditeur de paramètres pour l'étude 'test'
+2025-03-13 22:17:24,983 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 22:17:26,455 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:17:38,119 - INFO - central - [ui.dashboard] Navigation: Backtest
+2025-03-13 22:17:39,153 - INFO - central - [ui.dashboard] Navigation: Données
+2025-03-13 22:17:39,155 - INFO - central - [ui.data_page] Création de la page de données
+2025-03-13 22:17:40,050 - INFO - central - [ui.dashboard] Navigation: Stratégies
+2025-03-13 22:17:41,161 - INFO - central - [ui.dashboard] Navigation: Données
+2025-03-13 22:17:41,164 - INFO - central - [ui.data_page] Création de la page de données
+2025-03-13 22:18:07,819 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_1h_binance_525600.csv
+2025-03-13 22:18:07,821 - INFO - central - [ui.data_actions] Fichier supprimé avec succès: BTC_USDT_1h_binance_525600.csv
+2025-03-13 22:18:09,573 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:18:09,576 - INFO - central - [ui.data_actions] Fichier supprimé avec succès: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:18:12,972 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 22:18:12,975 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 22:18:12,979 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 22:18:12,983 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 22:18:13,043 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:18:15,141 - INFO - central - [ui.studies_callbacks] Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 22:18:15,172 - INFO - central - [ui.studies_callbacks] Ouverture du modal de création d'étude via déclencheur
+2025-03-13 22:19:51,888 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 22:19:54,967 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 22:19:55,392 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 22:19:55,417 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 22:19:55,564 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 22:19:55,714 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 22:19:55,861 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 22:19:56,015 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 22:19:56,167 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 22:19:56,315 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 22:19:56,463 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 22:19:56,616 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 22:19:56,762 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 22:19:56,914 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 22:19:57,065 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 22:19:57,068 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 22:19:57,528 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 22:19:59,099 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 22:19:59,101 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 22:19:59,104 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 22:19:59,108 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 22:19:59,200 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:20:00,086 - INFO - central - [ui.dashboard] Navigation: Données
+2025-03-13 22:20:00,091 - INFO - central - [ui.data_page] Création de la page de données
+2025-03-13 22:20:12,241 - INFO - central - [ui.data_actions] Tentative de suppression du fichier: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:20:12,246 - INFO - central - [ui.data_actions] Fichier supprimé avec succès: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:20:22,572 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 22:20:22,573 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 22:20:22,577 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 22:20:22,578 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 22:20:22,645 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:20:23,856 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 22:20:25,057 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:20:26,990 - INFO - central - [ui.studies_callbacks] Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 22:20:27,020 - INFO - central - [ui.studies_callbacks] Ouverture du modal de création d'étude via déclencheur
+2025-03-13 22:21:02,794 - INFO - central - [ui.study_creator_callbacks] Tentative de création d'étude: test_1m
+2025-03-13 22:21:02,800 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur EMA à la configuration
+2025-03-13 22:21:02,802 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur SMA à la configuration
+2025-03-13 22:21:02,807 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur MACD à la configuration
+2025-03-13 22:21:02,810 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur RSI à la configuration
+2025-03-13 22:21:02,815 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur STOCH à la configuration
+2025-03-13 22:21:02,819 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur ATR à la configuration
+2025-03-13 22:21:02,822 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur BOLL à la configuration
+2025-03-13 22:21:02,827 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur VWAP à la configuration
+2025-03-13 22:21:02,830 - INFO - central - [ui.study_creator_callbacks] Ajout de l'indicateur MFIMACD à la configuration
+2025-03-13 22:21:02,837 - INFO - central - [ui.study_creator_callbacks] Configuration créée avec 9 indicateurs
+2025-03-13 22:21:03,677 - INFO - central - [ui.study_creator_callbacks] Étude 'test_1m' créée avec succès avec 9 indicateurs
+2025-03-13 22:21:03,754 - INFO - central - [ui.studies_callbacks] Étude créée avec succès: test_1m
+2025-03-13 22:21:03,758 - INFO - central - [ui.studies_callbacks] Fermeture du modal de création d'étude (création réussie)
+2025-03-13 22:21:03,760 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:21:05,862 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 22:21:52,145 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T22:21:52.145709 ===
+2025-03-13 22:21:59,164 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 22:21:59,165 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 22:21:59,177 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 22:21:59,179 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 22:21:59,788 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:21:59,796 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 22:22:00,166 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 22:22:00,798 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 22:22:01,775 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 22:22:02,782 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 22:22:03,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 22:22:05,777 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 22:22:05,806 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 22:22:07,773 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 22:22:07,827 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 22:22:09,091 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 22:22:09,106 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 22:22:09,185 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 22:22:09,331 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 22:22:09,481 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 22:22:09,630 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 22:22:09,632 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 22:22:10,125 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 22:22:10,613 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 22:22:12,079 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 22:22:12,083 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 22:22:12,086 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 22:22:12,091 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 22:22:12,167 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:22:21,894 - INFO - central - [ui.dashboard] Navigation: Données
+2025-03-13 22:22:21,898 - INFO - central - [ui.data_page] Création de la page de données
+2025-03-13 22:22:22,924 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 22:22:22,927 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 22:22:22,930 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 22:22:22,934 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 22:22:22,994 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:22:24,277 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 22:25:12,899 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T22:25:12.899616 ===
+2025-03-13 22:25:15,085 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 22:25:15,087 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 22:25:15,101 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 22:25:15,103 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 22:25:15,640 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:25:15,647 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 22:25:15,793 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T22:25:15.793042 ===
+2025-03-13 22:25:17,919 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 22:25:17,921 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 22:25:17,934 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 22:25:17,936 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 22:25:18,631 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:25:18,635 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 22:25:18,937 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 22:25:19,077 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 22:25:19,231 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 22:25:19,380 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 22:25:19,531 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 22:25:19,682 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 22:25:19,832 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 22:25:19,982 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 22:25:20,130 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 22:25:20,281 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 22:25:20,431 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 22:25:20,872 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 22:25:21,032 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 22:25:21,035 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 22:25:23,714 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 22:25:27,845 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 22:25:27,848 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 22:25:27,851 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 22:25:27,858 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 22:25:27,939 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:25:32,430 - INFO - central - [ui.retro_study_list_callbacks] Ouverture de l'étude par clic sur carte: test_1m
+2025-03-13 22:25:32,458 - INFO - central - [ui.study_detail] Displaying enhanced details for study: test_1m
+2025-03-13 22:25:33,954 - INFO - central - [ui.parameter_editor] Initialisation de l'éditeur de paramètres pour l'étude 'test_1m'
+2025-03-13 22:25:34,333 - INFO - central - [ui.retro_study_list_callbacks] Redirection vers l'optimisation pour l'étude: test_1m
+2025-03-13 22:25:34,339 - INFO - central - [ui.retro_study_list_callbacks] Ouverture de l'étude par clic sur carte: test_1m
+2025-03-13 22:25:34,399 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 22:25:49,873 - INFO - central - [ui.dashboard] Navigation: Dashboard
+2025-03-13 22:25:49,876 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 22:28:42,861 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 22:28:42,863 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 22:28:42,865 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 22:28:42,867 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 22:28:43,022 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 22:28:46,430 - INFO - central - [ui.retro_study_list_callbacks] Ouverture de l'étude par clic sur carte: test_1m
+2025-03-13 22:28:46,448 - INFO - central - [ui.study_detail] Displaying enhanced details for study: test_1m
+2025-03-13 22:28:47,447 - INFO - central - [ui.parameter_editor] Initialisation de l'éditeur de paramètres pour l'étude 'test_1m'
+2025-03-13 22:28:47,865 - INFO - central - [ui.retro_study_list_callbacks] Ouverture de l'étude par clic sur carte: test_1m
+2025-03-13 22:28:47,885 - INFO - central - [ui.study_detail] Displaying enhanced details for study: test_1m
+2025-03-13 22:28:48,843 - INFO - central - [ui.parameter_editor] Initialisation de l'éditeur de paramètres pour l'étude 'test_1m'
+2025-03-13 22:28:49,345 - INFO - central - [ui.retro_study_list_callbacks] Ouverture de l'étude par clic sur carte: test_1m
+2025-03-13 22:28:49,371 - INFO - central - [ui.study_detail] Displaying enhanced details for study: test_1m
+2025-03-13 22:28:50,028 - INFO - central - [ui.retro_study_list_callbacks] Ouverture de l'étude par clic sur carte: kjkl
+2025-03-13 22:28:50,057 - INFO - central - [ui.study_detail] Displaying enhanced details for study: kjkl
+2025-03-13 22:28:50,133 - INFO - central - [ui.parameter_editor] Initialisation de l'éditeur de paramètres pour l'étude 'kjkl'
+2025-03-13 22:28:50,380 - INFO - central - [ui.parameter_editor] Initialisation de l'éditeur de paramètres pour l'étude 'test_1m'
+2025-03-13 22:28:50,744 - INFO - central - [ui.retro_study_list_callbacks] Ouverture de l'étude par clic sur carte: ez
+2025-03-13 22:28:50,770 - INFO - central - [ui.study_detail] Displaying enhanced details for study: ez
+2025-03-13 22:28:50,868 - INFO - central - [ui.parameter_editor] Initialisation de l'éditeur de paramètres pour l'étude 'ez'
+2025-03-13 22:28:54,758 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 22:29:11,390 - INFO - central - [ui.dashboard] Navigation: Stratégies
+2025-03-13 22:29:12,542 - INFO - central - [ui.dashboard] Navigation: Données
+2025-03-13 22:29:12,554 - INFO - central - [ui.data_page] Création de la page de données
+2025-03-13 22:29:15,953 - INFO - central - [ui.dashboard] Navigation: Stratégies
+2025-03-13 23:12:44,378 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 23:12:44,381 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 23:12:44,384 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 23:12:44,387 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 23:12:44,450 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 23:12:48,081 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 23:16:43,125 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:16:43.125940 ===
+2025-03-13 23:16:46,329 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:16:46,332 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:16:46,348 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:16:46,352 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:16:47,431 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:16:47,436 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:16:47,822 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:16:48,797 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:16:49,782 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:16:50,787 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:16:52,785 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:16:52,814 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:16:54,773 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:16:54,822 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:16:56,770 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:16:56,826 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:16:57,785 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:16:59,771 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:16:59,868 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:17:01,774 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:17:01,782 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:17:10,520 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:17:10.520425 ===
+2025-03-13 23:17:13,499 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:17:13,501 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:17:13,514 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:17:13,517 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:17:14,198 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:17:14,205 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:17:15,277 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:17:16,570 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:17:16,812 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:17:17,782 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:17:18,783 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:17:20,771 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:17:20,810 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:17:22,781 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:17:22,838 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:17:24,780 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:17:24,859 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:17:25,794 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:17:27,775 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:17:27,838 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:17:27,841 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:17:50,452 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:17:50.452241 ===
+2025-03-13 23:17:53,170 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:17:53,173 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:17:53,191 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:17:53,195 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:17:53,820 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:17:53,827 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:17:55,950 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:17:56,067 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:17:56,213 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:17:56,359 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:17:56,525 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:17:56,671 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:17:56,821 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:17:56,966 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:17:57,115 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:17:57,270 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:17:57,417 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:17:57,570 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:17:57,716 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:17:57,719 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:17:58,151 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 23:17:59,707 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 23:17:59,712 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 23:17:59,719 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 23:17:59,725 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 23:17:59,820 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 23:18:01,071 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 23:18:11,977 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:18:11.977150 ===
+2025-03-13 23:18:15,064 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:18:15,067 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:18:15,081 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:18:15,085 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:18:15,774 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:18:15,780 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:18:16,163 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:18:16,802 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:18:17,013 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:18:17,098 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:18:17,251 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:18:17,399 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:18:17,549 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:18:17,699 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:18:17,847 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:18:17,998 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:18:18,147 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:18:18,311 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:18:18,450 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:18:18,452 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:18:18,763 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 23:18:20,298 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 23:18:20,303 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 23:18:20,308 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 23:18:20,311 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 23:18:20,390 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 23:18:22,480 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 23:20:23,838 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:20:23.838383 ===
+2025-03-13 23:20:26,587 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:20:26,590 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:20:26,611 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:20:26,615 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:20:27,544 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:20:27,551 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:20:28,801 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:20:30,377 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:20:30,819 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:20:32,344 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:20:32.344413 ===
+2025-03-13 23:20:35,707 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:20:35,710 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:20:35,727 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:20:35,730 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:20:36,576 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:20:36,584 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:20:36,663 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,669 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,676 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,686 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,692 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,701 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,706 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,711 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,719 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,726 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,730 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,741 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,750 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,758 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,767 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,774 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,776 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,783 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,791 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,795 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,816 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,820 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,824 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,831 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,835 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,839 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,845 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,848 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,850 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:20:36,883 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:20:37,024 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:20:37,179 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:20:37,318 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:20:37,476 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:20:37,615 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:20:37,775 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:20:37,929 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:20:38,070 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:20:38,073 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:20:40,462 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 23:20:42,560 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 23:20:42,563 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 23:20:42,567 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 23:20:42,570 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 23:20:42,653 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 23:20:44,866 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 23:25:31,885 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:25:31.885176 ===
+2025-03-13 23:25:34,400 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:25:34,402 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:25:34,414 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:25:34,416 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:25:35,085 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:25:35,091 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:25:35,395 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:25:35,806 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:25:36,788 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:25:37,784 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:25:38,785 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:25:40,781 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:25:40,830 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:25:42,772 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:25:42,817 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:25:44,774 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:25:44,820 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:25:45,789 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:25:47,769 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:25:47,817 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:25:47,820 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:26:00,136 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:26:00.136677 ===
+2025-03-13 23:26:03,158 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:26:03,161 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:26:03,182 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:26:03,186 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:26:03,990 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:26:03,995 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:26:04,088 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 23:28:26,189 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:28:26.189650 ===
+2025-03-13 23:28:28,680 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:28:28,682 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:28:28,703 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:28:28,709 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:28:29,777 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:28:29,785 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:30:34,765 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:30:34.765511 ===
+2025-03-13 23:30:37,508 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:30:37,510 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:30:37,521 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:30:37,523 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:30:38,191 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:30:38,197 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:30:38,866 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:30:38,984 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:30:39,140 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:30:39,279 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:30:39,440 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:30:39,580 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:30:39,737 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:30:39,882 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:30:40,039 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:30:40,193 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:30:40,333 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:30:40,490 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:30:40,645 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:30:40,648 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:30:41,042 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 23:30:42,513 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 23:30:42,515 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 23:30:42,518 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 23:30:42,522 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 23:30:42,598 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 23:30:43,889 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 23:32:10,520 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:32:10.519647 ===
+2025-03-13 23:32:13,232 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:32:13,234 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:32:13,251 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:32:13,254 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:32:13,953 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:32:13,960 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:32:14,402 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:32:14,815 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:32:15,783 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:32:16,785 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:32:17,786 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:32:19,779 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:32:19,823 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:32:21,781 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:32:21,837 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:32:23,779 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:32:23,825 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:32:24,791 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:32:26,780 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:32:26,828 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:32:26,830 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:33:00,353 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:33:00.353404 ===
+2025-03-13 23:33:03,494 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:33:03,497 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:33:03,512 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:33:03,517 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:33:04,285 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:33:04,292 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:33:04,585 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:33:05,807 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:33:06,779 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:33:08,021 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:33:08.021812 ===
+2025-03-13 23:33:10,668 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:33:10,669 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:33:10,685 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:33:10,689 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:33:11,369 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:33:11,374 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:33:11,459 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:33:11,465 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:33:11,472 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:33:11,777 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:33:12,806 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:33:13,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:33:14,783 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:33:16,769 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:33:16,810 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:33:18,767 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:33:18,821 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:33:20,781 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:33:20,829 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:33:21,793 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:33:23,771 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:33:23,815 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:33:25,769 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:33:25,774 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:33:45,689 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:33:45.689643 ===
+2025-03-13 23:33:49,200 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:33:49,202 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:33:49,215 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:33:49,221 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:33:49,939 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:33:49,943 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:33:50,058 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 23:33:50,061 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 23:33:50,171 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:33:50,291 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:33:50,445 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:33:50,591 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:33:50,747 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:33:50,897 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:33:51,046 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:33:51,197 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:33:51,342 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:33:51,494 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:33:51,639 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:33:51,789 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:33:51,949 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:33:51,951 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:33:52,161 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 23:33:53,627 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 23:33:53,630 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 23:33:53,634 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 23:33:53,640 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 23:33:53,715 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 23:33:54,937 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 23:34:27,221 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:34:27.221247 ===
+2025-03-13 23:34:30,457 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:34:30,460 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:34:30,483 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:34:30,488 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:34:31,485 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:34:31,491 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:34:32,273 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:34:32,721 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:34:32,867 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:34:33,019 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:34:33,171 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:34:33,319 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:34:33,470 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:34:33,619 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:34:33,771 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:34:33,919 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:34:34,069 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:34:34,219 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:34:34,369 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:34:34,372 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:34:36,915 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-13 23:34:39,598 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-13 23:34:39,601 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-13 23:34:39,603 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-13 23:34:39,605 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-13 23:34:39,675 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-13 23:34:41,501 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-13 23:35:17,038 - INFO - central - [ui.optimization_callbacks] Bouton de configuration des scores cliqué
+2025-03-13 23:35:17,057 - INFO - central - [ui.optimization_callbacks] Ouverture du modal des poids personnalisés
+2025-03-13 23:49:26,733 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:49:26.733638 ===
+2025-03-13 23:49:29,437 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:49:29,440 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:49:29,455 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:49:29,458 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:49:30,305 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:49:30,311 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:49:30,710 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:49:31,778 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:49:34,082 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:49:34,783 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:49:36,786 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:49:39,775 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:49:41,773 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:49:44,793 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:49:47,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:49:51,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:49:55,823 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:49:59,772 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:50:03,779 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:50:03,780 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:55:58,990 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:55:58.989581 ===
+2025-03-13 23:56:01,948 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:56:01,950 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:56:01,969 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:56:01,974 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:56:02,673 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:56:02,677 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:56:04,175 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:56:04,817 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:56:07,206 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:56:08,780 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:56:11,780 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:56:14,768 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:56:16,789 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:56:19,777 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:56:21,777 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:56:24,800 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:56:28,770 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:56:30,774 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:56:34,784 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:56:34,785 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:56:43,106 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:56:43.106189 ===
+2025-03-13 23:56:46,641 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-13 23:56:46,646 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-13 23:56:46,660 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-13 23:56:46,665 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-13 23:56:47,383 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:56:47,389 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-13 23:56:47,816 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-13 23:56:50,559 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-13 23:56:54,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-13 23:56:56,784 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-13 23:56:58,792 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-13 23:56:59,769 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-13 23:57:02,775 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-13 23:57:07,774 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-13 23:57:11,781 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-13 23:57:15,775 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-13 23:57:21,769 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-13 23:57:24,779 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-13 23:57:30,775 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-13 23:57:30,778 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-13 23:58:25,820 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-13T23:58:25.820510 ===
+2025-03-14 00:07:53,383 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:07:53.383660 ===
+2025-03-14 00:07:56,130 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:07:56,131 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:07:56,148 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:07:56,150 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:07:56,767 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:07:56,786 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:07:56,922 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:07:56.922657 ===
+2025-03-14 00:08:00,369 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:08:00,375 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:08:00,408 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:08:00,425 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:08:01,683 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:08:01,693 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:08:02,127 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 00:08:02,240 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:08:02,386 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-14 00:08:02,536 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-14 00:08:02,690 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 00:08:02,839 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:08:03,001 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 00:08:03,139 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-14 00:08:03,289 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-14 00:08:03,440 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-14 00:08:03,590 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 00:08:03,757 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-14 00:08:03,895 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 00:08:03,896 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 00:08:04,000 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-14 00:08:05,583 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-14 00:08:05,591 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-14 00:08:05,611 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-14 00:08:05,619 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-14 00:08:05,717 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-14 00:08:07,020 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-14 00:13:30,720 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:13:30.720970 ===
+2025-03-14 00:13:33,677 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:13:33,682 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:13:33,709 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:13:33,716 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:13:34,672 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:13:34,678 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:13:35,238 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 00:13:35,383 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:13:35,725 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:13:35,828 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-14 00:13:35,987 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-14 00:13:36,138 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 00:13:36,281 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:13:36,438 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 00:13:36,589 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-14 00:13:36,734 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-14 00:13:36,886 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-14 00:13:37,036 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 00:13:37,181 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-14 00:13:37,338 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 00:13:37,341 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 00:13:37,953 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-14 00:13:39,986 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-14 00:13:39,988 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-14 00:13:39,993 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-14 00:13:39,997 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-14 00:13:40,077 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-14 00:13:41,703 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-14 00:13:54,465 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-14 00:18:17,498 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:18:17.498390 ===
+2025-03-14 00:18:21,455 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:18:21,458 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:18:21,476 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:18:21,478 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:18:22,450 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:18:22,464 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:18:22,960 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 00:18:23,448 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:18:23,548 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-14 00:18:23,697 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-14 00:18:23,848 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 00:18:23,997 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:18:24,147 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 00:18:24,297 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-14 00:18:24,448 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-14 00:18:24,597 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-14 00:18:24,748 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 00:18:24,897 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-14 00:18:25,050 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 00:18:25,053 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 00:18:26,032 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-14 00:18:27,777 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-14 00:18:27,781 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-14 00:18:27,798 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-14 00:18:27,802 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-14 00:18:27,874 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-14 00:18:29,551 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-14 00:21:34,875 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:21:34.875305 ===
+2025-03-14 00:21:38,518 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:21:38,520 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:21:38,554 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:21:38,560 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:21:39,368 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:21:39,375 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:21:40,062 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 00:21:40,536 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:21:40,655 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-14 00:21:40,813 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-14 00:21:40,965 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 00:21:41,110 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:21:41,266 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 00:21:41,406 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-14 00:21:41,564 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-14 00:21:41,715 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-14 00:21:41,863 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 00:21:42,014 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-14 00:21:42,166 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 00:21:42,169 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 00:21:42,611 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-14 00:21:46,477 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-14 00:21:46,481 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-14 00:21:46,484 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-14 00:21:46,487 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-14 00:21:46,561 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-14 00:21:47,891 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-14 00:25:32,714 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:25:32.714269 ===
+2025-03-14 00:25:35,425 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:25:35,429 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:25:35,443 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:25:35,459 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:25:36,110 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:25:36,117 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:25:36,517 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 00:25:36,808 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:25:37,783 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-14 00:25:38,782 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-14 00:25:39,785 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 00:25:41,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:25:41,804 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:25:43,779 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 00:25:43,823 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-14 00:25:45,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-14 00:25:45,816 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-14 00:25:46,790 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 00:25:48,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-14 00:25:48,828 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 00:25:48,832 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 00:26:20,403 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:26:20.403390 ===
+2025-03-14 00:26:23,265 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:26:23,267 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:26:23,280 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:26:23,284 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:26:24,095 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:26:24,100 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:26:24,504 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 00:26:24,788 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:26:25,779 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-14 00:26:26,783 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-14 00:26:27,773 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 00:26:29,773 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:26:29,829 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:26:31,775 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 00:26:31,823 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-14 00:26:33,772 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-14 00:26:33,809 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-14 00:26:34,787 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 00:26:36,773 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-14 00:26:36,819 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 00:26:36,823 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 00:26:50,216 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:26:50.216939 ===
+2025-03-14 00:26:53,136 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:26:53,153 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:26:53,179 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:26:53,183 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:26:54,258 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:26:54,265 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:26:54,374 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-14 00:26:54,475 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 00:26:54,596 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:26:54,752 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-14 00:26:54,901 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-14 00:26:55,048 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 00:26:55,201 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:26:55,351 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 00:26:55,500 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-14 00:26:55,660 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-14 00:26:55,797 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-14 00:26:55,950 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 00:26:56,100 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-14 00:26:56,246 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 00:26:56,249 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 00:26:56,531 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-14 00:26:58,203 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-14 00:26:58,206 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-14 00:26:58,211 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-14 00:26:58,217 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-14 00:26:58,299 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-14 00:27:00,071 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-14 00:37:48,071 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:37:48.071138 ===
+2025-03-14 00:37:52,255 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:37:52,258 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:37:52,278 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:37:52,286 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:37:53,290 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:37:53,297 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:38:14,414 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 00:38:14,821 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:38:15,801 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-14 00:38:16,789 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-14 00:38:17,785 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 00:38:19,781 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:38:19,870 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:38:21,773 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 00:38:21,908 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-14 00:38:23,786 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-14 00:38:23,898 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-14 00:38:24,809 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 00:38:26,782 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-14 00:38:26,900 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 00:38:26,906 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 00:42:27,622 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:42:27.622488 ===
+2025-03-14 00:45:51,882 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:45:51.882979 ===
+2025-03-14 00:46:28,227 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:46:28.227704 ===
+2025-03-14 00:46:57,486 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:46:57.486653 ===
+2025-03-14 00:47:01,383 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:47:01,384 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:47:01,413 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:47:01,415 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:47:02,341 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:47:02,354 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:47:02,573 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:47:02.573586 ===
+2025-03-14 00:47:06,307 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:47:06,310 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:47:06,332 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:47:06,336 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:47:07,245 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:47:07,261 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:47:22,453 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 00:47:22,722 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:47:23,826 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:47:23,997 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-14 00:47:24,090 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-14 00:47:24,218 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 00:47:24,376 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:47:24,519 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 00:47:24,682 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-14 00:47:24,819 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-14 00:47:24,965 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-14 00:47:25,121 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 00:47:25,273 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-14 00:47:25,441 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 00:47:25,452 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 00:47:26,152 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-14 00:47:28,148 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-14 00:47:28,153 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-14 00:47:28,161 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-14 00:47:28,179 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-14 00:47:28,343 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-14 00:47:30,452 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-14 00:48:57,233 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:48:57.233265 ===
+2025-03-14 00:49:01,262 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:49:01,267 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:49:01,288 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:49:01,293 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:49:02,205 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:49:02,211 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:49:12,341 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:49:12.340567 ===
+2025-03-14 00:49:29,572 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:49:29.572360 ===
+2025-03-14 00:49:49,754 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:49:49.754053 ===
+2025-03-14 00:49:53,567 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:49:53,570 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:49:53,592 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:49:53,596 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:49:54,561 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:49:54,578 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:49:54,807 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T00:49:54.807845 ===
+2025-03-14 00:49:58,315 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 00:49:58,317 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 00:49:58,339 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 00:49:58,343 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 00:49:59,213 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 00:49:59,221 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 00:50:14,773 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 00:50:15,819 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 00:50:16,793 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-14 00:50:17,791 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-14 00:50:19,778 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 00:50:19,879 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 00:50:21,780 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 00:50:21,929 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 00:50:23,772 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-14 00:50:23,950 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-14 00:50:24,806 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-14 00:50:26,778 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 00:50:31,893 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-14 00:50:37,723 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 00:50:37,726 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 00:50:37,759 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 00:50:37,764 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 00:50:38,919 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-14 00:50:41,767 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-14 00:50:41,770 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-14 00:50:41,779 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-14 00:50:41,782 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-14 00:50:41,959 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-14 00:50:45,024 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation
+2025-03-14 00:51:10,245 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-14 12:20:40,904 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T12:20:40.904595 ===
+2025-03-14 12:57:12,966 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T12:57:12.966943 ===
+2025-03-14 12:57:38,035 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T12:57:38.035474 ===
+2025-03-14 13:04:06,933 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T13:04:06.933022 ===
+2025-03-14 13:04:10,219 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 13:04:10,220 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 13:04:10,241 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 13:04:10,244 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 13:04:11,025 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 13:04:11,030 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 13:04:11,187 - INFO - central - === INITIALISATION DU LOGGER CENTRAL : 2025-03-14T13:04:11.187963 ===
+2025-03-14 13:04:15,513 - INFO - central - [system.main] === DÉMARRAGE DU SYSTÈME DE TRADING NEXUS ===
+2025-03-14 13:04:15,516 - INFO - central - [ui.app] Initialisation de l'application Dash
+2025-03-14 13:04:15,538 - INFO - central - [ui.dashboard] Création du tableau de bord principal
+2025-03-14 13:04:15,543 - INFO - central - [ui.dashboard_content] Création du contenu du tableau de bord
+2025-03-14 13:04:16,517 - INFO - central - [ui.data_actions] Enregistrement des callbacks pour actions sur les données
+2025-03-14 13:04:16,523 - INFO - central - [system.main] Serveur Dash démarré sur http://127.0.0.1:8050/
+2025-03-14 13:04:17,261 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 13:04:17,700 - INFO - central - [ui.splash_screen] Animation: LOADING CORE MODULES...
+2025-03-14 13:04:17,859 - INFO - central - [ui.splash_screen] Animation: [ OK ] Data module loaded
+2025-03-14 13:04:17,998 - INFO - central - [ui.splash_screen] Animation: [ OK ] Optimization engine loaded
+2025-03-14 13:04:18,158 - INFO - central - [ui.splash_screen] Animation: [ OK ] Strategy framework loaded
+2025-03-14 13:04:18,297 - INFO - central - [ui.splash_screen] Animation: [ OK ] Backtest engine loaded
+2025-03-14 13:04:18,452 - INFO - central - [ui.splash_screen] Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 13:04:18,609 - INFO - central - [ui.splash_screen] Animation: [ OK ] Binance API connected
+2025-03-14 13:04:18,751 - INFO - central - [ui.splash_screen] Animation: [ OK ] Bitget API connected
+2025-03-14 13:04:18,908 - INFO - central - [ui.splash_screen] Animation: [ OK ] Database connection established
+2025-03-14 13:04:19,049 - INFO - central - [ui.splash_screen] Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 13:04:19,211 - INFO - central - [ui.splash_screen] Animation: [ OK ] All systems operational
+2025-03-14 13:04:19,349 - INFO - central - [ui.splash_screen] Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 13:04:19,352 - INFO - central - [ui.splash_screen] Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 13:04:19,489 - INFO - central - [ui.splash_screen] Transition vers le tableau de bord
+2025-03-14 13:04:21,076 - INFO - central - [ui.dashboard] Navigation: Études
+2025-03-14 13:04:21,079 - INFO - central - [ui.studies_page] Création de la page des études
+2025-03-14 13:04:21,083 - ERROR - central - [ui.studies_page] Erreur lors de la récupération des études: 'IntegratedStudyManager' object has no attribute 'list_studies'
+2025-03-14 13:04:21,088 - INFO - central - [ui.study_creator] Initialisation du créateur d'étude amélioré
+2025-03-14 13:04:21,175 - INFO - central - [ui.study_list] Chargement de la liste des études améliorée
+2025-03-14 13:04:23,706 - INFO - central - [ui.optimization_panel] Création du panneau d'optimisation

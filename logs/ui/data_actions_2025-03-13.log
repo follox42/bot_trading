@@ -261,3 +261,79 @@
 2025-03-13 20:04:04,321 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
 2025-03-13 20:04:20,701 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
 2025-03-13 20:04:23,177 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:09:02,553 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:09:04,935 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:45:46,215 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:45:49,047 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:52:46,621 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:53:11,273 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:53:40,001 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:54:23,939 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:54:45,619 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:56:00,167 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 20:56:04,219 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:07:39,034 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:08:35,858 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:08:38,288 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:09:50,842 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:10:13,399 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:10:41,246 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:11:45,790 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:12:58,561 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:16:09,263 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:17:07,426 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:32:19,110 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:35:52,378 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:47:10,882 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 21:50:49,931 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:04:56,725 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:09:12,437 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:09:21,128 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:09:42,948 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:12:12,346 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:13:32,363 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:13:53,984 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_1h_binance_129600.csv
+2025-03-13 22:13:53,986 - INFO - ui.data_actions - Fichier supprimé avec succès: BTC_USDT_1h_binance_129600.csv
+2025-03-13 22:13:55,199 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:13:55,203 - INFO - ui.data_actions - Fichier supprimé avec succès: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:13:55,845 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:13:55,853 - WARNING - ui.data_actions - Fichier introuvable: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:13:56,316 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_1m_binance_525600.csv
+2025-03-13 22:13:56,320 - ERROR - ui.data_actions - Erreur lors de la suppression: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1m_binance_525600.csv'
+2025-03-13 22:13:56,841 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_1m_binance_525600.csv
+2025-03-13 22:13:56,844 - ERROR - ui.data_actions - Erreur lors de la suppression: [WinError 32] Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus: 'C:\\Users\\nolan\\Desktop\\bot_trading\\data\\historical\\BTC_USDT_1m_binance_525600.csv'
+2025-03-13 22:14:01,072 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_1h_binance_2628000.csv
+2025-03-13 22:14:01,076 - INFO - ui.data_actions - Fichier supprimé avec succès: BTC_USDT_1h_binance_2628000.csv
+2025-03-13 22:14:02,415 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_1h_binance_20250213.csv
+2025-03-13 22:14:02,417 - INFO - ui.data_actions - Fichier supprimé avec succès: BTC_USDT_1h_binance_20250213.csv
+2025-03-13 22:14:03,715 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_1h_binance_525600.csv
+2025-03-13 22:14:03,717 - INFO - ui.data_actions - Fichier supprimé avec succès: BTC_USDT_1h_binance_525600.csv
+2025-03-13 22:14:05,237 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_15m_bitget_20250210.csv
+2025-03-13 22:14:05,239 - INFO - ui.data_actions - Fichier supprimé avec succès: BTC_USDT_15m_bitget_20250210.csv
+2025-03-13 22:18:07,818 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_1h_binance_525600.csv
+2025-03-13 22:18:07,821 - INFO - ui.data_actions - Fichier supprimé avec succès: BTC_USDT_1h_binance_525600.csv
+2025-03-13 22:18:09,571 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:18:09,575 - INFO - ui.data_actions - Fichier supprimé avec succès: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:20:12,240 - INFO - ui.data_actions - Tentative de suppression du fichier: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:20:12,245 - INFO - ui.data_actions - Fichier supprimé avec succès: BTC_USDT_1h_binance_43200.csv
+2025-03-13 22:21:59,786 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:25:15,639 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 22:25:18,630 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:16:47,430 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:17:14,197 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:17:53,820 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:18:15,773 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:20:27,544 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:20:36,575 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:25:35,084 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:26:03,989 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:28:29,777 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:30:38,190 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:32:13,952 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:33:04,284 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:33:11,368 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:33:49,938 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:34:31,484 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:49:30,304 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:56:02,672 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données
+2025-03-13 23:56:47,382 - INFO - ui.data_actions - Enregistrement des callbacks pour actions sur les données

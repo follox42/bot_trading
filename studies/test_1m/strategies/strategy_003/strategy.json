@@ -1,0 +1,102 @@
+{
+    "id": "strategy_003",
+    "rank": 3,
+    "name": "Optimized Strategy 3",
+    "creation_date": "2025-03-13 22:24:26",
+    "buy_blocks": [
+        {
+            "conditions": [
+                {
+                    "indicator1": "ATR_11",
+                    "operator": ">=",
+                    "indicator2": null,
+                    "value": 0.4716429258693614
+                },
+                {
+                    "indicator1": "STOCH_9",
+                    "operator": "==",
+                    "indicator2": "RSI_20",
+                    "value": null
+                },
+                {
+                    "indicator1": "SMA_190",
+                    "operator": "CROSS_ABOVE",
+                    "indicator2": "ATR_7",
+                    "value": null
+                }
+            ],
+            "logic_operators": [
+                "or",
+                "and"
+            ]
+        }
+    ],
+    "sell_blocks": [
+        {
+            "conditions": [
+                {
+                    "indicator1": "ATR_10",
+                    "operator": "==",
+                    "indicator2": "STOCH_8",
+                    "value": null
+                },
+                {
+                    "indicator1": "VWAP_1",
+                    "operator": ">",
+                    "indicator2": "VWAP_1",
+                    "value": null
+                },
+                {
+                    "indicator1": "EMA_100",
+                    "operator": "<",
+                    "indicator2": null,
+                    "value": 0.9874410487749019
+                }
+            ],
+            "logic_operators": [
+                "and",
+                "or"
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "indicator1": "MFIMACD_16",
+                    "operator": ">=",
+                    "indicator2": null,
+                    "value": -0.2198245545467548
+                }
+            ],
+            "logic_operators": []
+        }
+    ],
+    "risk": {
+        "mode": "fixed",
+        "config": {
+            "base_position": 0.01038125421460067,
+            "base_sl": 0.001579583449141042,
+            "tp_multiplier": 0.49533916672081363
+        }
+    },
+    "performance": {
+        "name": "Optimized Strategy 3",
+        "source": "Optimization",
+        "trial_id": 25,
+        "score": 1.029828798369332,
+        "avg_profit": -17.76130719813521,
+        "liquidation_rate": 0.0,
+        "max_drawdown": 0.7619600788000005,
+        "max_loss": -11.66407,
+        "max_profit": 0.0,
+        "profit_factor": 0.0,
+        "roi": -0.7619600788000006,
+        "total_trades": 429.0,
+        "trades_per_day": 1.1753357572159975,
+        "win_rate": 0.0,
+        "roi_pct": -76.19600788000007,
+        "win_rate_pct": 0.0,
+        "max_drawdown_pct": 76.19600788000005
+    },
+    "source": "Optimization",
+    "trial_id": 25
+}

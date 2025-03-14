@@ -22,3 +22,25 @@
 2025-03-13 14:30:12,588 - INFO - ui.studies_callbacks - Fermeture du modal de création d'étude (création réussie)
 2025-03-13 19:43:30,992 - INFO - ui.studies_callbacks - Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
 2025-03-13 19:43:31,020 - INFO - ui.studies_callbacks - Ouverture du modal de création d'étude via déclencheur
+2025-03-13 21:13:58,657 - INFO - ui.studies_callbacks - Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 21:13:58,678 - INFO - ui.studies_callbacks - Ouverture du modal de création d'étude via déclencheur
+2025-03-13 21:17:15,024 - INFO - ui.studies_callbacks - Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 21:17:15,043 - INFO - ui.studies_callbacks - Ouverture du modal de création d'étude via déclencheur
+2025-03-13 21:36:58,148 - INFO - ui.studies_callbacks - Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 21:36:58,198 - INFO - ui.studies_callbacks - Ouverture du modal de création d'étude via déclencheur
+2025-03-13 21:51:09,014 - INFO - ui.studies_callbacks - Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 21:51:09,036 - INFO - ui.studies_callbacks - Ouverture du modal de création d'étude via déclencheur
+2025-03-13 21:52:26,167 - INFO - ui.studies_callbacks - Étude créée avec succès: kjkl
+2025-03-13 21:52:26,170 - INFO - ui.studies_callbacks - Fermeture du modal de création d'étude (création réussie)
+2025-03-13 21:52:29,393 - INFO - ui.studies_callbacks - Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 21:52:29,422 - INFO - ui.studies_callbacks - Ouverture du modal de création d'étude via déclencheur
+2025-03-13 22:12:26,177 - INFO - ui.studies_callbacks - Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 22:12:26,199 - INFO - ui.studies_callbacks - Ouverture du modal de création d'étude via déclencheur
+2025-03-13 22:14:20,915 - INFO - ui.studies_callbacks - Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 22:14:20,943 - INFO - ui.studies_callbacks - Ouverture du modal de création d'étude via déclencheur
+2025-03-13 22:18:15,141 - INFO - ui.studies_callbacks - Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 22:18:15,169 - INFO - ui.studies_callbacks - Ouverture du modal de création d'étude via déclencheur
+2025-03-13 22:20:26,989 - INFO - ui.studies_callbacks - Bouton de création d'étude cliqué: {"index":0,"type":"btn-new-study-header"}
+2025-03-13 22:20:27,019 - INFO - ui.studies_callbacks - Ouverture du modal de création d'étude via déclencheur
+2025-03-13 22:21:03,752 - INFO - ui.studies_callbacks - Étude créée avec succès: test_1m
+2025-03-13 22:21:03,757 - INFO - ui.studies_callbacks - Fermeture du modal de création d'étude (création réussie)

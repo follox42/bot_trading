@@ -27,6 +27,9 @@ from simulator.study_config_definitions import (
     AVAILABLE_METRICS
 )
 
+# Import du module de détails d'optimisation
+from ui.components.studies.optimization_details import create_optimization_details
+
 # Données partagées pour les optimisations en cours
 running_optimizations = {}
 optimization_progress = {}
@@ -360,47 +363,46 @@ def create_optimization_panel(central_logger=None):
                                     html.Div([
                                         html.H5("Données à utiliser", className="text-cyan-200 mb-2"),
                                         
-                                        dbc.Alert(
-                                            [
-                                                html.I(className="bi bi-info-circle me-2"),
-                                                "Les données associées à l'étude seront utilisées automatiquement. Si besoin, vous pouvez définir une période spécifique."
-                                            ],
-                                            color="info",
-                                            className="mb-3 py-2 small"
-                                        ),
-                                        
-                                        dbc.Row([
-                                            dbc.Col([
-                                                dbc.Label("Date de début", html_for="opt-start-date", className="text-cyan-100 mb-1"),
-                                                dbc.Input(
-                                                    id="opt-start-date",
-                                                    type="date",
-                                                    value=(datetime.now().replace(month=datetime.now().month-1 if datetime.now().month > 1 else 12)).strftime("%Y-%m-%d"),
-                                                    className="retro-date-input mb-3"
-                                                ),
-                                            ], width=12, md=6),
-                                            
-                                            dbc.Col([
-                                                dbc.Label("Date de fin", html_for="opt-end-date", className="text-cyan-100 mb-1"),
-                                                dbc.Input(
-                                                    id="opt-end-date",
-                                                    type="date",
-                                                    value=datetime.now().strftime("%Y-%m-%d"),
-                                                    className="retro-date-input mb-3"
-                                                ),
-                                            ], width=12, md=6),
-                                        ]),
-                                        
+                                        # Affichage des informations du fichier de données
                                         html.Div([
-                                            dbc.Checkbox(
-                                                id="opt-auto-download",
-                                                className="retro-checkbox",
-                                                label="Télécharger automatiquement les données manquantes",
-                                                value=True
+                                            dbc.Label("Fichier de données", html_for="data-file-info", className="text-cyan-100 mb-1"),
+                                            dbc.Tooltip(
+                                                "Informations sur le fichier de données associé à l'étude",
+                                                target="data-file-info-container",
+                                                placement="top"
                                             ),
-                                        ], className="mb-3"),
-                                    ]),
-                                ]
+                                            html.Div(
+                                                id="data-file-info-container",
+                                                className="p-3 rounded border border-secondary mb-3",
+                                                children=[
+                                                    # Le contenu sera mis à jour par le callback
+                                                    html.Div(id="selected-data-file-display",
+                                                        children=[
+                                                            html.Span("Sélectionnez une étude pour voir les informations du fichier de données", 
+                                                                    className="text-muted")
+                                                        ]
+                                                    )
+                                                ]
+                                            ),
+                                            
+                                            # Alerte pour les données manquantes (masquée par défaut)
+                                            html.Div(
+                                                id="study-data-file-container",
+                                                className="d-none",
+                                                children=[
+                                                    dbc.Alert(
+                                                        [
+                                                            html.I(className="bi bi-exclamation-triangle me-2"),
+                                                            "Aucun fichier de données associé à cette étude. L'optimisation ne pourra pas être exécutée sans données."
+                                                        ],
+                                                        color="warning",
+                                                        className="mb-3 py-2"
+                                                    )
+                                                ]
+                                            ),
+                                        ]),
+                                    ]), 
+                                    ]
                             )
                         ], className="retro-card mb-4"),
                         
@@ -1139,7 +1141,7 @@ def register_optimization_callbacks(app, central_logger=None):
         Output("recent-optimizations-container", "children")],
         [Input("btn-refresh-optimizations", "n_clicks"),
         Input("optimization-refresh-interval", "n_intervals")],
-        [State("expanded-optimizations-store", "data")]  # Ajouter cet état
+        [State("expanded-optimizations-store", "data")]
     )
     def update_optimizations(n_clicks, n_intervals, expanded_state):
         """Met à jour la liste des optimisations en préservant l'état d'expansion"""
@@ -1218,36 +1220,13 @@ def register_optimization_callbacks(app, central_logger=None):
         if button_id == "btn-close-optimization-details" and close_clicks:
             return False, dash.no_update
         
-        # Ouverture du modal pour optimisation en cours
-        if "btn-view-running-optimization" in button_id and any(view_running_clicks):
-            # Déterminer l'étude à afficher
-            button_index = 0
-            for i, n_clicks in enumerate(view_running_clicks):
-                if n_clicks:
-                    button_index = i
-                    break
+        # Ouverture du modal pour optimisation en cours ou résultats d'optimisation
+        if ("btn-view-running-optimization" in button_id and any(view_running_clicks)) or \
+           ("btn-view-optimization-results" in button_id and any(view_results_clicks)):
+            # Déterminer le nom de l'étude
+            study_name = json.loads(button_id)["study"]
             
-            # Récupérer le nom de l'étude
-            button_data = json.loads(button_id)
-            study_name = button_data["study"]
-            
-            # Créer le contenu du modal
-            return True, create_optimization_details(study_name)
-        
-        # Ouverture du modal pour résultats d'optimisation
-        if "btn-view-optimization-results" in button_id and any(view_results_clicks):
-            # Déterminer l'étude à afficher
-            button_index = 0
-            for i, n_clicks in enumerate(view_results_clicks):
-                if n_clicks:
-                    button_index = i
-                    break
-            
-            # Récupérer le nom de l'étude
-            button_data = json.loads(button_id)
-            study_name = button_data["study"]
-            
-            # Créer le contenu du modal
+            # Utiliser la fonction importée de optimization_details.py pour créer le contenu du modal
             return True, create_optimization_details(study_name)
         
         return is_open, dash.no_update
@@ -1265,15 +1244,11 @@ def register_optimization_callbacks(app, central_logger=None):
         State("select-pruner-method", "value"),
         State("min-trades", "value"),
         State("early-stopping-n-trials", "value"),
-        State("opt-start-date", "value"),
-        State("opt-end-date", "value"),
-        State("opt-auto-download", "value"),
         State("custom-weights-data", "data")]
     )
     def start_optimization(n_clicks, study_name, sampling_method, scoring_formula, 
                         n_trials, n_jobs, enable_pruning, pruner_method, 
-                        min_trades, early_stopping_trials, start_date, end_date, 
-                        auto_download, custom_weights_data):
+                        min_trades, early_stopping_trials, custom_weights_data):
         """Lance une optimisation de stratégie"""
         if not n_clicks:
             return dash.no_update
@@ -1345,7 +1320,7 @@ def register_optimization_callbacks(app, central_logger=None):
             
             # Vérifie que les données sont disponibles
             data_file = study_manager.get_study_data_file(study_name)
-            if not data_file and not auto_download:
+            if not data_file:
                 return dbc.Alert(
                     [html.I(className="bi bi-exclamation-triangle me-2"),
                     "Aucune donnée disponible pour l'optimisation. Veuillez importer des données ou activer le téléchargement automatique."],
@@ -1547,790 +1522,604 @@ def register_optimization_callbacks(app, central_logger=None):
         if custom_weights_data:
             try:
                 data = json.loads(custom_weights_data) if isinstance(custom_weights_data, str) else custom_weights_data
-                if isinstance(data, dict) and "weights" in data and data.get("formula") == formula:
-                    return data.get("weights", {})
-            except:
-                pass
+                if isinstance(data, dict):
+                    if "weights" in data and "formula" in data:
+                        # Nouvelle structure avec formule et poids
+                        stored_formula = data.get("formula")
+                        weights = data.get("weights", {})
+                        
+                        # Si la formule sélectionnée correspond à la formule stockée, utiliser ces poids
+                        if stored_formula == formula:
+                            if central_logger:
+                                ui_logger.info(f"Utilisation des poids personnalisés existants pour {formula}")
+                            return weights
+                    else:
+                        # Ancienne structure: directement les poids
+                        if central_logger:
+                            ui_logger.info("Utilisation des poids personnalisés avec ancienne structure")
+                        return data
+            except Exception as e:
+                if central_logger:
+                    ui_logger.error(f"Erreur lors du chargement des poids personnalisés: {str(e)}")
         
-        # Récupérer les poids de la formule
-        formula_weights = SCORING_FORMULAS.get(formula, {}).get("weights", {})
-        return formula_weights
+        # Charger les poids par défaut de la formule sélectionnée
+        if formula in SCORING_FORMULAS:
+            weights = SCORING_FORMULAS[formula].get("weights", {})
+            if central_logger:
+                ui_logger.info(f"Chargement des poids par défaut pour {formula}")
+            return weights
+        
+        # Si aucune formule valide, retourner des poids par défaut
+        default_weights = {
+            "roi": 2.5,
+            "win_rate": 0.5,
+            "max_drawdown": 2.0,
+            "profit_factor": 2.0,
+            "total_trades": 1.0,
+            "avg_profit": 1.0
+        }
+        
+        if central_logger:
+            ui_logger.info("Utilisation des poids par défaut")
+        
+        return default_weights
 
-    # 4. Callback pour mettre à jour les sliders
+    # 4. Callback pour mettre à jour chaque slider avec les valeurs du store
     @app.callback(
-        [Output({"type": "weight-slider", "metric": dash.ALL}, "value")],
+        Output({"type": "weight-slider", "metric": dash.MATCH}, "value"),
         [Input("weights-values-store", "data")],
-        [State({"type": "weight-slider", "metric": dash.ALL}, "id")],
+        [State({"type": "weight-slider", "metric": dash.MATCH}, "id")],
         prevent_initial_call=True
     )
-    def update_sliders_from_store(weights_data, slider_ids):
-        """Met à jour les sliders à partir des données de poids"""
+    def update_weight_sliders(weights_data, slider_id):
+        """Met à jour les sliders avec les valeurs du store"""
         if not weights_data:
             return dash.no_update
         
-        slider_values = []
-        for slider_id in slider_ids:
-            metric = slider_id["metric"]
-            default_weight = AVAILABLE_METRICS.get(metric, {}).get("default_weight", 1.0)
-            value = weights_data.get(metric, default_weight)
-            slider_values.append(value)
+        # Récupérer le nom de la métrique
+        metric_name = slider_id["metric"]
         
-        return [slider_values]
+        # Récupérer la valeur du poids pour cette métrique
+        value = weights_data.get(metric_name, AVAILABLE_METRICS.get(metric_name, {}).get("default_weight", 1.0))
+        
+        return value
 
-    # 5. Callback pour sauvegarder les poids personnalisés
+    # 5. Callback pour mettre à jour le store quand les sliders changent
+    @app.callback(
+        Output("weights-values-store", "data", allow_duplicate=True),
+        [Input({"type": "weight-slider", "metric": dash.ALL}, "value")],
+        [State({"type": "weight-slider", "metric": dash.ALL}, "id"),
+         State("weights-values-store", "data")],
+        prevent_initial_call=True
+    )
+    def update_weights_store(slider_values, slider_ids, current_weights):
+        """Met à jour le store avec les valeurs des sliders"""
+        if not slider_values or not slider_ids:
+            return dash.no_update
+        
+        # Initialiser le dictionnaire des poids
+        weights = current_weights or {}
+        
+        # Mettre à jour les valeurs
+        for i, slider_id in enumerate(slider_ids):
+            metric_name = slider_id["metric"]
+            weights[metric_name] = slider_values[i]
+        
+        return weights
+
+    # 6. Callback pour appliquer les poids personnalisés
     @app.callback(
         Output("custom-weights-data", "data"),
         [Input("btn-apply-custom-weights", "n_clicks")],
-        [State({"type": "weight-slider", "metric": dash.ALL}, "value"),
-         State({"type": "weight-slider", "metric": dash.ALL}, "id"),
+        [State("weights-values-store", "data"),
          State("select-scoring-formula", "value")],
         prevent_initial_call=True
     )
-    def save_custom_weights(n_clicks, slider_values, slider_ids, current_formula):
-        """Sauvegarde les poids personnalisés"""
-        if not n_clicks:
+    def apply_custom_weights(n_clicks, weights_data, formula):
+        """Applique les poids personnalisés"""
+        if not n_clicks or not weights_data:
             return dash.no_update
         
-        # Collecter les poids
-        weights = {}
-        for i, slider_id in enumerate(slider_ids):
-            metric = slider_id["metric"]
-            value = slider_values[i]
-            weights[metric] = value
-        
-        # Inclure la formule actuelle dans les données sauvegardées
-        custom_data = {
-            "formula": current_formula,
-            "weights": weights
+        # Structure de données avec formule et poids
+        weights_with_formula = {
+            "formula": formula,
+            "weights": weights_data
         }
         
-        # Log the weights for debugging
         if central_logger:
-            ui_logger.info(f"Application des poids personnalisés pour la formule {current_formula}: {weights}")
+            ui_logger.info(f"Application des poids personnalisés pour {formula}")
         
-        return json.dumps(custom_data)
+        return weights_with_formula
 
     # ================== CALLBACK POUR ARRÊTER UNE OPTIMISATION ==================
     @app.callback(
-        Output("running-optimizations-container", "children", allow_duplicate=True),
+        Output("optimization-status", "children", allow_duplicate=True),
         [Input({"type": "btn-stop-optimization", "study": dash.ALL}, "n_clicks")],
+        [State({"type": "btn-stop-optimization", "study": dash.ALL}, "id")],
         prevent_initial_call=True
     )
-    def stop_optimization(n_clicks_list):
+    def stop_optimization(stop_clicks, stop_ids):
         """Arrête une optimisation en cours"""
         ctx = dash.callback_context
-        if not ctx.triggered or not any(n_clicks_list):
+        if not ctx.triggered or not any(stop_clicks):
             return dash.no_update
         
-        # Récupérer l'ID du bouton cliqué
-        button_id = ctx.triggered[0]["prop_id"].split(".")[0]
-        button_data = json.loads(button_id)
-        study_name = button_data["study"]
+        # Déterminer quelle optimisation arrêter
+        button_idx = None
+        for i, clicks in enumerate(stop_clicks):
+            if clicks:
+                button_idx = i
+                break
         
-        if study_name in running_optimizations:
-            # Marquer comme arrêtée dans l'UI
-            running_optimizations[study_name]['status'] = 'stopped'
-            
-            # Appeler la méthode d'arrêt du StrategyOptimizer pour signaler l'arrêt
+        if button_idx is None:
+            return dash.no_update
+        
+        # Récupérer le nom de l'étude
+        study_name = stop_ids[button_idx]["study"]
+        
+        if central_logger:
+            ui_logger.info(f"Demande d'arrêt de l'optimisation pour {study_name}")
+        
+        # Demander l'arrêt de l'optimisation
+        try:
             from simulator.strategy_optimizer import StrategyOptimizer
             StrategyOptimizer.stop_optimization(study_name)
             
-            # Pour l'UI, supprimer après court délai
-            def remove_after_delay():
-                time.sleep(2)  # Attendre 2 secondes
-                if study_name in running_optimizations and running_optimizations[study_name]['status'] == 'stopped':
-                    del running_optimizations[study_name]
-                    if study_name in optimization_progress:
-                        del optimization_progress[study_name]
+            # Mettre à jour le statut
+            if study_name in running_optimizations:
+                running_optimizations[study_name]['status'] = 'stopped'
             
-            cleanup_thread = threading.Thread(target=remove_after_delay)
-            cleanup_thread.daemon = True
-            cleanup_thread.start()
-        
-        # Mettre à jour la liste des optimisations
-        return create_running_optimizations_list(list(running_optimizations.values()))
-    
-    @app.callback(
-        Output("expanded-optimizations-store", "data"),
-        [Input({"type": "optimization-details-collapse", "study": dash.ALL}, "is_open")],
-        [State({"type": "optimization-details-collapse", "study": dash.ALL}, "id"),
-        State("expanded-optimizations-store", "data")],
-        prevent_initial_call=True
-    )
-    def update_expanded_state(is_open_list, id_list, expanded_state):
-        """Update the expansion state store based on UI state"""
-        if not expanded_state or not isinstance(expanded_state, dict):
-            expanded_state = {}
-        
-        # Update the expanded state dictionary from all collapse components
-        for i, is_open in enumerate(is_open_list):
-            study_name = id_list[i]["study"]
-            expanded_state[study_name] = is_open
-        
-        return expanded_state
+            return dbc.Alert(
+                [html.I(className="bi bi-check-circle me-2"),
+                f"Demande d'arrêt de l'optimisation pour '{study_name}' envoyée. L'optimisation s'arrêtera après l'essai en cours."],
+                color="success",
+                dismissable=True
+            )
+            
+        except Exception as e:
+            if central_logger:
+                ui_logger.error(f"Erreur lors de l'arrêt de l'optimisation: {str(e)}")
+            
+            return dbc.Alert(
+                [html.I(className="bi bi-exclamation-triangle me-2"),
+                f"Erreur lors de l'arrêt de l'optimisation: {str(e)}"],
+                color="danger",
+                dismissable=True
+            )
 
-    # ================== CALLBACK POUR REDIRIGER VERS L'ONGLET D'OPTIMISATION ==================
+    # ================== CALLBACK POUR REDÉMARRER UNE OPTIMISATION DEPUIS LA LISTE ==================
     @app.callback(
+        Output("select-study-to-optimize", "value"),
         Output("optimization-tabs", "active_tab"),
-        [Input("btn-view-all-optimizations", "n_clicks")],
+        [Input({"type": "btn-restart-optimization-from-list", "study": dash.ALL}, "n_clicks")],
+        [State({"type": "btn-restart-optimization-from-list", "study": dash.ALL}, "id")],
         prevent_initial_call=True
     )
-    def go_to_optimization_results(n_clicks):
-        """Redirige vers l'onglet des résultats d'optimisation"""
-        if not n_clicks:
-            return dash.no_update
+    def restart_optimization_from_list(restart_clicks, restart_ids):
+        """Redémarre une optimisation depuis la liste"""
+        ctx = dash.callback_context
+        if not ctx.triggered or not any(restart_clicks):
+            return dash.no_update, dash.no_update
         
-        return "tab-results"
+        # Déterminer quelle optimisation redémarrer
+        button_idx = None
+        for i, clicks in enumerate(restart_clicks):
+            if clicks:
+                button_idx = i
+                break
+        
+        if button_idx is None:
+            return dash.no_update, dash.no_update
+        
+        # Récupérer le nom de l'étude
+        study_name = restart_ids[button_idx]["study"]
+        
+        if central_logger:
+            ui_logger.info(f"Redémarrage de l'optimisation pour {study_name}")
+        
+        # Sélectionner l'étude et passer à l'onglet de configuration
+        return study_name, "tab-configure"
 
-    # ================== CALLBACK POUR REDIRIGER DEPUIS LES LIENS VERS L'ONGLET DE CONFIG ==================
+    # ================== CALLBACK POUR LA NAVIGATION ENTRE ONGLETS ==================
     @app.callback(
         Output("optimization-tabs", "active_tab", allow_duplicate=True),
         [Input("link-to-config-tab-empty", "n_clicks"),
          Input("link-to-config-tab-recent", "n_clicks")],
         prevent_initial_call=True
     )
-    def redirect_from_links(n_clicks_empty, n_clicks_recent):
-        """Redirige vers l'onglet de configuration depuis les liens"""
-        if dash.callback_context.triggered:
-            return "tab-configure"
-        return dash.no_update
-
-    # ================== CALLBACK POUR RELANCER UNE OPTIMISATION DEPUIS LA LISTE ==================
-    @app.callback(
-        [Output("optimization-tabs", "active_tab", allow_duplicate=True),
-        Output("select-study-to-optimize", "value")],
-        [Input({"type": "btn-restart-optimization-from-list", "study": dash.ALL}, "n_clicks")],
-        prevent_initial_call=True
-    )
-    def restart_optimization_from_list(n_clicks_list):
-        """Prépare le relancement d'une optimisation depuis la liste"""
+    def navigate_to_config_tab(empty_clicks, recent_clicks):
+        """Navigue vers l'onglet de configuration"""
         ctx = dash.callback_context
-        if not ctx.triggered or not any(n_clicks_list):
-            return dash.no_update, dash.no_update
-        
-        # Récupérer l'ID du bouton cliqué
-        button_id = ctx.triggered[0]["prop_id"].split(".")[0]
-        button_data = json.loads(button_id)
-        study_name = button_data["study"]
-        
-        # Rediriger vers l'onglet de configuration avec l'étude pré-sélectionnée
-        return "tab-configure", study_name
-
-    # ================== CALLBACK POUR GÉRER LA SÉLECTION D'ÉTUDES POUR COMPARAISON ==================
-    @app.callback(
-        Output({"type": "btn-select-for-compare", "study": dash.MATCH}, "className"),
-        Input({"type": "btn-select-for-compare", "study": dash.MATCH}, "n_clicks"),
-        State({"type": "btn-select-for-compare", "study": dash.MATCH}, "className"),
-        prevent_initial_call=True
-    )
-    def toggle_study_selection(n_clicks, current_class):
-        """Toggles the selection state of a study for comparison"""
-        if not n_clicks:
+        if not ctx.triggered:
             return dash.no_update
         
-        # Toggle the "active" class
-        is_active = "active" in current_class
-        return "retro-badge retro-badge-blue d-flex align-items-center justify-content-center" + ("" if is_active else " active")
+        # Peu importe quel lien a été cliqué, on va à l'onglet de configuration
+        return "tab-configure"
 
-def create_optimization_details(study_name):
-    """
-    Crée le contenu des détails d'optimisation avec interface améliorée.
-    
-    Args:
-        study_name: Nom de l'étude
-    
-    Returns:
-        Composant d'affichage des détails d'optimisation
-    """
-    try:
-        from simulator.study_manager import IntegratedStudyManager
-        study_manager = IntegratedStudyManager("studies")
+    # ================== CALLBACK POUR AFFICHER LES INFO DU FICHIER DE DONNÉES DE L'ÉTUDE ==================
+    @app.callback(
+        [Output("selected-data-file-display", "children"),
+         Output("study-data-file-container", "className")],
+        [Input("select-study-to-optimize", "value")]
+    )
+    def update_study_data_file_info(study_name):
+        """Met à jour les informations du fichier de données de l'étude"""
+        if not study_name:
+            return [html.Span("Sélectionnez une étude pour voir les informations du fichier de données", className="text-muted")], "d-none"
         
-        # Vérifier si l'étude existe
-        if not study_manager.study_exists(study_name):
-            return html.Div([
-                html.I(className="bi bi-exclamation-circle text-warning me-2"),
-                f"L'étude '{study_name}' n'existe pas."
-            ], className="text-center p-5")
-        
-        # Récupérer les résultats d'optimisation
-        optimization_results = study_manager.get_optimization_results(study_name)
-        
-        if not optimization_results:
-            return html.Div([
-                html.I(className="bi bi-info-circle text-info me-2"),
-                "Aucun résultat d'optimisation disponible pour cette étude."
-            ], className="text-center p-5")
-        
-        # Extraire les informations
-        best_trials = optimization_results.get('best_trials', [])
-        best_trial_id = optimization_results.get('best_trial_id', -1)
-        n_trials = optimization_results.get('n_trials', 0)
-        optimization_date = optimization_results.get('optimization_date', 'Inconnue')
-        optimization_config = optimization_results.get('optimization_config', {})
-        
-        # Onglets pour différentes vues
-        return dbc.Tabs([
-            dbc.Tab([
-                # Résumé d'optimisation
+        try:
+            # Récupérer les informations du fichier de données
+            study_manager = IntegratedStudyManager("studies")
+            data_file = study_manager.get_study_data_file(study_name)
+            
+            if not data_file:
+                # Aucun fichier associé
+                return [
+                    html.I(className="bi bi-exclamation-triangle text-warning me-2"),
+                    html.Span("Aucun fichier de données associé à cette étude", className="text-warning")
+                ], ""
+            
+            # Vérifier que le fichier existe
+            if not os.path.exists(data_file):
+                return [
+                    html.I(className="bi bi-exclamation-triangle text-warning me-2"),
+                    html.Span(f"Le fichier '{os.path.basename(data_file)}' n'existe pas", className="text-warning")
+                ], ""
+            
+            # Obtenir des informations sur le fichier
+            file_size = os.path.getsize(data_file) / (1024 * 1024)  # En Mo
+            file_date = datetime.fromtimestamp(os.path.getmtime(data_file)).strftime("%Y-%m-%d %H:%M")
+            
+            # Obtenir le nombre de lignes (limité pour performance)
+            line_count = 0
+            with open(data_file, 'r') as f:
+                for _ in range(10):  # Juste un échantillon pour estimer
+                    if f.readline():
+                        line_count += 1
+                
+                # Vérifier s'il y a plus de lignes
+                if f.readline():
+                    line_count = "> 10"
+            
+            return [
                 html.Div([
-                    dbc.Row([
-                        dbc.Col([
-                            html.H4("Informations générales", className="text-cyan-200 mb-3"),
-                            dbc.Card([
-                                dbc.CardBody([
-                                    html.P([
-                                        html.I(className="bi bi-calendar me-2 text-info"),
-                                        html.Strong("Date d'optimisation: "), 
-                                        html.Span(optimization_date)
-                                    ], className="mb-2"),
-                                    html.P([
-                                        html.I(className="bi bi-table me-2 text-info"),
-                                        html.Strong("Nombre d'essais: "), 
-                                        html.Span(f"{n_trials}")
-                                    ], className="mb-2"),
-                                    html.P([
-                                        html.I(className="bi bi-trophy me-2 text-info"),
-                                        html.Strong("Meilleur essai: "), 
-                                        html.Span(f"#{best_trial_id}")
-                                    ], className="mb-2"),
-                                    html.P([
-                                        html.I(className="bi bi-search me-2 text-info"),
-                                        html.Strong("Méthode d'optimisation: "), 
-                                        html.Span(OPTIMIZATION_METHODS.get(
-                                            optimization_config.get('method', 'tpe'), 
-                                            {'name': 'Inconnue'}
-                                        ).get('name'))
-                                    ], className="mb-2"),
-                                    html.P([
-                                        html.I(className="bi bi-calculator me-2 text-info"),
-                                        html.Strong("Formule de scoring: "), 
-                                        html.Span(SCORING_FORMULAS.get(
-                                            optimization_config.get('scoring_formula', 'standard'), 
-                                            {'name': 'Standard'}
-                                        ).get('name'))
-                                    ], className="mb-0"),
-                                ])
-                            ], className="bg-dark border-secondary")
-                        ], width=12, lg=4),
-                        
-                        dbc.Col([
-                            html.H4("Résultats", className="text-cyan-200 mb-3"),
-                            # Graphique des meilleures tentatives
-                            create_results_chart(best_trials, best_trial_id)
-                        ], width=12, lg=8),
-                    ], className="mb-4"),
-                    
-                    # Tableau des meilleurs essais
-                    html.H4("Meilleurs essais", className="text-cyan-200 mb-3"),
-                    create_best_trials_table(best_trials, best_trial_id),
-                    
-                    # Actions sur l'optimisation
-                    html.Div([
-                        html.Button(
-                            [html.I(className="bi bi-arrow-right me-2"), "VOIR LES STRATÉGIES GÉNÉRÉES"],
-                            id={"type": "btn-view-generated-strategies", "study": study_name},
-                            className="retro-button me-2"
-                        ),
-                        html.Button(
-                            [html.I(className="bi bi-play-fill me-2"), "RELANCER L'OPTIMISATION"],
-                            id={"type": "btn-restart-optimization", "study": study_name},
-                            className="retro-button secondary"
-                        ),
-                    ], className="d-flex mt-4")
-                ])
-            ], label="Résumé", tab_id="tab-summary"),
+                    html.I(className="bi bi-file-earmark-binary me-2 text-cyan-300"),
+                    html.Strong(os.path.basename(data_file), className="text-cyan-200"),
+                ], className="mb-1"),
+                html.Div([
+                    html.Span(f"Taille: {file_size:.2f} Mo", className="me-3 text-muted small"),
+                    html.Span(f"Date: {file_date}", className="me-3 text-muted small"),
+                    html.Span(f"Lignes: {line_count}", className="text-muted small"),
+                ], className="d-flex")
+            ], "d-none"
             
-            dbc.Tab([
-                # Paramètres détaillés
-                html.H4("Paramètres du meilleur essai", className="text-cyan-200 mb-3"),
-                create_best_params_display(best_trials, best_trial_id)
-            ], label="Paramètres", tab_id="tab-params"),
+        except Exception as e:
+            if central_logger:
+                ui_logger.error(f"Erreur lors de la récupération des informations du fichier de données: {str(e)}")
             
-            dbc.Tab([
-                # Graphiques et analyses
-                html.H4("Analyses", className="text-cyan-200 mb-3"),
-                create_analysis_displays(best_trials, best_trial_id)
-            ], label="Analyses", tab_id="tab-analysis"),
-        ], id="optimization-details-tabs", active_tab="tab-summary")
-        
-    except Exception as e:
-        return html.Div([
-            html.I(className="bi bi-exclamation-triangle text-danger me-2"),
-            f"Erreur lors du chargement des détails: {str(e)}"
-        ], className="text-center p-5")
+            return [
+                html.I(className="bi bi-exclamation-triangle text-warning me-2"),
+                html.Span(f"Erreur: {str(e)}", className="text-warning")
+            ], ""
 
-def create_results_chart(best_trials, best_trial_id):
-    """
-    Crée un graphique des résultats des meilleurs essais.
-    
-    Args:
-        best_trials: Liste des meilleurs essais
-        best_trial_id: ID du meilleur essai
-    
-    Returns:
-        Composant graphique des résultats
-    """
-    # Si aucun essai, retourner un message
-    if not best_trials:
-        return html.Div([
-            html.I(className="bi bi-exclamation-circle text-warning me-2"),
-            "Aucun essai disponible pour afficher un graphique."
-        ], className="text-center p-5")
-    
-    # Créer un DataFrame pour le graphique
-    import pandas as pd
-    
-    data = []
-    for trial in best_trials:
-        metrics = trial.get('metrics', {})
-        data.append({
-            'trial_id': trial.get('trial_id', 0),
-            'score': trial.get('score', 0),
-            'roi': metrics.get('roi', 0) * 100 if metrics.get('roi') is not None else 0,
-            'win_rate': metrics.get('win_rate', 0) * 100 if metrics.get('win_rate') is not None else 0,
-            'total_trades': metrics.get('total_trades', 0),
-            'max_drawdown': metrics.get('max_drawdown', 0) * 100 if metrics.get('max_drawdown') is not None else 0,
-            'is_best': trial.get('trial_id', 0) == best_trial_id
-        })
-    
-    df = pd.DataFrame(data)
-    
-    # Création du graphique avec Plotly Express
-    fig = px.scatter(
-        df, 
-        x='roi', 
-        y='win_rate', 
-        size='total_trades',
-        color='score',
-        hover_name='trial_id',
-        color_continuous_scale='Viridis',
-        size_max=30,
-        labels={
-            'roi': 'ROI (%)',
-            'win_rate': 'Win Rate (%)',
-            'total_trades': 'Nombre de trades',
-            'score': 'Score'
-        },
-        height=400
+    # ================== CALLBACKS POUR LA SÉLECTION ET LA COMPARAISON DES OPTIMISATIONS ==================
+    # Store pour les études sélectionnées pour comparaison
+    @app.callback(
+        Output("expanded-optimizations-store", "data", allow_duplicate=True),
+        [Input({"type": "btn-toggle-optimization-details", "study": dash.ALL}, "n_clicks")],
+        [State({"type": "btn-toggle-optimization-details", "study": dash.ALL}, "id"),
+         State({"type": "optimization-details-collapse", "study": dash.ALL}, "is_open"),
+         State("expanded-optimizations-store", "data")],
+        prevent_initial_call=True
     )
-    
-    # Mettre en évidence le meilleur essai
-    best_trial = df[df['is_best']]
-    if not best_trial.empty:
-        fig.add_trace(
-            go.Scatter(
-                x=best_trial['roi'],
-                y=best_trial['win_rate'],
-                mode='markers',
-                marker=dict(
-                    symbol='star',
-                    size=20,
-                    color='gold',
-                    line=dict(width=2, color='black')
+    def update_expanded_state(toggle_clicks, toggle_ids, collapse_states, current_state):
+        """Met à jour l'état d'expansion des optimisations"""
+        ctx = dash.callback_context
+        if not ctx.triggered or not any(toggle_clicks):
+            # Retourner l'état courant, pas dash.no_update
+            return current_state or {}
+        
+        # Initialiser l'état s'il n'existe pas
+        expanded_state = current_state or {}
+        
+        # Mettre à jour l'état pour chaque optimisation
+        for i, (clicks, toggle_id, is_open) in enumerate(zip(toggle_clicks, toggle_ids, collapse_states)):
+            if clicks:
+                study_name = toggle_id["study"]
+                expanded_state[study_name] = is_open
+        
+        return expanded_state
+
+    # Callback pour gérer la sélection des optimisations à comparer
+    @app.callback(
+        [Output("optimization-comparison-container", "children"),
+         Output({"type": "btn-select-for-compare", "study": dash.ALL}, "className")],
+        [Input({"type": "btn-select-for-compare", "study": dash.ALL}, "n_clicks")],
+        [State({"type": "btn-select-for-compare", "study": dash.ALL}, "id"),
+         State({"type": "btn-select-for-compare", "study": dash.ALL}, "className")]
+    )
+    def handle_optimization_selection(select_clicks, select_ids, current_classes):
+        """Gère la sélection des optimisations à comparer"""
+        ctx = dash.callback_context
+        
+        # Même si aucun clic, on doit toujours retourner les classes actuelles et non dash.no_update
+        # pour éviter l'erreur avec les sorties de type wildcard
+        if not ctx.triggered or not any(select_clicks):
+            default_content = html.Div([
+                html.I(className="bi bi-info-circle me-2 text-cyan-300 opacity-50", style={"fontSize": "24px"}),
+                html.Span("Sélectionnez plusieurs optimisations pour afficher une comparaison", className="text-muted"),
+            ], className="text-center py-5")
+            return default_content, current_classes
+        
+        # Initialiser la liste des études sélectionnées
+        selected_studies = []
+        updated_classes = []
+        
+        # Déterminer les études sélectionnées
+        for i, (clicks, select_id, class_name) in enumerate(zip(select_clicks, select_ids, current_classes)):
+            study_name = select_id["study"]
+            
+            # Vérifier si la classe indique que l'étude est déjà sélectionnée
+            is_selected = "retro-badge-green" in class_name
+            
+            # Inverser l'état si le bouton a été cliqué
+            if clicks and clicks % 2 == 1:
+                is_selected = not is_selected
+            
+            # Mettre à jour la classe
+            if is_selected:
+                selected_studies.append(study_name)
+                updated_classes.append("retro-badge retro-badge-green d-flex align-items-center justify-content-center")
+            else:
+                updated_classes.append("retro-badge retro-badge-blue d-flex align-items-center justify-content-center")
+        
+        # Si aucune étude sélectionnée, afficher un message
+        if not selected_studies:
+            return html.Div([
+                html.I(className="bi bi-info-circle me-2 text-cyan-300 opacity-50", style={"fontSize": "24px"}),
+                html.Span("Sélectionnez plusieurs optimisations pour afficher une comparaison", className="text-muted"),
+            ], className="text-center py-5"), updated_classes
+        
+        # Si une seule étude sélectionnée, afficher une instruction
+        if len(selected_studies) == 1:
+            return html.Div([
+                html.I(className="bi bi-info-circle me-2 text-cyan-300 opacity-50", style={"fontSize": "24px"}),
+                html.Span("Sélectionnez au moins une autre optimisation pour afficher une comparaison", className="text-muted"),
+                html.Div(f"Sélection actuelle: {selected_studies[0]}", className="mt-2 text-cyan-300")
+            ], className="text-center py-5"), updated_classes
+        
+        # Créer une visualisation de comparaison pour les études sélectionnées
+        try:
+            study_manager = IntegratedStudyManager("studies")
+            comparison_data = []
+            
+            # Récupérer les données d'optimisation pour chaque étude
+            for study_name in selected_studies:
+                optimization_results = study_manager.get_optimization_results(study_name)
+                if optimization_results:
+                    best_trial = None
+                    for trial in optimization_results.get('best_trials', []):
+                        if trial.get('trial_id') == optimization_results.get('best_trial_id'):
+                            best_trial = trial
+                            break
+                    
+                    if best_trial:
+                        metrics = best_trial.get('metrics', {})
+                        comparison_data.append({
+                            'study': study_name,
+                            'score': best_trial.get('score', 0),
+                            'roi': metrics.get('roi', 0) * 100,
+                            'win_rate': metrics.get('win_rate', 0) * 100,
+                            'max_drawdown': metrics.get('max_drawdown', 0) * 100,
+                            'profit_factor': metrics.get('profit_factor', 0),
+                            'total_trades': metrics.get('total_trades', 0)
+                        })
+            
+            # Si pas assez de données pour la comparaison
+            if len(comparison_data) < 2:
+                return html.Div([
+                    html.I(className="bi bi-exclamation-triangle me-2 text-warning"),
+                    html.Span("Données insuffisantes pour la comparaison", className="text-warning"),
+                ], className="text-center py-5"), updated_classes
+            
+            # Créer un DataFrame pour la visualisation
+            comparison_df = pd.DataFrame(comparison_data)
+            
+            # Créer des graphiques de comparaison
+            
+            # 1. Graphique radar pour comparer les métriques clés
+            from plotly.subplots import make_subplots
+            
+            # Normaliser les métriques pour le radar
+            radar_metrics = ['roi', 'win_rate', 'max_drawdown', 'profit_factor', 'total_trades']
+            radar_data = []
+            
+            # Normalisation simple pour chaque métrique
+            max_values = {
+                'roi': max(comparison_df['roi'].max(), 1),
+                'win_rate': 100,
+                'max_drawdown': 100,
+                'profit_factor': max(comparison_df['profit_factor'].max(), 1),
+                'total_trades': max(comparison_df['total_trades'].max(), 1)
+            }
+            
+            for _, row in comparison_df.iterrows():
+                values = [
+                    max(0, min(1, row['roi'] / max_values['roi'])),  # ROI
+                    row['win_rate'] / max_values['win_rate'],        # Win rate
+                    1 - row['max_drawdown'] / max_values['max_drawdown'],  # Drawdown (inversé)
+                    min(1, row['profit_factor'] / max_values['profit_factor']),  # Profit factor
+                    min(1, row['total_trades'] / max_values['total_trades'])   # Trades
+                ]
+                radar_data.append(values)
+            
+            # Créer un graphique radar
+            radar_fig = go.Figure()
+            
+            # Ajouter chaque étude au radar
+            category_names = ['ROI', 'Win Rate', 'Min Drawdown', 'Profit Factor', 'Volume']
+            colors = ['rgb(34, 211, 238)', 'rgb(74, 222, 128)', 'rgb(139, 92, 246)', 'rgb(251, 191, 36)']
+            
+            for i, (study_name, values) in enumerate(zip(comparison_df['study'], radar_data)):
+                radar_fig.add_trace(go.Scatterpolar(
+                    r=values,
+                    theta=category_names,
+                    fill='toself',
+                    name=study_name,
+                    line_color=colors[i % len(colors)],
+                    fillcolor=colors[i % len(colors)].replace('rgb', 'rgba').replace(')', ', 0.2)')
+                ))
+            
+            radar_fig.update_layout(
+                polar=dict(
+                    radialaxis=dict(
+                        visible=True,
+                        range=[0, 1]
+                    )
                 ),
-                name='Meilleur essai',
-                hoverinfo='name+text',
-                text=[f"Trial #{best_trial_id}<br>Score: {best_trial['score'].values[0]:.4f}"]
+                template='plotly_dark',
+                paper_bgcolor='rgba(0,0,0,0)',
+                margin=dict(l=40, r=40, t=40, b=40),
+                height=400,
+                title={
+                    'text': 'Comparaison des métriques clés',
+                    'font': {'size': 18, 'color': '#22d3ee'}
+                }
             )
-        )
-    
-    # Personnalisation du graphique pour l'apparence rétro
-    fig.update_layout(
-        plot_bgcolor="#1e293b",
-        paper_bgcolor="#1e293b",
-        font=dict(color="#d1d5db"),
-        legend=dict(
-            orientation="h",
-            yanchor="bottom",
-            y=1.02,
-            xanchor="right",
-            x=1
-        ),
-        margin=dict(l=40, r=20, t=40, b=40),
-        title={
-            'text': "Analyse des meilleurs essais",
-            'font': {'color': '#22d3ee', 'size': 16}
-        },
-        xaxis=dict(
-            gridcolor="#334155",
-            zerolinecolor="#334155"
-        ),
-        yaxis=dict(
-            gridcolor="#334155",
-            zerolinecolor="#334155"
-        ),
-        coloraxis_colorbar=dict(
-            title="Score",
-            titleside="right",
-            tickcolor="#d1d5db",
-            tickfont=dict(color="#d1d5db")
-        )
-    )
-    
-    # Ajouter un second graphique sous le premier avec drawdown vs trades
-    return dbc.Card([
-        dbc.CardBody([
-            dcc.Graph(figure=fig, className="mb-4 retro-graph"),
             
-            # Deuxième graphique avec histogramme des scores
-            html.Div([
-                dcc.Graph(
-                    figure=px.histogram(
-                        df, x='score', 
-                        nbins=20,
-                        labels={'score': 'Score', 'count': 'Nombre d\'essais'},
-                        title="Distribution des scores des meilleurs essais",
-                        color_discrete_sequence=['#22d3ee']
-                    ).update_layout(
-                        plot_bgcolor="#1e293b",
-                        paper_bgcolor="#1e293b",
-                        font=dict(color="#d1d5db"),
-                        margin=dict(l=40, r=20, t=40, b=40),
-                        xaxis=dict(gridcolor="#334155"),
-                        yaxis=dict(gridcolor="#334155"),
-                        bargap=0.05
-                    ),
-                    className="retro-graph"
-                )
-            ])
-        ])
-    ], className="bg-dark border-secondary retro-card-body")
-
-def create_best_trials_table(best_trials, best_trial_id):
-    """
-    Crée un tableau des meilleurs essais.
-    
-    Args:
-        best_trials: Liste des meilleurs essais
-        best_trial_id: ID du meilleur essai
-    
-    Returns:
-        Tableau des meilleurs essais
-    """
-    # Si aucun essai, retourner un message
-    if not best_trials:
-        return html.Div([
-            html.I(className="bi bi-exclamation-circle text-warning me-2"),
-            "Aucun essai disponible pour afficher un tableau."
-        ], className="text-center p-5")
-    
-    # Créer les lignes du tableau
-    header = html.Thead([
-        html.Tr([
-            html.Th("Trial #", className="text-white"),
-            html.Th("Score", className="text-white"),
-            html.Th("ROI", className="text-white"),
-            html.Th("Win Rate", className="text-white"),
-            html.Th("Trades", className="text-white"),
-            html.Th("Max Drawdown", className="text-white"),
-            html.Th("Profit Factor", className="text-white"),
-            html.Th("Actions", className="text-white")
-        ], className="retro-table-header")
-    ])
-    
-    rows = []
-    for trial in best_trials:
-        trial_id = trial.get('trial_id', 0)
-        score = trial.get('score', 0)
-        metrics = trial.get('metrics', {})
-        
-        roi = metrics.get('roi', 0) * 100 if metrics.get('roi') is not None else 0
-        win_rate = metrics.get('win_rate', 0) * 100 if metrics.get('win_rate') is not None else 0
-        total_trades = metrics.get('total_trades', 0)
-        max_drawdown = metrics.get('max_drawdown', 0) * 100 if metrics.get('max_drawdown') is not None else 0
-        profit_factor = metrics.get('profit_factor', 0)
-        
-        # Classe pour la ligne (mettre en évidence la meilleure)
-        row_class = "trial-row best-trial" if trial_id == best_trial_id else "trial-row"
-        
-        row = html.Tr([
-            html.Td(f"#{trial_id}"),
-            html.Td(f"{score:.4f}"),
-            html.Td(
-                f"{roi:.2f}%", 
-                className="text-success" if roi > 0 else "text-danger"
-            ),
-            html.Td(f"{win_rate:.2f}%"),
-            html.Td(f"{total_trades}"),
-            html.Td(
-                f"{max_drawdown:.2f}%",
-                className="text-danger" if max_drawdown > 20 else "text-warning" if max_drawdown > 10 else ""
-            ),
-            html.Td(f"{profit_factor:.2f}"),
-            html.Td([
-                html.Button(
-                    html.I(className="bi bi-eye"),
-                    id={"type": "btn-view-trial-params", "trial": trial_id},
-                    className="btn btn-sm btn-outline-info me-1",
-                    title="Voir les paramètres"
+            # 2. Graphique à barres pour comparer les métriques
+            bar_fig = go.Figure()
+            
+            # ROI
+            bar_fig.add_trace(go.Bar(
+                x=comparison_df['study'],
+                y=comparison_df['roi'],
+                name='ROI (%)',
+                marker_color='rgb(34, 211, 238)'
+            ))
+            
+            # Win Rate
+            bar_fig.add_trace(go.Bar(
+                x=comparison_df['study'],
+                y=comparison_df['win_rate'],
+                name='Win Rate (%)',
+                marker_color='rgb(74, 222, 128)'
+            ))
+            
+            # Drawdown
+            bar_fig.add_trace(go.Bar(
+                x=comparison_df['study'],
+                y=comparison_df['max_drawdown'],
+                name='Max Drawdown (%)',
+                marker_color='rgb(248, 113, 113)'
+            ))
+            
+            bar_fig.update_layout(
+                barmode='group',
+                template='plotly_dark',
+                paper_bgcolor='rgba(0,0,0,0)',
+                plot_bgcolor='rgba(30,41,59,0.5)',
+                margin=dict(l=40, r=40, t=60, b=80),
+                height=400,
+                title={
+                    'text': 'Comparaison des performances',
+                    'font': {'size': 18, 'color': '#22d3ee'}
+                },
+                xaxis=dict(
+                    title="Études",
+                    titlefont=dict(size=14, color='#d1d5db')
                 ),
-                html.Button(
-                    html.I(className="bi bi-file-earmark-code"),
-                    id={"type": "btn-use-trial-params", "trial": trial_id},
-                    className="btn btn-sm btn-outline-success",
-                    title="Générer une stratégie à partir de ces paramètres"
+                yaxis=dict(
+                    title="Valeur (%)",
+                    titlefont=dict(size=14, color='#d1d5db')
+                ),
+                legend=dict(
+                    orientation="h",
+                    y=1.02,
+                    x=0.5,
+                    xanchor="center"
                 )
-            ])
-        ], className=row_class)
-        
-        rows.append(row)
-    
-    body = html.Tbody(rows)
-    
-    # Créer le tableau final
-    return html.Div([
-        html.Table([
-            header,
-            body
-        ], className="table table-dark table-hover retro-table")
-    ], className="table-responsive")
-
-def create_best_params_display(best_trials, best_trial_id):
-    """
-    Crée un affichage des paramètres du meilleur essai.
-    
-    Args:
-        best_trials: Liste des meilleurs essais
-        best_trial_id: ID du meilleur essai
-    
-    Returns:
-        Affichage des paramètres
-    """
-    # Si aucun essai, retourner un message
-    if not best_trials:
-        return html.Div([
-            html.I(className="bi bi-exclamation-circle text-warning me-2"),
-            "Aucun essai disponible pour afficher les paramètres."
-        ], className="text-center p-5")
-    
-    # Trouver le meilleur essai
-    best_trial = None
-    for trial in best_trials:
-        if trial.get('trial_id', 0) == best_trial_id:
-            best_trial = trial
-            break
-    
-    if not best_trial:
-        return html.Div([
-            html.I(className="bi bi-exclamation-circle text-warning me-2"),
-            f"Impossible de trouver l'essai #{best_trial_id}"
-        ], className="text-center p-5")
-    
-    # Récupérer et organiser les paramètres
-    params = best_trial.get('params', {})
-    
-    # Grouper les paramètres par catégorie
-    categories = {
-        "Structure": [],
-        "Risk": [],
-        "Simulation": [],
-        "Indicators": []
-    }
-    
-    for param_name, param_value in params.items():
-        # Déterminer la catégorie
-        if param_name.startswith(('buy_block', 'sell_block', 'n_buy_blocks', 'n_sell_blocks')):
-            categories["Structure"].append((param_name, param_value))
-        elif param_name.startswith(('risk_mode', 'fixed_', 'base_', 'atr_', 'vol_')):
-            categories["Risk"].append((param_name, param_value))
-        elif param_name.startswith(('leverage', 'margin_mode', 'trading_mode', 'initial_balance')):
-            categories["Simulation"].append((param_name, param_value))
-        else:
-            categories["Indicators"].append((param_name, param_value))
-    
-    # Créer des cartes pour chaque catégorie
-    category_cards = []
-    for category_name, category_params in categories.items():
-        if not category_params:
-            continue
+            )
             
-        # Trier les paramètres par nom
-        category_params.sort(key=lambda x: x[0])
+            # Assembler les graphiques dans un conteneur
+            return html.Div([
+                # En-tête
+                html.Div([
+                    html.H4("Comparaison des optimisations sélectionnées", className="text-cyan-300 mb-3"),
+                    html.Div([
+                        html.Span("Études sélectionnées: ", className="text-light me-2"),
+                        html.Span(", ".join(selected_studies), className="text-cyan-200")
+                    ], className="mb-3"),
+                ], className="mb-4"),
+                
+                # Graphiques
+                dbc.Row([
+                    dbc.Col([
+                        dbc.Card([
+                            dbc.CardHeader(html.H5("Profil des performances", className="mb-0 text-cyan-300")),
+                            dbc.CardBody(
+                                dcc.Graph(
+                                    figure=radar_fig,
+                                    config={'displayModeBar': False},
+                                    className="retro-graph"
+                                )
+                            )
+                        ], className="retro-card mb-4")
+                    ], md=6),
+                    
+                    dbc.Col([
+                        dbc.Card([
+                            dbc.CardHeader(html.H5("Métriques principales", className="mb-0 text-cyan-300")),
+                            dbc.CardBody(
+                                dcc.Graph(
+                                    figure=bar_fig,
+                                    config={'displayModeBar': False},
+                                    className="retro-graph"
+                                )
+                            )
+                        ], className="retro-card mb-4")
+                    ], md=6),
+                ]),
+                
+                # Tableau de comparaison
+                dbc.Card([
+                    dbc.CardHeader(html.H5("Tableau comparatif", className="mb-0 text-cyan-300")),
+                    dbc.CardBody(
+                        html.Div([
+                            html.Table([
+                                html.Thead([
+                                    html.Tr([
+                                        html.Th("Étude", className="text-center"),
+                                        html.Th("Score", className="text-center"),
+                                        html.Th("ROI", className="text-center"),
+                                        html.Th("Win Rate", className="text-center"),
+                                        html.Th("Max DD", className="text-center"),
+                                        html.Th("Profit Factor", className="text-center"),
+                                        html.Th("Trades", className="text-center")
+                                    ], className="retro-table-header")
+                                ]),
+                                html.Tbody([
+                                    html.Tr([
+                                        html.Td(row['study'], className="text-center"),
+                                        html.Td(f"{row['score']:.4f}", className="text-center"),
+                                        html.Td(f"{row['roi']:.2f}%", className=f"text-{'success' if row['roi'] > 0 else 'danger'} text-center"),
+                                        html.Td(f"{row['win_rate']:.2f}%", className="text-center"),
+                                        html.Td(f"{row['max_drawdown']:.2f}%", className="text-danger text-center"),
+                                        html.Td(f"{row['profit_factor']:.2f}", className="text-center"),
+                                        html.Td(f"{int(row['total_trades'])}", className="text-center")
+                                    ]) for _, row in comparison_df.iterrows()
+                                ])
+                            ], className="retro-table w-100")
+                        ], className="table-responsive")
+                    )
+                ], className="retro-card")
+            ]), updated_classes
         
-        # Créer les items de paramètres
-        param_items = []
-        for param_name, param_value in category_params:
-            param_items.append(html.Div([
-                html.Div(param_name, className="small text-muted"),
-                html.Div(str(param_value), className="param-value text-cyan-200")
-            ], className="param-item"))
-        
-        # Carte de catégorie
-        card = html.Div([
-            html.H5(category_name, className="text-cyan-300 mb-3"),
-            html.Div(param_items, className="params-grid")
-        ], className="mb-4 p-3 rounded param-category-card")
-        
-        category_cards.append(card)
-    
-    # Retourner l'affichage complet
-    return html.Div([
-        dbc.Alert([
-            html.I(className="bi bi-info-circle me-2"),
-            "Ces paramètres sont ceux du meilleur essai de l'optimisation. Vous pouvez les utiliser pour créer une stratégie personnalisée."
-        ], color="info", className="mb-4"),
-        
-        html.Div(category_cards)
-    ])
-
-def create_analysis_displays(best_trials, best_trial_id):
-    """
-    Crée des visualisations d'analyse avancées pour les résultats d'optimisation.
-    
-    Args:
-        best_trials: Liste des meilleurs essais
-        best_trial_id: ID du meilleur essai
-    
-    Returns:
-        Affichage des analyses
-    """
-    # Si aucun essai, retourner un message
-    if not best_trials:
-        return html.Div([
-            html.I(className="bi bi-exclamation-circle text-warning me-2"),
-            "Aucun essai disponible pour afficher des analyses."
-        ], className="text-center p-5")
-    
-    # Création du DataFrame pour l'analyse
-    import pandas as pd
-    
-    data = []
-    for trial in best_trials:
-        metrics = trial.get('metrics', {})
-        params = trial.get('params', {})
-        
-        # Extraire quelques paramètres clés pour l'analyse
-        risk_mode = params.get('risk_mode', 'fixed')
-        leverage = params.get('leverage', 1)
-        
-        trial_data = {
-            'trial_id': trial.get('trial_id', 0),
-            'score': trial.get('score', 0),
-            'roi': metrics.get('roi', 0) * 100 if metrics.get('roi') is not None else 0,
-            'win_rate': metrics.get('win_rate', 0) * 100 if metrics.get('win_rate') is not None else 0,
-            'total_trades': metrics.get('total_trades', 0),
-            'max_drawdown': metrics.get('max_drawdown', 0) * 100 if metrics.get('max_drawdown') is not None else 0,
-            'profit_factor': metrics.get('profit_factor', 0),
-            'risk_mode': risk_mode,
-            'leverage': leverage,
-            'is_best': trial.get('trial_id', 0) == best_trial_id
-        }
-        
-        data.append(trial_data)
-    
-    df = pd.DataFrame(data)
-    
-    # Vérifier s'il y a suffisamment de données
-    if len(df) < 3:
-        return html.Div([
-            html.I(className="bi bi-exclamation-circle text-warning me-2"),
-            "Pas assez de données pour créer des analyses significatives."
-        ], className="text-center p-5")
-    
-    # Créer plusieurs visualisations
-    
-    # 1. Nuage de points ROI vs Drawdown avec taille = trades
-    fig1 = px.scatter(
-        df, 
-        x='roi', 
-        y='max_drawdown',
-        size='total_trades',
-        color='risk_mode',
-        hover_name='trial_id',
-        hover_data={
-            'score': True, 
-            'win_rate': True, 
-            'profit_factor': True
-        },
-        size_max=30,
-        labels={
-            'roi': 'ROI (%)',
-            'max_drawdown': 'Max Drawdown (%)',
-            'total_trades': 'Nombre de trades',
-            'risk_mode': 'Mode de risque'
-        },
-        title="ROI vs Drawdown par mode de risque",
-        height=400
-    )
-    
-    # Personnalisation
-    fig1.update_layout(
-        plot_bgcolor="#1e293b",
-        paper_bgcolor="#1e293b",
-        font=dict(color="#d1d5db"),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-        margin=dict(l=40, r=20, t=50, b=40),
-        xaxis=dict(gridcolor="#334155"),
-        yaxis=dict(gridcolor="#334155", autorange="reversed")  # Inverser l'axe Y pour que moins de drawdown soit en haut
-    )
-    
-    # 2. Graphique à barres pour comparer les métriques par mode de risque
-    risk_mode_metrics = df.groupby('risk_mode').agg({
-        'roi': 'mean',
-        'win_rate': 'mean',
-        'max_drawdown': 'mean',
-        'profit_factor': 'mean',
-        'total_trades': 'mean',
-        'score': 'mean'
-    }).reset_index()
-    
-    fig2 = None
-    if not risk_mode_metrics.empty and len(risk_mode_metrics) > 1:
-        fig2 = px.bar(
-            risk_mode_metrics,
-            x='risk_mode',
-            y=['roi', 'win_rate', 'profit_factor'],
-            barmode='group',
-            labels={
-                'risk_mode': 'Mode de risque',
-                'value': 'Valeur',
-                'variable': 'Métrique'
-            },
-            title="Comparaison des métriques par mode de risque",
-            height=400,
-            color_discrete_sequence=['#22d3ee', '#4ade80', '#f87171']
-        )
-        
-        # Personnalisation
-        fig2.update_layout(
-            plot_bgcolor="#1e293b",
-            paper_bgcolor="#1e293b",
-            font=dict(color="#d1d5db"),
-            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-            margin=dict(l=40, r=20, t=50, b=40),
-            xaxis=dict(gridcolor="#334155"),
-            yaxis=dict(gridcolor="#334155")
-        )
-    
-    # 3. Heatmap des corrélations entre les métriques
-    corr_matrix = df[['roi', 'win_rate', 'max_drawdown', 'profit_factor', 'total_trades', 'score']].corr()
-    
-    fig3 = px.imshow(
-        corr_matrix,
-        color_continuous_scale='RdBu_r',
-        labels=dict(color="Corrélation"),
-        title="Matrice de corrélation des métriques",
-        height=400
-    )
-    
-    # Personnalisation
-    fig3.update_layout(
-        plot_bgcolor="#1e293b",
-        paper_bgcolor="#1e293b",
-        font=dict(color="#d1d5db"),
-        margin=dict(l=40, r=20, t=50, b=40)
-    )
-    
-    # Assemblage des visualisations
-    graphs = [
-        dcc.Graph(figure=fig1, className="mb-4 retro-graph"),
-        dcc.Graph(figure=fig3, className="mb-4 retro-graph")
-    ]
-    
-    if fig2 is not None:
-        graphs.insert(1, dcc.Graph(figure=fig2, className="mb-4 retro-graph"))
-    
-    return dbc.Card([
-        dbc.CardBody(graphs)
-    ], className="bg-dark border-secondary retro-card-body")
+        except Exception as e:
+            if central_logger:
+                ui_logger.error(f"Erreur lors de la création de la comparaison: {str(e)}")
+            
+            return html.Div([
+                html.I(className="bi bi-exclamation-triangle me-2 text-warning"),
+                html.Span(f"Erreur lors de la création de la comparaison: {str(e)}", className="text-warning"),
+            ], className="text-center py-5"), updated_classes

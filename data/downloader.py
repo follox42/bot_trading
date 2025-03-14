@@ -7,7 +7,7 @@ import traceback
 import pandas as pd
 import ccxt
 from datetime import datetime, timedelta
-from typing import Dict, List, Optional, Union, Any
+from typing import Dict, List, Optional, Union, Any, Callable
 
 from logger.logger import CentralizedLogger, LogLevel, LoggerType
 
@@ -19,7 +19,9 @@ class MarketDataDownloader:
                  limit=None,
                  start_date=None,
                  end_date=None,
-                 central_logger=None):
+                 central_logger=None,
+                 progress_callback=None,
+                 should_cancel=None):
         """
         Télécharge des données historiques depuis les exchanges de crypto-monnaies
 
@@ -31,6 +33,8 @@ class MarketDataDownloader:
             start_date (str, optional): Date de début (YYYY-MM-DD)
             end_date (str, optional): Date de fin (YYYY-MM-DD)
             central_logger (CentralizedLogger, optional): Logger centralisé
+            progress_callback (callable, optional): Fonction pour recevoir les mises à jour de progression
+            should_cancel (callable, optional): Fonction pour vérifier si le téléchargement doit être annulé
         """
         # Définir le logger
         self.central_logger = central_logger
@@ -54,6 +58,8 @@ class MarketDataDownloader:
         self.limit = limit
         self.start_date = start_date
         self.end_date = end_date
+        self.progress_callback = progress_callback
+        self.should_cancel = should_cancel
         
         # Générer le nom du fichier de sortie
         filename_parts = [
@@ -130,7 +136,7 @@ class MarketDataDownloader:
         Télécharge des données historiques avec des paramètres flexibles
 
         Returns:
-            str: Chemin du fichier de données sauvegardé
+            str: Chemin du fichier de données sauvegardé ou None si annulé/erreur
         """
         # Vérifier si le fichier existe déjà
         if os.path.exists(self.output_path) and not self.start_date and not self.end_date:
@@ -163,17 +169,43 @@ class MarketDataDownloader:
             # Télécharger les données OHLCV
             all_data = self._fetch_data_in_batches(start_ts, end_ts)
 
+            # Vérifier si le téléchargement a été annulé
+            if not all_data and self.should_cancel and self.should_cancel():
+                self.log_info(f"Téléchargement annulé pour {self.symbol}")
+                return None
+
             if not all_data or len(all_data) == 0:
                 self.log_warning(f"Aucune donnée n'a été récupérée")
                 return None
 
+            # Créer le chemin temporaire pour le fichier en cours de téléchargement
+            temp_path = f"{self.output_path}.part"
+            
             # Convertir en DataFrame
             df = pd.DataFrame(all_data, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
             df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
 
-            # Enregistrer en CSV
-            os.makedirs(os.path.dirname(self.output_path), exist_ok=True)
-            df.to_csv(self.output_path, index=False)
+            # Enregistrer en CSV dans le fichier temporaire
+            os.makedirs(os.path.dirname(temp_path), exist_ok=True)
+            df.to_csv(temp_path, index=False)
+            
+            # Vérifier une dernière fois si l'annulation a été demandée avant de finaliser
+            if self.should_cancel and self.should_cancel():
+                # Supprimer le fichier temporaire
+                try:
+                    if os.path.exists(temp_path):
+                        os.remove(temp_path)
+                        self.log_info(f"Fichier temporaire supprimé: {temp_path}")
+                except Exception as e:
+                    self.log_error(f"Erreur lors de la suppression du fichier temporaire: {str(e)}")
+                return None
+            
+            # Renommer le fichier temporaire en fichier final
+            try:
+                os.replace(temp_path, self.output_path)
+            except Exception as e:
+                self.log_error(f"Erreur lors du renommage du fichier: {str(e)}")
+                return None
             
             self.log_info(f"Données enregistrées: {self.output_path}")
             self.log_info(f"Total de lignes: {len(df)}")
@@ -198,6 +230,16 @@ class MarketDataDownloader:
         except Exception as e:
             error_msg = f"Erreur lors du téléchargement des données: {str(e)}"
             self.log_error(error_msg)
+            
+            # Nettoyer le fichier temporaire en cas d'erreur
+            try:
+                temp_path = f"{self.output_path}.part"
+                if os.path.exists(temp_path):
+                    os.remove(temp_path)
+                    self.log_info(f"Fichier temporaire supprimé après erreur: {temp_path}")
+            except:
+                pass
+                
             if self.central_logger:
                 self.central_logger.log_json_event(
                     f"data.downloader_{self.exchange_name}",
@@ -234,14 +276,14 @@ class MarketDataDownloader:
 
     def _fetch_data_in_batches(self, start_ts=None, end_ts=None):
         """
-        Télécharge les données OHLCV en lots avec une barre de progression dynamique
+        Télécharge les données OHLCV en lots avec une barre de progression dynamique et support d'annulation
 
         Args:
             start_ts (int, optional): Timestamp de début en millisecondes
             end_ts (int, optional): Timestamp de fin en millisecondes
 
         Returns:
-            list: Liste de données OHLCV
+            list: Liste de données OHLCV ou liste vide si annulé
         """
         all_data = []
         current_ts = start_ts or int(self.exchange.milliseconds())
@@ -254,9 +296,15 @@ class MarketDataDownloader:
         max_batches = int((delta_time / timeframe_ms) / 1000) + 1
         
         batch_count = 0
+        start_time = time.time()
         
         while (batch_count < max_batches) and (not end_ts or current_ts < end_ts):
             try:
+                # Vérifier si l'annulation a été demandée
+                if self.should_cancel and self.should_cancel():
+                    self.log_info(f"Téléchargement annulé pour {self.symbol} {self.timeframe}")
+                    return []  # Retourne une liste vide pour indiquer l'annulation
+                
                 # Télécharger un lot de données
                 batch = self.exchange.fetch_ohlcv(
                     symbol=self.symbol,
@@ -279,6 +327,30 @@ class MarketDataDownloader:
                 # Afficher la progression
                 progress = min(100, int(batch_count * 100 / max_batches))
                 self.log_info(f"Téléchargement {self.symbol} {self.timeframe}: {progress}% ({batch_count}/{max_batches} lots)")
+
+                # Calcul du temps écoulé et estimation du temps restant
+                elapsed_time = time.time() - start_time
+                if batch_count > 0 and progress > 0:
+                    # Estimer le temps total en fonction du temps déjà écoulé et de la progression
+                    estimated_total_time = elapsed_time * 100 / progress
+                    remaining_time = estimated_total_time - elapsed_time
+                else:
+                    remaining_time = None
+                
+                # Utiliser le callback de progression si présent
+                if self.progress_callback:
+                    self.progress_callback(
+                        progress=progress, 
+                        batch_count=batch_count, 
+                        max_batches=max_batches, 
+                        elapsed_time=elapsed_time, 
+                        remaining_time=remaining_time
+                    )
+                
+                # Vérifier à nouveau l'annulation après chaque lot
+                if self.should_cancel and self.should_cancel():
+                    self.log_info(f"Téléchargement annulé pour {self.symbol} {self.timeframe} après {batch_count} lots")
+                    return []
 
                 # Limitation de débit
                 time.sleep(self.exchange.rateLimit / 1000)
@@ -372,7 +444,9 @@ def download_data(
     limit=None,
     start_date=None,
     end_date=None,
-    central_logger=None
+    central_logger=None,
+    progress_callback=None,
+    should_cancel=None
 ):
     """
     Fonction simplifiée pour télécharger des données de marché
@@ -385,6 +459,8 @@ def download_data(
         start_date (str, optional): Date de début (YYYY-MM-DD)
         end_date (str, optional): Date de fin (YYYY-MM-DD)
         central_logger (CentralizedLogger, optional): Logger centralisé
+        progress_callback (callable, optional): Fonction pour recevoir les mises à jour de progression
+        should_cancel (callable, optional): Fonction pour vérifier si le téléchargement doit être annulé
 
     Returns:
         str: Chemin du fichier de données sauvegardé
@@ -396,6 +472,8 @@ def download_data(
         limit=limit,
         start_date=start_date,
         end_date=end_date,
-        central_logger=central_logger
+        central_logger=central_logger,
+        progress_callback=progress_callback,
+        should_cancel=should_cancel
     )
     return downloader.download_historical_data()

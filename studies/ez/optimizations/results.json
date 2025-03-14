@@ -1,7 +1,7 @@
 {
     "study_name": "ez",
-    "optimization_date": "2025-03-13 20:04:49",
-    "n_trials": 1351,
+    "optimization_date": "2025-03-13 20:09:52",
+    "n_trials": 1371,
     "best_trial_id": 55,
     "best_score": 2.0329672307828672,
     "optimization_config": {

@@ -2306,3 +2306,122 @@ div.mb-4.p-3.rounded {
   pointer-events: none;
   z-index: 0;
 }
+
+/* Style pour l'affichage du fichier de données verrouillé */
+#study-data-file-container {
+  position: relative;
+  overflow: hidden;
+}
+
+#study-data-file-container::before {
+  content: "\f023"; /* Code de l'icône de cadenas de Bootstrap Icons */
+  font-family: "bootstrap-icons";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: rgba(34, 211, 238, 0.5);
+  z-index: 1;
+}
+
+#selected-data-file-display {
+  background-color: #152a3b;
+  border: 1px solid rgba(34, 211, 238, 0.3);
+  border-radius: 4px;
+  padding: 6px 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+#selected-data-file-display:hover {
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.4), 0 0 8px rgba(34, 211, 238, 0.3);
+}
+
+/* Animation subtile pour indiquer que c'est verrouillé */
+@keyframes locked-pulse {
+  0% { opacity: 0.7; }
+  50% { opacity: 1; }
+  100% { opacity: 0.7; }
+}
+
+#study-data-file-container .bi-file-earmark-binary {
+  animation: locked-pulse 2s infinite;
+}
+
+/* CSS pour les graphiques rétro */
+
+/* Style de base pour les graphiques Plotly */
+.js-plotly-plot .plotly .main-svg {
+  background-color: rgba(10, 15, 30, 0.95) !important;
+  border: 2px solid rgba(34, 211, 238, 0.4) !important;
+}
+
+/* Improve axis and text contrast */
+.js-plotly-plot .plotly .xtick text, 
+.js-plotly-plot .plotly .ytick text {
+  fill: #e2e8f0 !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+}
+
+/* Enhance plot areas */
+.js-plotly-plot .plotly .plot,
+.js-plotly-plot .plotly .polar {
+  fill: rgba(15, 23, 42, 0.7) !important;
+}
+
+/* Brighten grid lines */
+.js-plotly-plot .plotly .gridlayer path {
+  stroke: rgba(100, 116, 139, 0.3) !important;
+  stroke-width: 1px !important;
+}
+
+/* Enhance bars and lines */
+.js-plotly-plot .plotly .scatter .point,
+.js-plotly-plot .plotly .bars path {
+  stroke-width: 1px !important;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.3)) !important;
+}
+
+/* Brighten and enlarge trace markers */
+.js-plotly-plot .plotly .scatter .point {
+  r: 6 !important;
+}
+
+/* Enhance colorscale visibility */
+.js-plotly-plot .plotly .heatmap [fill-rule='evenodd'] {
+  fill-opacity: 0.9 !important;
+}
+
+/* Improve tooltip contrast and visibility */
+.js-plotly-plot .plotly .hoverlayer .hovertext {
+  background-color: rgba(10, 15, 30, 0.95) !important;
+  border: 2px solid rgba(34, 211, 238, 0.5) !important;
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.3) !important;
+}
+
+.js-plotly-plot .plotly .hoverlayer .hovertext text {
+  fill: #ffffff !important;
+  font-weight: bold !important;
+}
+
+/* Improve colorbar visibility */
+.js-plotly-plot .plotly .colorbar {
+  border: 1px solid rgba(34, 211, 238, 0.4) !important;
+  background-color: rgba(10, 15, 30, 0.9) !important;
+}
+
+.js-plotly-plot .plotly .colorbar .cbbg {
+  fill: rgba(10, 15, 30, 0.9) !important;
+}
+
+/* Make radar chart lines more prominent */
+.js-plotly-plot .plotly .polarsublayer path.polarline {
+  stroke-width: 2px !important;
+}
+
+/* Enhance the plot border */
+.retro-graph {
+  border: 2px solid rgba(34, 211, 238, 0.4) !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 10px rgba(34, 211, 238, 0.2) !important;
+}
