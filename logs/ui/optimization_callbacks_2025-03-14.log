@@ -1,0 +1,9 @@
+2025-03-14 15:06:45,779 - INFO - ui.optimization_callbacks - Handling optimization actions
+2025-03-14 15:06:55,260 - INFO - ui.optimization_callbacks - Handling optimization actions
+2025-03-14 15:06:55,264 - INFO - ui.optimization_callbacks - Starting optimization for study '1m_test'
+2025-03-14 15:06:55,283 - ERROR - ui.optimization_callbacks - Error during optimization for study '1m_test': cannot access free variable 'StrategyOptimizer' where it is not associated with a value in enclosing scope
+2025-03-14 15:07:02,504 - INFO - ui.optimization_callbacks - Handling optimization actions
+2025-03-14 15:07:04,050 - INFO - ui.optimization_callbacks - Handling optimization actions
+2025-03-14 15:07:04,055 - INFO - ui.optimization_callbacks - Starting optimization for study '1m_test'
+2025-03-14 15:07:04,076 - ERROR - ui.optimization_callbacks - Error during optimization for study '1m_test': cannot access free variable 'StrategyOptimizer' where it is not associated with a value in enclosing scope
+2025-03-14 15:07:06,002 - INFO - ui.optimization_callbacks - Handling optimization actions

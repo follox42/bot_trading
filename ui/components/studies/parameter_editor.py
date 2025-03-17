@@ -275,7 +275,8 @@ def create_info_tab(study_name, metadata):
             ], className="mb-2"),
             html.P([
                 html.Strong("Statut: "),
-                html.Span(getattr(metadata, "status", "Inconnu"))
+                # Fix: Convert enum to string value
+                html.Span(getattr(metadata, "status", "Inconnu").value if hasattr(getattr(metadata, "status", None), "value") else "Inconnu")
             ], className="mb-2"),
             
             html.P("Les paramètres immuables (nom, asset, timeframe, exchange) ne peuvent pas être modifiés après la création. Pour changer ces paramètres, vous devez cloner l'étude.", 

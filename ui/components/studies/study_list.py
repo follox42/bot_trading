@@ -27,7 +27,7 @@ def create_study_list(central_logger=None):
     
     # Récupérer la liste des études
     try:
-        from simulator.study_manager import IntegratedStudyManager
+        from core.study.study_manager import IntegratedStudyManager
         study_manager = IntegratedStudyManager("studies")
         studies = study_manager.get_studies_list()
     except Exception as e:
@@ -171,17 +171,13 @@ def create_empty_state():
 def create_retro_study_card(study):
     """
     Crée une carte d'étude améliorée avec design rétro.
-    
     Args:
         study: Les données de l'étude
-        
     Returns:
         Composant Dash pour une carte d'étude
     """
-    # Déterminer les badges selon le statut
     status = study.get('status', 'unknown')
     status_badge = None
-    
     if status == 'created':
         status_badge = html.Span("NOUVEAU", className="retro-badge retro-badge-blue")
     elif status == 'optimized':
@@ -191,24 +187,20 @@ def create_retro_study_card(study):
     elif status == 'archived':
         status_badge = html.Span("ARCHIVÉ", className="retro-badge retro-badge-yellow")
     
-    # Déterminer les icônes supplémentaires
     icons = []
     if study.get('has_optimization', False):
         icons.append(html.I(className="bi bi-speedometer2 ms-2 text-cyan-300", title="Optimisé"))
-    
     if study.get('strategies_count', 0) > 0:
         icons.append(html.I(className="bi bi-graph-up ms-2 text-green-300", title=f"{study.get('strategies_count', 0)} stratégies"))
     
     strategies_count = study.get('strategies_count', 0)
     
-    # Créer la carte d'étude avec design amélioré
-    # Rendre la carte entière cliquable en l'enveloppant dans un div avec ID pour l'ouverture
     return html.Div(
         id={"type": "clickable-study-card", "index": study.get('name')},
-        className="retro-study-card h-100 cursor-pointer", # Ajout de h-100 pour hauteur complète et cursor-pointer
-        style={"cursor": "pointer"},  # Curseur en forme de main pour indiquer que c'est cliquable
+        className="retro-study-card h-100 cursor-pointer",
+        style={"cursor": "pointer"},
+        n_clicks=0,  # Added this line
         children=[
-            # En-tête avec effet de brillance
             html.Div(
                 className="retro-study-header",
                 children=[
@@ -216,26 +208,21 @@ def create_retro_study_card(study):
                         className="header-content d-flex justify-content-between align-items-center",
                         children=[
                             html.H5(
-                                study.get('name', 'Étude sans nom'), 
+                                study.get('name', 'Étude sans nom'),
                                 className="card-title mb-0 text-white"
                             ),
                             html.Div([status_badge, *icons] if status_badge else icons, className="ms-2 d-flex align-items-center")
                         ]
                     ),
-                    # Effet de brillance animé
                     html.Div(className="header-glow-effect")
                 ]
             ),
-            
-            # Corps de la carte avec effet de profondeur
             html.Div(
                 className="retro-study-body",
                 children=[
-                    # Informations principales sur deux colonnes avec style rétro
                     html.Div(
                         className="info-grid",
                         children=[
-                            # Colonne gauche
                             html.Div(
                                 className="info-column",
                                 children=[
@@ -244,7 +231,7 @@ def create_retro_study_card(study):
                                         children=[
                                             html.Div("ASSET", className="info-label"),
                                             html.Div(
-                                                study.get('asset', 'N/A'), 
+                                                study.get('asset', 'N/A'),
                                                 className="info-value"
                                             )
                                         ]
@@ -254,15 +241,13 @@ def create_retro_study_card(study):
                                         children=[
                                             html.Div("TIMEFRAME", className="info-label"),
                                             html.Div(
-                                                study.get('timeframe', 'N/A'), 
+                                                study.get('timeframe', 'N/A'),
                                                 className="info-value"
                                             )
                                         ]
                                     ),
                                 ]
                             ),
-                            
-                            # Colonne droite
                             html.Div(
                                 className="info-column",
                                 children=[
@@ -271,7 +256,7 @@ def create_retro_study_card(study):
                                         children=[
                                             html.Div("DATE", className="info-label"),
                                             html.Div(
-                                                study.get('creation_date', 'N/A'), 
+                                                study.get('creation_date', 'N/A'),
                                                 className="info-value"
                                             )
                                         ]
@@ -281,7 +266,7 @@ def create_retro_study_card(study):
                                         children=[
                                             html.Div("STRATÉGIES", className="info-label"),
                                             html.Div(
-                                                f"{strategies_count}", 
+                                                f"{strategies_count}",
                                                 className=f"info-value {'text-green-300' if strategies_count > 0 else ''}"
                                             )
                                         ]
@@ -290,8 +275,6 @@ def create_retro_study_card(study):
                             ),
                         ]
                     ),
-                    
-                    # Description avec contour stylisé
                     html.Div(
                         className="description-container",
                         children=[
@@ -301,8 +284,6 @@ def create_retro_study_card(study):
                             )
                         ]
                     ),
-                    
-                    # Bouton d'optimisation uniquement (sans le bouton Ouvrir car la carte est cliquable)
                     html.Div(
                         className="action-buttons mt-3",
                         children=[
@@ -313,7 +294,6 @@ def create_retro_study_card(study):
                                 ]),
                                 id={"type": "btn-optimize-study", "index": study.get('name')},
                                 className="retro-button w-100",
-                                # Pour éviter que le clic sur le bouton n'ouvre aussi l'étude
                                 **{"data-stop-propagation": "true"}
                             )
                         ]
@@ -326,16 +306,13 @@ def create_retro_study_card(study):
 def register_study_list_callbacks(app, central_logger=None):
     """
     Enregistre les callbacks pour la liste des études améliorée
-    
     Args:
         app: L'instance de l'application Dash
         central_logger: Instance du logger centralisé
     """
-    # Initialiser le logger
     if central_logger:
         ui_logger = central_logger.get_logger("retro_study_list_callbacks", LoggerType.UI)
     
-    # Callback pour les cartes d'études cliquables
     @app.callback(
         Output("current-study-id", "data"),
         [Input({"type": "clickable-study-card", "index": dash.ALL}, "n_clicks")],
@@ -344,10 +321,9 @@ def register_study_list_callbacks(app, central_logger=None):
     def open_study_from_card(n_clicks_list):
         """Ouvre l'étude lorsqu'on clique sur la carte"""
         ctx = dash.callback_context
-        if not ctx.triggered or not any(n_clicks_list):
+        if not ctx.triggered or not any(filter(None, n_clicks_list)):
             return dash.no_update
-            
-        # Récupérer l'ID du composant qui a déclenché le callback
+        
         trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
         card_data = json.loads(trigger_id)
         study_name = card_data.get("index")
@@ -357,7 +333,7 @@ def register_study_list_callbacks(app, central_logger=None):
         
         return study_name
     
-    # Callback pour éviter la propagation du clic sur le bouton d'optimisation
+    # Fix the clientside callback to use a valid output
     app.clientside_callback(
         """
         function(n_clicks) {
@@ -370,15 +346,14 @@ def register_study_list_callbacks(app, central_logger=None):
                     });
                 });
             }
-            return '';
+            return window.dash_clientside.no_update;
         }
         """,
-        Output("_", "children"),
+        Output("studies-container", "data-callback-data"),  # Changed to a valid property
         [Input("studies-container", "children")],
         prevent_initial_call=True
     )
     
-    # Callback pour le bouton d'optimisation
     @app.callback(
         [Output("studies-tabs", "active_tab"),
          Output("current-study-id", "data", allow_duplicate=True)],
@@ -388,10 +363,9 @@ def register_study_list_callbacks(app, central_logger=None):
     def optimize_study(n_clicks_list):
         """Redirige vers l'onglet d'optimisation avec l'étude sélectionnée"""
         ctx = dash.callback_context
-        if not ctx.triggered or not any(n_clicks_list):
+        if not ctx.triggered or not any(filter(None, n_clicks_list)):
             return dash.no_update, dash.no_update
         
-        # Récupérer l'ID de l'étude à partir du bouton cliqué
         trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
         button_data = json.loads(trigger_id)
         study_name = button_data["index"]
@@ -399,23 +373,20 @@ def register_study_list_callbacks(app, central_logger=None):
         if central_logger:
             ui_logger.info(f"Redirection vers l'optimisation pour l'étude: {study_name}")
         
-        # Changer d'onglet et définir l'étude courante
         return "tab-optimizations", study_name
-
-    # Callback pour filtrer les études
+    
     @app.callback(
         Output("studies-container", "children"),
         [Input("filter-studies", "value"),
          Input("filter-studies-status", "value"),
          Input("btn-refresh-studies", "n_clicks"),
-         Input("study-action", "data")],  # Pour mettre à jour après la création/suppression
+         Input("study-action", "data")],
         prevent_initial_call=True
     )
     def filter_studies(search_term, status_filter, n_refresh, study_action):
         """Filtre les études selon les critères de recherche et de statut"""
-        # Récupérer la liste des études
         try:
-            from simulator.study_manager import IntegratedStudyManager
+            from core.study.study_manager import IntegratedStudyManager
             study_manager = IntegratedStudyManager("studies")
             studies = study_manager.get_studies_list()
         except Exception as e:
@@ -423,7 +394,6 @@ def register_study_list_callbacks(app, central_logger=None):
                 ui_logger.error(f"Erreur lors de la récupération des études: {str(e)}")
             studies = []
         
-        # Filtrer par texte de recherche
         if search_term:
             search_term = search_term.lower()
             studies = [
@@ -436,13 +406,10 @@ def register_study_list_callbacks(app, central_logger=None):
                 )
             ]
         
-        # Filtrer par statut
         if status_filter and status_filter != "all":
             studies = [s for s in studies if s.get('status') == status_filter]
         
-        # Si aucune étude ne correspond aux filtres, afficher un message
         if not studies:
             return create_empty_state()
-            
-        # Créer la grille d'études
+        
         return create_studies_grid(studies)

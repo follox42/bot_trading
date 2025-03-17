@@ -1,0 +1,65 @@
+{
+  "backtest_id": "trial_19_1742208818",
+  "strategy_id": "82c3066e",
+  "study_name": "test",
+  "date": "2025-03-17T11:53:38.915468",
+  "performance": {
+    "roi": 0.0,
+    "roi_pct": 0.0,
+    "win_rate": 0.0,
+    "win_rate_pct": 0.0,
+    "total_trades": 1,
+    "max_drawdown": 0.0,
+    "max_drawdown_pct": 0.0,
+    "avg_profit_per_trade": 0.0,
+    "avg_profit_per_trade_pct": 0.0,
+    "liquidation_rate": 0.0,
+    "max_profit_trade": 0.0,
+    "max_loss_trade": 0.0,
+    "profit_factor": 0.0,
+    "total_pnl": 0.0,
+    "final_balance": 10000.0
+  },
+  "config": {
+    "trial_id": 19,
+    "params": {
+      "leverage": 16,
+      "margin_mode": 1,
+      "trading_mode": 0,
+      "EMA_period": 17,
+      "SMA_period": 11,
+      "RSI_period": 7,
+      "RSI_overbought": 63.5,
+      "RSI_oversold": 28.5,
+      "MACD_fast_period": 13,
+      "MACD_slow_period": 32,
+      "MACD_signal_period": 9,
+      "longblock_min_blocks": 3,
+      "longblock_max_blocks": 3,
+      "longblock_min_conditions": 1,
+      "longblock_max_conditions": 3,
+      "shortblock_min_blocks": 2,
+      "shortblock_max_blocks": 3,
+      "shortblock_min_conditions": 3,
+      "shortblock_max_conditions": 1,
+      "risk_mode": "atr_based",
+      "atr_period": 14,
+      "atr_multiplier": 3.0,
+      "atr_tp_multiplier": 4.2
+    },
+    "optimization": {
+      "n_trials": 20,
+      "scoring_formula": "standard",
+      "search_space_name": "default"
+    }
+  },
+  "execution_info": {
+    "execution_time": 0,
+    "platform": {
+      "python_version": "3.12.8",
+      "system": "Windows",
+      "cpu_count": 22
+    }
+  },
+  "valid": false
+}

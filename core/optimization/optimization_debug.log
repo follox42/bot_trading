@@ -1,0 +1,4 @@
+2025-03-15 12:22:02,023 - INFO - optimization_debug - Starting optimization debugging for study: test
+2025-03-15 12:22:03,025 - INFO - optimization_debug - CPU usage: 6.6%
+2025-03-15 12:22:03,026 - INFO - optimization_debug - Memory usage: 78.82 MB
+2025-03-15 12:22:03,033 - INFO - optimization_debug - Available system memory: 16997.28 MB

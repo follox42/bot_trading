@@ -1,9 +1,8 @@
-import re
-import sys
 import os
+import re
 
 def minify_python(code):
-    """Minifie un code Python en supprimant les commentaires et espaces inutiles."""
+    """Minifie un fichier Python en supprimant les commentaires et espaces inutiles."""
     lines = code.split("\n")
     minified_lines = []
     for line in lines:
@@ -16,61 +15,64 @@ def minify_python(code):
     return ";".join(minified_lines)  # Évite les sauts de ligne inutiles
 
 def minify_css(code):
-    """Minifie un code CSS en supprimant les espaces et commentaires."""
+    """Minifie un fichier CSS en supprimant les espaces et commentaires."""
     code = re.sub(r'/\*.*?\*/', '', code, flags=re.DOTALL)  # Supprime les commentaires
     code = re.sub(r'\s+', ' ', code)  # Remplace plusieurs espaces par un seul
     code = re.sub(r'\s*([{};,:])\s*', r'\1', code)  # Supprime les espaces autour de {} ; : ,
     return code.strip()
 
-def minify_js(code):
-    """Minifie un code JavaScript en supprimant les espaces et commentaires."""
-    code = re.sub(r'//.*', '', code)  # Supprime les commentaires ligne
-    code = re.sub(r'/\*.*?\*/', '', code, flags=re.DOTALL)  # Supprime les commentaires multi-lignes
-    code = re.sub(r'\s+', ' ', code)  # Remplace plusieurs espaces par un seul
-    code = re.sub(r'\s*([{};,:])\s*', r'\1', code)  # Supprime les espaces autour de {} ; : ,
-    return code.strip()
+def process_file(file_path, minify_func, new_extension):
+    """Minifie un fichier et remplace l'ancienne version minifiée."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            code = f.read()
+        minified_code = minify_func(code)
+        min_file_path = f"{file_path[:-len(new_extension)]}.min{new_extension}"
 
-def minify_html(code):
-    """Minifie un code HTML en supprimant les espaces et commentaires."""
-    code = re.sub(r'<!--.*?-->', '', code, flags=re.DOTALL)  # Supprime les commentaires
-    code = re.sub(r'\s+', ' ', code)  # Remplace plusieurs espaces par un seul
-    return code.strip()
+        # Vérifier si le fichier minifié existe déjà et s'il a changé
+        if os.path.exists(min_file_path):
+            with open(min_file_path, 'r', encoding='utf-8') as f:
+                existing_code = f.read()
+            if existing_code == minified_code:
+                print(f"⏩ Pas de changement : {min_file_path}")
+                return  # Ne réécrit pas si identique
 
-def detect_and_minify(input_file, output_file):
-    """Détecte le type de fichier et applique la minification correspondante."""
-    if not os.path.exists(input_file):
-        print(f"Erreur : Le fichier {input_file} n'existe pas.")
-        return
-    
-    with open(input_file, 'r', encoding='utf-8') as f:
-        code = f.read()
+        with open(min_file_path, 'w', encoding='utf-8') as f:
+            f.write(minified_code)
+        print(f"✅ Minifié : {min_file_path}")
 
-    file_ext = os.path.splitext(input_file)[1].lower()
+    except Exception as e:
+        print(f"❌ Erreur sur {file_path}: {e}")
 
-    if file_ext == ".py":
-        print("🔹 Détection : Python")
-        minified_code = minify_python(code)
-    elif file_ext == ".css":
-        print("🔹 Détection : CSS")
-        minified_code = minify_css(code)
-    elif file_ext == ".js":
-        print("🔹 Détection : JavaScript")
-        minified_code = minify_js(code)
-    elif file_ext == ".html":
-        print("🔹 Détection : HTML")
-        minified_code = minify_html(code)
-    else:
-        print("❌ Format non pris en charge.")
-        return
+def clean_old_minified(root_dir):
+    """Supprime les anciens fichiers minifiés avant de recréer les nouveaux."""
+    for foldername, subfolders, filenames in os.walk(root_dir):
+        for filename in filenames:
+            if filename.endswith(".min.py") or filename.endswith(".min.css"):
+                file_path = os.path.join(foldername, filename)
+                os.remove(file_path)
+                print(f"🗑️ Supprimé : {file_path}")
 
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(minified_code)
+def minify_project(root_dir):
+    """Parcourt récursivement un dossier et minifie tous les fichiers .py et .css."""
+    clean_old_minified(root_dir)  # Supprime les anciens fichiers minifiés
 
-    print(f"✅ Optimisation terminée ! Fichier sauvegardé sous : {output_file}")
+    for foldername, subfolders, filenames in os.walk(root_dir):
+        # Exclure les dossiers __pycache__
+        if "__pycache__" in foldername:
+            continue
 
-# Vérification des arguments
+        for filename in filenames:
+            file_path = os.path.join(foldername, filename)
+
+            if filename.endswith(".py") and not filename.endswith(".min.py"):
+                process_file(file_path, minify_python, ".py")
+            elif filename.endswith(".css") and not filename.endswith(".min.css"):
+                process_file(file_path, minify_css, ".css")
+
+# Exécution
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Utilisation : python minify.py input_file output_file")
-    else:
-        detect_and_minify(sys.argv[1], sys.argv[2])
+    root_directory = os.getcwd()  # Dossier du projet
+    print(f"🚀 Minification du projet dans : {root_directory}")
+    minify_project(root_directory)
+    print("✅ Minification terminée !")

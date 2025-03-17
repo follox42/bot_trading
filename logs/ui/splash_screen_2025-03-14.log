@@ -171,3 +171,277 @@
 2025-03-14 13:04:19,348 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
 2025-03-14 13:04:19,352 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
 2025-03-14 13:04:19,488 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 14:02:34,147 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 14:02:34,577 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 14:02:34,604 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 14:02:34,740 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 14:02:34,890 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 14:02:35,039 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 14:02:35,188 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:02:35,341 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 14:02:35,488 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 14:02:35,639 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 14:02:35,792 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 14:02:35,942 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 14:02:36,089 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 14:02:36,238 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 14:02:36,241 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 14:02:36,405 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 14:18:09,443 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 14:18:10,625 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 14:18:10,886 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 14:18:11,865 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 14:18:12,876 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 14:18:14,849 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:18:14,887 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:18:16,850 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 14:18:16,910 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 14:18:18,856 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 14:18:18,946 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 14:18:19,872 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 14:18:21,860 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 14:18:21,943 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 14:18:21,947 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 14:18:36,798 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 14:18:36,802 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 14:18:36,912 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 14:18:37,032 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 14:18:37,184 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 14:18:37,335 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 14:18:37,483 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 14:18:37,634 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:18:37,785 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 14:18:37,934 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 14:18:38,084 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 14:18:38,233 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 14:18:38,384 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 14:18:38,535 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 14:18:38,685 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 14:18:38,688 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 14:18:39,063 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 14:30:12,564 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 14:30:12,695 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 14:30:12,831 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 14:30:12,907 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 14:30:13,048 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 14:30:13,195 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 14:30:13,355 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:30:13,495 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 14:30:13,647 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 14:30:13,800 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 14:30:13,948 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 14:30:14,100 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 14:30:14,252 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 14:30:14,395 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 14:30:14,398 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 14:30:15,695 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 14:45:37,608 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 14:45:38,261 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 14:45:38,418 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 14:45:38,503 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 14:45:38,643 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 14:45:38,792 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 14:45:38,945 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:45:39,094 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 14:45:39,245 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 14:45:39,394 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 14:45:39,545 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 14:45:39,695 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 14:45:39,845 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 14:45:39,995 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 14:45:39,999 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 14:45:44,322 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 14:54:04,472 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 14:54:05,249 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 14:54:10,014 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 14:54:13,869 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 14:54:15,881 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 14:54:20,867 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:54:27,859 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 14:54:32,851 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 14:54:41,966 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 14:55:11,871 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 14:55:13,856 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 14:55:13,984 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 14:55:15,863 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 14:55:15,883 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 14:55:15,948 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 14:55:15,953 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 14:58:27,316 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 14:58:27,895 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 14:58:30,064 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 14:58:32,861 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 14:58:37,858 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 14:58:39,874 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:58:45,851 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 14:58:50,860 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 14:59:07,069 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 14:59:08,244 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 14:59:08,857 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 14:59:11,659 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 14:59:13,860 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 14:59:23,080 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 14:59:23,498 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 14:59:24,877 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 14:59:26,876 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 14:59:27,868 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 14:59:30,863 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 14:59:38,920 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:38,948 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:38,957 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:38,967 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:38,971 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:38,976 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:38,978 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:38,989 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,004 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,007 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,014 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,023 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,042 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,044 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,054 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,065 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,070 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,075 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,082 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,083 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,090 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,099 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,110 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,113 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,117 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,125 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,128 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,134 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,156 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,162 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,168 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,172 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 14:59:39,180 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 15:06:38,850 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 15:06:38,999 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 15:06:39,644 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 15:06:39,743 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 15:06:39,895 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 15:06:40,052 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 15:06:40,193 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 15:06:40,350 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 15:06:40,491 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 15:06:40,648 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 15:06:40,795 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 15:06:40,946 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 15:06:41,094 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 15:06:41,098 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 15:06:41,487 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 15:07:29,318 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 15:07:29,463 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 15:07:30,056 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 15:07:30,071 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 15:07:30,220 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 15:07:30,365 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 15:07:30,514 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 15:07:30,662 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 15:07:30,810 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 15:07:30,966 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 15:07:31,123 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 15:07:31,262 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 15:07:31,418 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 15:07:31,566 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 15:07:31,570 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 15:07:35,456 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 15:08:38,431 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 15:08:38,589 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 15:08:39,230 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 15:08:39,341 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 15:08:39,481 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 15:08:39,634 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 15:08:39,781 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 15:08:39,940 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 15:08:40,078 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 15:08:40,238 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 15:08:40,381 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 15:08:40,536 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 15:08:40,681 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 15:08:40,686 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 15:08:40,909 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 15:44:35,727 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 15:44:36,193 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 15:44:36,330 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 15:44:36,474 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 15:44:36,630 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 15:44:36,779 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 15:44:36,930 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 15:44:37,079 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 15:44:37,233 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 15:44:37,381 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 15:44:37,527 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 15:44:37,679 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 15:44:37,833 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 15:44:37,835 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 15:44:38,363 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 15:56:01,842 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 15:56:01,954 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 15:56:02,107 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 15:56:02,491 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 15:56:02,911 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 15:56:02,936 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 15:56:03,091 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 15:56:03,237 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 15:56:03,388 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 15:56:03,540 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 15:56:03,685 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 15:56:03,841 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 15:56:03,984 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 15:56:04,137 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 15:56:04,290 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 15:56:04,436 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 15:56:04,589 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 15:56:04,591 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 15:56:04,836 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 15:59:50,335 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 15:59:50,786 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 15:59:50,929 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 15:59:51,082 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 15:59:51,233 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 15:59:51,384 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 15:59:51,535 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 15:59:51,682 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 15:59:51,834 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 15:59:51,984 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 15:59:52,134 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 15:59:52,284 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 15:59:52,430 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 15:59:52,432 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 15:59:53,121 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 15:59:53,382 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 16:03:41,327 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 16:03:41,446 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 16:03:41,588 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 16:03:41,731 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 16:03:41,888 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 16:03:42,029 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 16:03:42,186 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 16:03:42,339 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 16:03:42,492 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 16:03:42,633 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 16:03:42,787 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 16:03:42,943 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 16:03:43,081 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 16:03:43,085 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 16:03:43,389 - INFO - ui.splash_screen - Transition vers le tableau de bord
+2025-03-14 16:34:06,780 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING SYSTEM...
+2025-03-14 16:34:07,228 - INFO - ui.splash_screen - Animation: LOADING CORE MODULES...
+2025-03-14 16:34:07,384 - INFO - ui.splash_screen - Animation: [ OK ] Data module loaded
+2025-03-14 16:34:07,539 - INFO - ui.splash_screen - Animation: [ OK ] Optimization engine loaded
+2025-03-14 16:34:07,685 - INFO - ui.splash_screen - Animation: [ OK ] Strategy framework loaded
+2025-03-14 16:34:07,839 - INFO - ui.splash_screen - Animation: [ OK ] Backtest engine loaded
+2025-03-14 16:34:07,990 - INFO - ui.splash_screen - Animation: CHECKING MARKET CONNECTIONS...
+2025-03-14 16:34:08,133 - INFO - ui.splash_screen - Animation: [ OK ] Binance API connected
+2025-03-14 16:34:08,288 - INFO - ui.splash_screen - Animation: [ OK ] Bitget API connected
+2025-03-14 16:34:08,428 - INFO - ui.splash_screen - Animation: [ OK ] Database connection established
+2025-03-14 16:34:08,586 - INFO - ui.splash_screen - Animation: INITIALIZING TRADING ALGORITHMS...
+2025-03-14 16:34:08,739 - INFO - ui.splash_screen - Animation: [ OK ] All systems operational
+2025-03-14 16:34:08,879 - INFO - ui.splash_screen - Animation: TRADING NEXUS v1.0.0 Alpha READY
+2025-03-14 16:34:08,884 - INFO - ui.splash_screen - Animation terminée, affichage du message d'appui sur une touche
+2025-03-14 16:34:09,056 - INFO - ui.splash_screen - Transition vers le tableau de bord

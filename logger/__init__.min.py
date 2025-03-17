@@ -1,0 +1,1 @@
+from logger.logger import CentralizedLogger, LogLevel, LoggerType;central_logger = CentralizedLogger()

@@ -1,0 +1,36 @@
+2025-03-14 14:18:53,642 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: 1m_test
+2025-03-14 14:18:53,652 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur EMA à la configuration
+2025-03-14 14:18:53,656 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur SMA à la configuration
+2025-03-14 14:18:53,659 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MACD à la configuration
+2025-03-14 14:18:53,664 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur RSI à la configuration
+2025-03-14 14:18:53,669 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur STOCH à la configuration
+2025-03-14 14:18:53,687 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur ATR à la configuration
+2025-03-14 14:18:53,688 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur BOLL à la configuration
+2025-03-14 14:18:53,691 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur VWAP à la configuration
+2025-03-14 14:18:53,693 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MFIMACD à la configuration
+2025-03-14 14:18:53,698 - INFO - ui.study_creator_callbacks - Configuration créée avec 9 indicateurs
+2025-03-14 14:18:54,459 - INFO - ui.study_creator_callbacks - Étude '1m_test' créée avec succès avec 9 indicateurs
+2025-03-14 15:44:59,298 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: tre
+2025-03-14 15:44:59,302 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur EMA à la configuration
+2025-03-14 15:44:59,305 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur SMA à la configuration
+2025-03-14 15:44:59,305 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MACD à la configuration
+2025-03-14 15:44:59,308 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur RSI à la configuration
+2025-03-14 15:44:59,309 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur STOCH à la configuration
+2025-03-14 15:44:59,310 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur ATR à la configuration
+2025-03-14 15:44:59,311 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur BOLL à la configuration
+2025-03-14 15:44:59,315 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur VWAP à la configuration
+2025-03-14 15:44:59,318 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MFIMACD à la configuration
+2025-03-14 15:44:59,319 - INFO - ui.study_creator_callbacks - Configuration créée avec 9 indicateurs
+2025-03-14 15:44:59,879 - INFO - ui.study_creator_callbacks - Étude 'tre' créée avec succès avec 9 indicateurs
+2025-03-14 15:56:17,483 - INFO - ui.study_creator_callbacks - Tentative de création d'étude: test
+2025-03-14 15:56:17,492 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur EMA à la configuration
+2025-03-14 15:56:17,493 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur SMA à la configuration
+2025-03-14 15:56:17,495 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MACD à la configuration
+2025-03-14 15:56:17,496 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur RSI à la configuration
+2025-03-14 15:56:17,499 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur STOCH à la configuration
+2025-03-14 15:56:17,501 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur ATR à la configuration
+2025-03-14 15:56:17,501 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur BOLL à la configuration
+2025-03-14 15:56:17,504 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur VWAP à la configuration
+2025-03-14 15:56:17,505 - INFO - ui.study_creator_callbacks - Ajout de l'indicateur MFIMACD à la configuration
+2025-03-14 15:56:17,506 - INFO - ui.study_creator_callbacks - Configuration créée avec 9 indicateurs
+2025-03-14 15:56:19,003 - INFO - ui.study_creator_callbacks - Étude 'test' créée avec succès avec 9 indicateurs

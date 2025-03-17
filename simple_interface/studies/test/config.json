@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "name": "test",
+    "description": "",
+    "data_config": {
+      "exchange": "bitget",
+      "symbol": "BTC/USDT",
+      "timeframe": "1h",
+      "limit": null,
+      "start_date": null,
+      "end_date": null,
+      "data_dir": "C:\\Users\\nolan\\Desktop\\bot_trading\\simple_interface\\data\\historical",
+      "integrity_check": "warn",
+      "expected_columns": [
+        "timestamp",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+      ]
+    },
+    "creation_date": "2025-03-16 23:47:51",
+    "last_modified": "2025-03-16 23:47:51",
+    "status": "created",
+    "tags": [],
+    "categories": [],
+    "custom_params": {}
+  },
+  "trading_config": {
+    "id": "b7f72397",
+    "name": "Nouvelle Strat\u00c3\u00a9gie",
+    "description": "",
+    "version": "1.0",
+    "created_at": "2025-03-16T23:47:51.052577",
+    "updated_at": "2025-03-16T23:47:51.052577",
+    "tags": [],
+    "indicators": {},
+    "blocks": {
+      "entry_blocks": [],
+      "exit_blocks": [],
+      "filter_blocks": [],
+      "require_all_entry_blocks": false,
+      "require_all_exit_blocks": false,
+      "require_all_filter_blocks": true
+    },
+    "risk": {
+      "mode": "fixed",
+      "params": {
+        "position_size": 0.1,
+        "stop_loss": 0.02,
+        "take_profit": 0.04,
+        "trail_stop_enabled": false,
+        "trail_stop_activation": 0.01
+      }
+    },
+    "parameters": {}
+  },
+  "simulation_config": {
+    "initial_balance": 10000.0,
+    "fee_open": 0.001,
+    "fee_close": 0.001,
+    "slippage": 0.001,
+    "tick_size": 0.01,
+    "min_trade_size": 0.001,
+    "max_trade_size": 100000.0,
+    "leverage": 1,
+    "margin_mode": 0,
+    "trading_mode": 0,
+    "custom_params": {}
+  },
+  "optimization_config": {},
+  "search_space": null
+}

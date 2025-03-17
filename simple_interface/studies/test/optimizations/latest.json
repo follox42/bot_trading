@@ -1,0 +1,303 @@
+{
+  "study_name": "test",
+  "optimization_date": "2025-03-17T11:53:39.761048",
+  "execution_time": 40.39066123962402,
+  "n_trials": 20,
+  "completed_trials": 18,
+  "best_trial_id": null,
+  "best_score": null,
+  "best_trials": [],
+  "optimization_config": {
+    "n_trials": 20,
+    "timeout": null,
+    "search_space": {
+      "name": "default",
+      "description": "Espace de recherche par d\u00e9faut pour l'optimisation de strat\u00e9gies",
+      "parameters": {
+        "leverage": {
+          "name": "leverage",
+          "type": "int",
+          "min": 1,
+          "max": 125,
+          "step": 1,
+          "log": true
+        },
+        "margin_mode": {
+          "name": "margin_mode",
+          "type": "categorical",
+          "choices": [
+            0,
+            1
+          ]
+        },
+        "trading_mode": {
+          "name": "trading_mode",
+          "type": "categorical",
+          "choices": [
+            0,
+            1
+          ]
+        }
+      },
+      "indicators": {
+        "EMA": {
+          "period": {
+            "name": "period",
+            "type": "int",
+            "min": 5,
+            "max": 100,
+            "step": 1,
+            "log": true
+          }
+        },
+        "SMA": {
+          "period": {
+            "name": "period",
+            "type": "int",
+            "min": 5,
+            "max": 100,
+            "step": 1,
+            "log": true
+          }
+        },
+        "RSI": {
+          "period": {
+            "name": "period",
+            "type": "int",
+            "min": 5,
+            "max": 30,
+            "step": 1,
+            "log": false
+          },
+          "overbought": {
+            "name": "overbought",
+            "type": "float",
+            "min": 60.0,
+            "max": 90.0,
+            "step": 0.5,
+            "log": false
+          },
+          "oversold": {
+            "name": "oversold",
+            "type": "float",
+            "min": 10.0,
+            "max": 40.0,
+            "step": 0.5,
+            "log": false
+          }
+        },
+        "MACD": {
+          "fast_period": {
+            "name": "fast_period",
+            "type": "int",
+            "min": 5,
+            "max": 30,
+            "step": 1,
+            "log": false
+          },
+          "slow_period": {
+            "name": "slow_period",
+            "type": "int",
+            "min": 15,
+            "max": 50,
+            "step": 1,
+            "log": false
+          },
+          "signal_period": {
+            "name": "signal_period",
+            "type": "int",
+            "min": 3,
+            "max": 15,
+            "step": 1,
+            "log": false
+          }
+        }
+      },
+      "longblock": {
+        "min_blocks": {
+          "name": "min_blocks",
+          "type": "int",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "log": false
+        },
+        "max_blocks": {
+          "name": "max_blocks",
+          "type": "int",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "log": false
+        },
+        "min_conditions": {
+          "name": "min_conditions",
+          "type": "int",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "log": false
+        },
+        "max_conditions": {
+          "name": "max_conditions",
+          "type": "int",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "log": false
+        }
+      },
+      "shortblock": {
+        "min_blocks": {
+          "name": "min_blocks",
+          "type": "int",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "log": false
+        },
+        "max_blocks": {
+          "name": "max_blocks",
+          "type": "int",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "log": false
+        },
+        "min_conditions": {
+          "name": "min_conditions",
+          "type": "int",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "log": false
+        },
+        "max_conditions": {
+          "name": "max_conditions",
+          "type": "int",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "log": false
+        }
+      },
+      "risk": {
+        "risk_mode": {
+          "name": "risk_mode",
+          "type": "categorical",
+          "choices": [
+            "fixed",
+            "atr_based",
+            "vol_based",
+            "equity_percent",
+            "kelley"
+          ]
+        },
+        "fixed_position": {
+          "name": "fixed_position",
+          "type": "float",
+          "min": 0.01,
+          "max": 0.5,
+          "step": null,
+          "log": true,
+          "condition": {
+            "risk_mode": "fixed"
+          }
+        },
+        "fixed_sl": {
+          "name": "fixed_sl",
+          "type": "float",
+          "min": 0.005,
+          "max": 0.05,
+          "step": null,
+          "log": true,
+          "condition": {
+            "risk_mode": "fixed"
+          }
+        },
+        "fixed_tp": {
+          "name": "fixed_tp",
+          "type": "float",
+          "min": 0.01,
+          "max": 0.15,
+          "step": null,
+          "log": true,
+          "condition": {
+            "risk_mode": "fixed"
+          }
+        },
+        "atr_period": {
+          "name": "atr_period",
+          "type": "int",
+          "min": 5,
+          "max": 30,
+          "step": 1,
+          "log": false,
+          "condition": {
+            "risk_mode": "atr_based"
+          }
+        },
+        "atr_multiplier": {
+          "name": "atr_multiplier",
+          "type": "float",
+          "min": 0.5,
+          "max": 4.0,
+          "step": 0.1,
+          "log": false,
+          "condition": {
+            "risk_mode": "atr_based"
+          }
+        },
+        "atr_tp_multiplier": {
+          "name": "atr_tp_multiplier",
+          "type": "float",
+          "min": 1.0,
+          "max": 5.0,
+          "step": 0.1,
+          "log": false,
+          "condition": {
+            "risk_mode": "atr_based"
+          }
+        },
+        "vol_period": {
+          "name": "vol_period",
+          "type": "int",
+          "min": 10,
+          "max": 50,
+          "step": 1,
+          "log": false,
+          "condition": {
+            "risk_mode": "vol_based"
+          }
+        },
+        "vol_multiplier": {
+          "name": "vol_multiplier",
+          "type": "float",
+          "min": 0.5,
+          "max": 3.0,
+          "step": 0.1,
+          "log": false,
+          "condition": {
+            "risk_mode": "vol_based"
+          }
+        }
+      }
+    },
+    "optimization_method": "tpe",
+    "method_params": {},
+    "enable_pruning": true,
+    "pruner_method": "median",
+    "pruner_params": {},
+    "early_stopping_n_trials": null,
+    "scoring_formula": "standard",
+    "min_trades": 10,
+    "n_jobs": 2,
+    "memory_limit": 0.8,
+    "save_checkpoints": true,
+    "checkpoint_every": 10,
+    "debug": false,
+    "silent": false
+  },
+  "messages": [],
+  "optuna_study_name": null
+}
